@@ -39,3 +39,18 @@ int partiton(int A[10], int low, int high)
 	return j; 
 }
 
+void main()
+{
+	int i, n, A[10];
+	clrscr();
+
+	printf("\n Enter the number of elements of array: ");
+	scanf("%d",&A[i]);
+
+	quicksort(A,0,n-1);
+
+	printf("\n Sorted list of elements: ");
+	for(i=0; i<n; i++)
+		printf(" %d", A[i]);
+	getch();
+}
