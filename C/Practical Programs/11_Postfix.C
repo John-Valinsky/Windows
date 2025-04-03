@@ -1,5 +1,4 @@
-// 11. Write a program to evaluate a postfix expression 53+82-*.
-// Postfix | Input: 53+82-* | Output: 48
+// 11. Write a program to evaluate a postfix expression 53+82-*. Postfix | Input: 53+82-* | Output: 48
 
 #include<stdio.h>
 #include<string.h>

@@ -1,5 +1,4 @@
-// 10. Write a program to convert an infix expression x^y/(5*2)+2 to its postfix expression.
-// Converting Infix to Postfix
+// 10. Write a program to convert an infix expression x^y/(5*2)+2 to its postfix expression. Converting Infix to Postfix
 
 #include<stdio.h>
 #include<string.h>
