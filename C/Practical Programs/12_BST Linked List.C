@@ -1,5 +1,4 @@
-// Program to Create Binary Search Tree 
-// and Performs Insert and Delete Operations using Linked List
+// Program to Create Binary Search Tree and Performs Insert and Delete Operations using Linked List
 
 #include<stdio.h>
 #include<conio.h>
