@@ -39,27 +39,9 @@ The element 7 is found at position 6
 ℹ️ By default, it returns any occurrence. To get the first occurrence, modify the binary search logic to continue searching left after finding a match.
 
 🛠️ Optional Improvement - First Occurrence:
-Replace your binsearch() function with this version:
+-------------------------------------------
 
-Code Example:
--------------
-int binsearch_first(int A[], int n, int key)
-{
-    int first = 0, last = n - 1, mid;
-    int result = -1;
-    while (first <= last)
-    {
-        mid = (first + last) / 2;
-        if (key == A[mid]) {
-            result = mid;
-            last = mid - 1; // Keep searching left
-        }
-        else if (key < A[mid])
-            last = mid - 1;
-        else
-            first = mid + 1;
-    }
-    return result;
-}
+Replace your binsearch() function with this version:
+----------------------------------------------------
 
 📘 Notes: Make sure the array is sorted before applying binary search. If the element is not found, the program will display a message accordingly.
