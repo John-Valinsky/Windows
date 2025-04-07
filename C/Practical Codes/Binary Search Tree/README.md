@@ -28,6 +28,7 @@ Outputs traversal results directly
 markdown
 Copy
 Edit
+
  Binary Search Tree Menu
  ------------------------
  1. Create
@@ -36,3 +37,15 @@ Edit
  4. Inorder Traversal
  5. Postorder Traversal
  6. Exit
+
+🔧 Functions Implemented
+-------------------------
+create(item) – inserts a node into the BST
+
+disp() – prints the tree in rotated form
+
+in_order() – left → root → right
+
+pre_order() – root → left → right
+
+post_order() – left → right → root
