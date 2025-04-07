@@ -23,3 +23,16 @@ Uses recursion for tree traversals
 Menu-driven user interface
 
 Outputs traversal results directly
+
+📋 Menu Options
+markdown
+Copy
+Edit
+ Binary Search Tree Menu
+ ------------------------
+ 1. Create
+ 2. Display (tree structure)
+ 3. Preorder Traversal
+ 4. Inorder Traversal
+ 5. Postorder Traversal
+ 6. Exit
