@@ -53,8 +53,13 @@ post_order() – left → right → root
 🚀 How to Compile and Run
 
 💻 On Linux / macOS (GCC)
-
+-------------------------
 gcc bst_traversal.c -o bst
 
 ./bst
 
+🪟 On Windows (Turbo C++ / Dev C++)
+-----------------------------------
+Open and paste the code into a .c file
+
+Compile and run the program
