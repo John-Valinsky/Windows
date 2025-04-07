@@ -2,15 +2,18 @@
 This code demonstrates how to implement Binary Search in C to find the position of a given element in a sorted array.
 
 # 📌 What is Binary Search?
+
 Binary Search is an efficient searching algorithm used to find the position of a target element in a sorted array.
 It works by repeatedly dividing the search range in half.
 
 # ✅ When to Use:
+-----------------
 The array must be sorted (ascending or descending).
 
 Faster than linear search (O(log n) time complexity).
 
 # 📂 Program Features:
+----------------------
 Accepts user input for array size and elements.
 
 Performs binary search to locate the given key.
@@ -20,6 +23,7 @@ Displays the position if found.
 If duplicates exist, you can modify the search to return the first occurrence.
 
 # 🧪 Example:
+-------------
 
 Input:
 ------
