@@ -14,3 +14,12 @@ The BST is built using the standard insertion logic:
 Values smaller than the node go to the left
 
 Values greater go to the right
+
+🧠 Features
+Dynamically creates nodes using malloc()
+
+Uses recursion for tree traversals
+
+Menu-driven user interface
+
+Outputs traversal results directly
