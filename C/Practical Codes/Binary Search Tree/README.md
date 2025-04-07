@@ -49,3 +49,12 @@ in_order() – left → root → right
 pre_order() – root → left → right
 
 post_order() – left → right → root
+
+🚀 How to Compile and Run
+
+💻 On Linux / macOS (GCC)
+
+gcc bst_traversal.c -o bst
+
+./bst
+
