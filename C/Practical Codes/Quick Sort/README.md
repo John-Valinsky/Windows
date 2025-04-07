@@ -45,40 +45,5 @@ Elements smaller than pivot go to the left
 
 Elements greater go to the right
 
-❗ Bug Fixes & Improvements Needed
------------------------------------
-The current code has some issues:
-
-scanf("%d", &A[i]); uses i before it’s initialized.
-
-✅ Fix: Ask for n first (number of elements), then loop to input elements.
-
-Function name partiton() is misspelled.
-
-✅ Fix: Rename to partition() in both definition and call.
-
-clrscr() and getch() are non-standard and may not work on modern compilers.
-
-🧾 Corrected Sample main() Function
------------------------------------
-
-void main()
-{
-	int i, n, A[10];
-	
-	printf("\n Enter the number of elements of array: ");
-	scanf("%d", &n);
-
-	printf("\n Enter the elements:\n");
-	for(i = 0; i < n; i++)
-		scanf("%d", &A[i]);
-
-	quicksort(A, 0, n - 1);
-
-	printf("\n Sorted list of elements: ");
-	for(i = 0; i < n; i++)
-		printf(" %d", A[i]);
-}
-
 📘 Notes: The array size is fixed to 10 for simplicity. Ensure you provide input within that range. Can be upgraded for dynamic array handling and better input validation.
 
