@@ -28,8 +28,9 @@ Copy
 Edit
 Array (sorted): 0 1 2 3 4 7 7 9  
 Key to Search: 7
-Output:
 
+Output:
+-------
 pgsql
 Copy
 Edit
