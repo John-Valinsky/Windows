@@ -63,3 +63,15 @@ gcc bst_traversal.c -o bst
 Open and paste the code into a .c file
 
 Compile and run the program
+
+📌 Output Example (Display Tree)
+--------------------------------
+
+
+         9
+      6
+   5
+      3
+   2
+      1
+         0
