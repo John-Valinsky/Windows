@@ -27,25 +27,11 @@ If duplicates exist, you can modify the search to return the first occurrence.
 
 Input:
 ------
-pgsql
-Copy
-Edit
 Array (sorted): 0 1 2 3 4 7 7 9  
 Key to Search: 7
 
 Output:
 -------
-pgsql
-Copy
-Edit
 The element 7 is found at position 6
-
-ℹ️ By default, it returns any occurrence. To get the first occurrence, modify the binary search logic to continue searching left after finding a match.
-
-🛠️ Optional Improvement - First Occurrence:
--------------------------------------------
-
-Replace your binsearch() function with this version:
-----------------------------------------------------
 
 📘 Notes: Make sure the array is sorted before applying binary search. If the element is not found, the program will display a message accordingly.
