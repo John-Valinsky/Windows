@@ -47,3 +47,20 @@ If only one element: both front and rear set to NULL
 
 Otherwise: delete the front node and update links accordingly
 
+📺 Display
+----------
+Traverses the circular queue using do...while() until it reaches back to front
+
+📦 Sample Data
+--------------
+Insertion Sequence:
+-------------------
+Insert: 5, 7, 0, 0, 3, 9
+
+Deletion Sequence:
+------------------
+Delete: 6 (not present), 9, 5
+
+Note: Only 9 and 5 will be successfully deleted.
+
+
