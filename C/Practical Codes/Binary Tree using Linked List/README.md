@@ -87,6 +87,13 @@ Paste the code into a .c file in your IDE
 
 Compile and run the program
 
+✨ Functions Used
+------------------
+create(int item) – Insert node into BST
 
+deletion(NODE *p, int item) – Delete a node using recursive logic
 
+getInSuccessor(NODE *p) – Helper to find minimum in right subtree
+
+disp(NODE *ptr, int level) – Tree-structured display of nodes
 
