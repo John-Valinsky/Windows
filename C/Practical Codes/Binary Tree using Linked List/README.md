@@ -24,3 +24,24 @@ Node with two children (using inorder successor)
 Neat rotated tree-like display
 
 Fully menu-driven interface
+
+🛠️ Menu Options
+---------------
+mathematica
+
+ Binary Search Tree Menu
+ -------------------------
+ 1. Insert
+ 2. Delete
+ 3. Display
+ 4. Exit
+
+🔄 Operations Breakdown
+
+✅ Insertion
+
+New elements are inserted according to BST rules:
+-------------------------------------------------
+If smaller, go left
+
+If greater, go right
