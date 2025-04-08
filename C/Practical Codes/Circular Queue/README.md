@@ -40,3 +40,10 @@ Display of all elements
 If queue is empty: front and rear both point to the new node
 
 Else: add to rear and update rear->link = front to maintain the circular property
+
+❌ Deletion
+-----------
+If only one element: both front and rear set to NULL
+
+Otherwise: delete the front node and update links accordingly
+
