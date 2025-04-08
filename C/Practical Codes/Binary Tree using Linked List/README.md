@@ -54,3 +54,10 @@ Node with one child → replace with child
 
 Node with two children → replace with inorder successor (leftmost node in right subtree)
 
+📺 Display
+
+Custom display function to print the BST sideways, mimicking tree structure visually
+
+📦 Sample Insertion Input
+
+
