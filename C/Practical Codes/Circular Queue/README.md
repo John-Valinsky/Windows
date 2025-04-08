@@ -22,3 +22,14 @@ Insertion
 Deletion (FIFO)
 
 Display of all elements
+
+🛠️ Menu Options
+----------------
+
+ ****MAIN MENU****
+
+ 1. Insert
+ 2. Delete
+ 3. Display
+ 4. Exit
+
