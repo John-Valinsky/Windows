@@ -45,3 +45,12 @@ New elements are inserted according to BST rules:
 If smaller, go left
 
 If greater, go right
+
+❌ Deletion:
+------------
+Node with no child → just remove it
+
+Node with one child → replace with child
+
+Node with two children → replace with inorder successor (leftmost node in right subtree)
+
