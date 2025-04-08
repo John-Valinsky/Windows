@@ -72,5 +72,21 @@ Input nodes: 50, 30, 70, 20, 40, 60, 80
       40
    30
       20
+	  	  
+📋 How to Compile and Run
+
+✅ On Linux / macOS
+-------------------
+gcc bst_insert_delete.c -o bst
+
+./bst
+
+🪟 On Windows (Turbo C++ / Dev C++)
+-----------------------------------
+Paste the code into a .c file in your IDE
+
+Compile and run the program
+
+
 
 
