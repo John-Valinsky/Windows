@@ -33,3 +33,10 @@ Display of all elements
  3. Display
  4. Exit
 
+💡 How It Works
+
+✅ Insertion
+------------
+If queue is empty: front and rear both point to the new node
+
+Else: add to rear and update rear->link = front to maintain the circular property
