@@ -60,4 +60,17 @@ Custom display function to print the BST sideways, mimicking tree structure visu
 
 📦 Sample Insertion Input
 
+Input nodes: 50, 30, 70, 20, 40, 60, 80
+
+🔍 Example Output (Display)
+----------------------------
+
+         80
+      70
+         60
+   50
+      40
+   30
+      20
+
 
