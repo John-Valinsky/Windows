@@ -48,3 +48,13 @@ Enter first number: 4
 Enter second number: 6
 Enter third number: 8
 GCD of 4, 6, and 8 is: 2
+
+📚 Topics Covered:
+------------------
+Recursion in C
+
+Euclidean Algorithm for GCD
+
+Working with user input in C
+
+Basic math logic implementation
