@@ -1,4 +1,4 @@
-// 1. Given {4,7,3,2,1,7,9,0, find the location of 7 using Binary search and also display its first occurrence. 
+// Given {4,7,3,2,1,7,9,0, find the location of 7 using Binary search and also display its first occurrence. 
 
 #include <stdio.h>
 
