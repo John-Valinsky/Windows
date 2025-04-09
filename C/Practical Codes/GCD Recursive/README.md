@@ -17,3 +17,17 @@ Uses a recursive function to compute the GCD of two numbers.
 Applies it twice to get the GCD of all three numbers.
 
 Prints the result.
+
+📂 File:
+--------
+gcd_recursive.c
+
+🧠 Logic Behind the GCD Function:
+---------------------------------
+This program uses the Euclidean Algorithm:
+
+int gcd(int a, int b) {
+    if (b == 0)
+        return a;
+    return gcd(b, a % b);
+}
