@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 #define MAXSTK 5
 
 int TOP = -1;
@@ -44,6 +43,9 @@ int main() {
     int choice;
 
     while (1) {
+
+        system("cls");
+        printf("\t     STACK");
         printf("\n===============================\n");
         printf("1. Push\n");
         printf("2. Pop\n");
@@ -60,7 +62,7 @@ int main() {
             case 4: exit(0);
             default: printf("Wrong Choice!\n");
         }
+        getch();
     }
-
     return 0;
 }
