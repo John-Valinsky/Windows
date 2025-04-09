@@ -31,3 +31,20 @@ int gcd(int a, int b) {
         return a;
     return gcd(b, a % b);
 }
+
+▶️ How to Run:
+-------------
+🛠️ Compile the code:
+
+gcc gcd_recursive.c -o gcd_recursive
+
+🚀 Run the program:
+-------------------
+./gcd_recursive
+
+💡 Sample Output:
+-----------------
+Enter first number: 4
+Enter second number: 6
+Enter third number: 8
+GCD of 4, 6, and 8 is: 2
