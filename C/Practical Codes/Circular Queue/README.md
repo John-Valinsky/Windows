@@ -63,4 +63,25 @@ Delete: 6 (not present), 9, 5
 
 Note: Only 9 and 5 will be successfully deleted.
 
+🔧 How to Compile and Run
+
+✅ On Linux / macOS:
+--------------------
+gcc circular_queue.c -o cqueue
+
+./cqueue
+
+🪟 On Windows (Turbo C++ / Dev C++):
+------------------------------------
+Paste the code in a .c file inside your IDE
+
+Compile and run the program
+
+📘 Functions Included:
+----------------------
+Function	Purpose
+QInsert()	Insert element at rear of queue
+QDelete()	Delete element from front (FIFO)
+Display()	Print all elements in circular queue
+
 
