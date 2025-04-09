@@ -1,12 +1,14 @@
 🔁 What is Recursion?
----------------------
+
 Recursion is a programming technique where a function calls itself to solve a smaller part of a bigger problem.
 
 Think of it like this: "To solve the big problem, I’ll solve a smaller version of it using the same method."
 
+
 🧮 Recursive GCD Finder for Three Numbers:
 ------------------------------------------
 This C program calculates the Greatest Common Divisor (GCD) of three user-input integers using a recursive function.
+
 
 🔍 What It Does:
 ----------------
@@ -18,9 +20,11 @@ Applies it twice to get the GCD of all three numbers.
 
 Prints the result.
 
+
 📂 File:
 --------
 gcd_recursive.c
+
 
 🧠 Logic Behind the GCD Function:
 ---------------------------------
@@ -32,15 +36,18 @@ int gcd(int a, int b) {
     return gcd(b, a % b);
 }
 
+
 ▶️ How to Run:
 -------------
-🛠️ Compile the code:
+Compile the code:
 
 gcc gcd_recursive.c -o gcd_recursive
+
 
 🚀 Run the program:
 -------------------
 ./gcd_recursive
+
 
 💡 Sample Output:
 -----------------
@@ -48,6 +55,7 @@ Enter first number: 4
 Enter second number: 6
 Enter third number: 8
 GCD of 4, 6, and 8 is: 2
+
 
 📚 Topics Covered:
 ------------------
