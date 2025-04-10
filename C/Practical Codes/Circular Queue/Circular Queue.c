@@ -1,110 +1,106 @@
-// 8. Write a program to inert the elements {5,7,0,0,3,9} into circular queue and delete 6,9&5 from it(using linked 
-// Write a Program to implement a Circular Queue Using Linked List
+#include <stdio.h>
+#include <stdlib.h>
 
-#include<stdio.h>
-#include<stdlib.h>
-#include<conio.h>
-#include<malloc.h>
-
-struct queue
-{
-		int info;
-		struct queue *link;
+// Node structure
+struct Node {
+    int data;
+    struct Node* link;
 };
 
-struct queue *front = NULL,*rear = NULL;
+struct Node *front = NULL, *rear = NULL;
 
-void QInsert(int item)
-{
-	struct queue *new_node;
-	new_node = (struct queue*)malloc(sizeof(struct queue));
-	new_node->info = item;
-	new_node->link =NULL;
-	
-	if(front == NULL && rear == NULL)
-	{
-		front = rear = new_node;
-		rear->link = front;
-	}
-	else
-	{
-		rear->link = new_node;
-		rear = new_node;
-		rear->link=front;
-	}
+// Insert an element into circular queue
+void enqueue(int value) {
+    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    newNode->data = value;
+    newNode->link = NULL;
+
+    if (front == NULL) {
+        front = rear = newNode;
+        rear->link = front;
+    } else {
+        rear->link = newNode;
+        rear = newNode;
+        rear->link = front;
+    }
+
+    printf("Inserted: %d\n", value);
 }
 
-void QDelete()
-{
-	struct queue *ptr;
-	ptr = front;
+// Delete an element from circular queue
+void dequeue() {
+    if (front == NULL) {
+        printf("Queue is empty!\n");
+        return;
+    }
 
-	if(front == NULL && rear == NULL)
-		printf("\n Queue is Empty");
-	else if(front == rear) 
-	{
-		front=rear=NULL;
-		printf("\n The value being deleted is: %d", ptr->info);
-		free(ptr);
-	}
-	else
-	{
-		front = front->link;
-		rear->link = front;
-		printf("\n The value being deleted is: %d", ptr->info);
-		free(ptr);
-	}
+    struct Node* temp = front;
 
+    if (front == rear) {
+        // Only one element
+        front = rear = NULL;
+    } else {
+        front = front->link;
+        rear->link = front;
+    }
+
+    printf("Deleted: %d\n", temp->data);
+    free(temp);
 }
 
-void Display()
-{
-	struct queue *ptr;
-	ptr = front;
+// Display the elements of the circular queue
+void display() {
+    if (front == NULL) {
+        printf("Queue is empty!\n");
+        return;
+    }
 
-	if(front == NULL && rear == NULL)
-		printf("\n The Queue is Empty");
-	else
-	{
-		printf("\n The Queue Elements are: ");
-		do
-		{
-			printf(" %d", ptr->info);
-			ptr = ptr->link;
-		}
-		while(ptr != front);
-	}
+    struct Node* temp = front;
+    printf("Queue elements: ");
+    do {
+        printf("%d ", temp->data);
+        temp = temp->link;
+    } while (temp != front);
+    printf("\n");
 }
 
-void main()
-{
-	int val, choice;
-	clrscr();
+// Main function
+int main() {
+    int choice, value;
 
-	do
-	{
-		printf("\n\n ****MAIN MENU****\n");
-		printf("\n 1. Insert");
-		printf("\n 2. Delete");
-		printf("\n 3. Display");
-		printf("\n 4. Exit\n");
-		printf("\n Enter your option: ");
-		scanf("%d",&choice);
-		clrscr();
-		switch(choice)
-		{
-		case 1: printf("\n Enter the number to insert into Queue: ");
-				scanf("%d",&val);
-				QInsert(val);
-				break;
+    do {
+        printf("\n--- Circular Queue Menu ---\n");
+        printf("1. Enqueue\n");
+        printf("2. Dequeue\n");
+        printf("3. Display\n");
+        printf("4. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
 
-		case 2: QDelete();
-				break;
+        switch (choice) {
+        case 1:
+            printf("Enter value to insert: ");
+            scanf("%d", &value);
+            enqueue(value);
+            break;
 
-		case 3: Display();
-				break;
-		}
-	}
-	while(choice !=4);
-	getch();
+        case 2:
+            dequeue();
+            break;
+
+        case 3:
+            display();
+            break;
+
+        case 4:
+            printf("Exiting...\n");
+            break;
+
+        default:
+            printf("Invalid choice. Try again.\n");
+        }
+
+    } while (choice != 4);
+
+    return 0;
 }
