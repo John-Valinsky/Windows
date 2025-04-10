@@ -1,160 +1,154 @@
-// Program to Create Binary Search Tree and Performs Insert and Delete Operations using Linked List
+#include <stdio.h>
+#include <stdlib.h>
 
-#include<stdio.h>
-#include<conio.h>
+#ifdef _WIN32
+    #include <conio.h>
+    #define CLEAR() system("cls")
+#else
+    #include <unistd.h>
+    #include <termios.h>
+    void getch() {
+        struct termios oldt, newt;
+        tcgetattr(STDIN_FILENO, &oldt);
+        newt = oldt;
+        newt.c_lflag &= ~(ICANON | ECHO);
+        tcsetattr(STDIN_FILENO, TCSANOW, &newt);
+        getchar();
+        tcsetattr(STDIN_FILENO, TCSANOW, &oldt);
+    }
+    #define CLEAR() system("clear")
+#endif
 
-struct node
-{
-	int info;
-	struct node *left;
-	struct node *right;
+struct node {
+    int info;
+    struct node *left;
+    struct node *right;
 };
 
 typedef struct node NODE;
-NODE *root=NULL;
+NODE *root = NULL;
 
-// Include disp() code from example 8.2
-// Include create() code from example 8.6
-
-// Inorder successor in BST will be key in right subtree
-
-NODE *getInSuccessor(NODE *ptr)
-{
-	while(ptr->left != NULL)
-		ptr = ptr->left; // This will give the minimum key
-		return ptr;
+// Function to display tree structure sideways
+void disp(NODE *ptr, int level) {
+    if (ptr != NULL) {
+        disp(ptr->right, level + 1);
+        for (int i = 0; i < level; i++)
+            printf("   ");
+        printf("%2d\n", ptr->info);
+        disp(ptr->left, level + 1);
+    }
 }
 
-NODE * deletion(NODE *p, int item)
-{
-	NODE *temp;
-	if(!p)
-	{
-		printf("Unable to delete. No such key exists. \n");
-		return p;
-	}
-	else if(item > p->info)
-		p->right = deletion(p->right, item);
-	else if(item < p->info)
-		p->left = deletion(p->left, item);
-
-	// Execution else means got the key
-
-	else
-	{
-		// Node has one child or no child
-
-		if(p->left == NULL)
-		{
-			temp = p->right;
-			free(p);
-			return temp;
-		}
-		else if(p->right == NULL)
-		{
-			temp = p->left;
-			free(p);
-			return temp;
-		}
-
-		// Node with two children, interchange with inorder successor
-
-		temp = getInSuccessor(p->right);
-		p->info = temp->info;
-
-		// Delete the inorder successor
-		p->right = deletion(p->right, temp->info);
-	}
-	return p;
+// Function to find inorder successor
+NODE *getInSuccessor(NODE *ptr) {
+    while (ptr && ptr->left != NULL)
+        ptr = ptr->left;
+    return ptr;
 }
 
+// Function to delete a node from the BST
+NODE *deletion(NODE *p, int item) {
+    if (!p) {
+        printf("\nUnable to delete. No such key exists.\n");
+        return p;
+    }
 
-
-
-void create (int item)
-{
-	NODE *newnode, *currptr, *ptr;
-	newnode = (NODE *) malloc (sizeof(NODE));
-	newnode->info = item;
-	newnode->left = NULL;
-	newnode->right = NULL;
-
-	if(root == NULL)
-		root = newnode;
-	else
-	{
-		currptr = root;
-		while(currptr != NULL)
-		{
-			ptr = currptr;
-			currptr = (item > currptr -> info) ? currptr -> right : currptr -> left;
-		}
-		if(item < ptr -> info)
-			ptr -> left = newnode;
-		else
-			ptr -> right = newnode;
-	}
+    if (item < p->info)
+        p->left = deletion(p->left, item);
+    else if (item > p->info)
+        p->right = deletion(p->right, item);
+    else {
+        // Node found
+        if (p->left == NULL) {
+            NODE *temp = p->right;
+            free(p);
+            return temp;
+        } else if (p->right == NULL) {
+            NODE *temp = p->left;
+            free(p);
+            return temp;
+        } else {
+            // Node with two children
+            NODE *temp = getInSuccessor(p->right);
+            p->info = temp->info;
+            p->right = deletion(p->right, temp->info);
+        }
+    }
+    return p;
 }
 
+// Insert function
+void create(int item) {
+    NODE *newnode = (NODE *)malloc(sizeof(NODE));
+    newnode->info = item;
+    newnode->left = newnode->right = NULL;
 
+    if (root == NULL) {
+        root = newnode;
+        return;
+    }
 
-void main()
-{
-	int item, ch, n, i;
-	clrscr();
-	while(1)
-	{
-		clrscr();
-		printf("\n Binary Searcch Tree Menu");
-		printf("\n -------------------------");
-		printf("\n 1. Insert");
-		printf("\n 2. Delete");
-		printf("\n 3. Display");
-		printf("\n 4. Exit");
-		printf("\n\n Enter the choice: ");
-		scanf("%d",&ch);
+    NODE *currptr = root, *ptr;
+    while (currptr != NULL) {
+        ptr = currptr;
+        currptr = (item > currptr->info) ? currptr->right : currptr->left;
+    }
 
-		switch(ch)
-		{
-			case 1: printf("\n Enter the Number of Nodes: ");
-					scanf("%d",&n);
-
-					for(i=0; i<n; i++)
-					{
-					printf("\n Enter the data for the node: ");
-					scanf("%d",&item);
-					create(item);
-					}
-					break;
-
-			case 2: printf("\n Enter an Item to be deleted: ");
-					scanf("%d",&item);
-					root=deletion(root, item);
-					disp(root, 1);
-					break;
-
-			case 3: printf("\n The Binary Tree nodes are: \n\n\n\n");
-					disp(root, 1);
-					break;
-
-			case 4: exit(1);
-		}
-	getch();
-	}
-
+    if (item < ptr->info)
+        ptr->left = newnode;
+    else
+        ptr->right = newnode;
 }
 
+// Main function
+int main() {
+    int item, ch, n;
 
-disp(struct node *ptr,int level)
-{
-	int i;
-	if(ptr != NULL)
-	{
-		disp(ptr -> right, level+1);
-		for(i=0; i<level; i++)
-			printf("   ");
-		printf("%2d \n",ptr->info);
-		disp(ptr->left,level+1);
-	}
-	return 0;
+    while (1) {
+        CLEAR();
+        printf("\n==== Binary Search Tree Menu ====\n");
+        printf("1. Insert Nodes\n");
+        printf("2. Delete Node\n");
+        printf("3. Display Tree\n");
+        printf("4. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &ch);
+
+        switch (ch) {
+            case 1:
+                printf("\nEnter the number of nodes: ");
+                scanf("%d", &n);
+                for (int i = 0; i < n; i++) {
+                    printf("Enter data for node %d: ", i + 1);
+                    scanf("%d", &item);
+                    create(item);
+                }
+                break;
+
+            case 2:
+                printf("\nEnter the item to be deleted: ");
+                scanf("%d", &item);
+                root = deletion(root, item);
+                printf("\nUpdated Tree:\n\n");
+                disp(root, 1);
+                break;
+
+            case 3:
+                printf("\nBinary Tree Structure:\n\n");
+                disp(root, 1);
+                break;
+
+            case 4:
+                printf("Exiting...\n");
+                exit(0);
+
+            default:
+                printf("Invalid choice. Please try again.");
+        }
+
+        printf("\n\nPress any key to continue...");
+        getch();
+    }
+
+    return 0;
 }
