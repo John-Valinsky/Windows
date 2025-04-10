@@ -1,33 +1,35 @@
-🌲 Binary Search Tree in C – Insert and Delete Operations
+# Binary Search Tree in C – Insert and Delete Operations
+
 This C program allows the user to create a Binary Search Tree (BST) using dynamically allocated nodes and perform the key operations:
 
-Insert new elements
+* Insert new elements
 
-Delete specific elements
+* Delete specific elements
 
-Display the current structure of the BST
+* Display the current structure of the BST
 
-🧠 Features:
-------------
-Uses a Linked List representation for each node
 
-Dynamic memory allocation (malloc)
+# Features
+----------
+* Uses a Linked List representation for each node
 
-Proper BST deletion handling:
+* Dynamic memory allocation (malloc)
 
-Node with no children
+* Proper BST deletion handling:
 
-Node with one child
+* Node with no children
 
-Node with two children (using inorder successor)
+* Node with one child
 
-Neat rotated tree-like display
+* Node with two children (using inorder successor)
 
-Fully menu-driven interface
+* Neat rotated tree-like display
 
-🛠️ Menu Options
----------------
-mathematica
+* Fully menu-driven interface
+
+
+# Menu Options
+--------------
 
  Binary Search Tree Menu
  -------------------------
@@ -36,34 +38,39 @@ mathematica
  3. Display
  4. Exit
 
-🔄 Operations Breakdown
 
-✅ Insertion
+# Operations Breakdown
+----------------------
+* Insertion
 
-New elements are inserted according to BST rules:
--------------------------------------------------
-If smaller, go left
+* New elements are inserted according to BST rules
 
-If greater, go right
+* If smaller, go left
 
-❌ Deletion:
-------------
-Node with no child → just remove it
+* If greater, go right
 
-Node with one child → replace with child
 
-Node with two children → replace with inorder successor (leftmost node in right subtree)
+# Deletion
+----------
+* Node with no child → just remove it
 
-📺 Display
+* Node with one child → replace with child
 
-Custom display function to print the BST sideways, mimicking tree structure visually
+* Node with two children → replace with inorder successor (leftmost node in right subtree)
 
-📦 Sample Insertion Input
 
+# Display
+---------
+* Custom display function to print the BST sideways, mimicking tree structure visually
+
+
+# Sample Insertion Input
+------------------------
 Input nodes: 50, 30, 70, 20, 40, 60, 80
 
-🔍 Example Output (Display)
-----------------------------
+
+# Example Output (Display)
+--------------------------
 
          80
       70
@@ -73,27 +80,30 @@ Input nodes: 50, 30, 70, 20, 40, 60, 80
    30
       20
 	  	  
-📋 How to Compile and Run
 
-✅ On Linux / macOS
--------------------
-gcc bst_insert_delete.c -o bst
+# How to Compile and Run
+------------------------
+* On Linux / macOS
 
-./bst
+	gcc bst_insert_delete.c -o bst
 
-🪟 On Windows (Turbo C++ / Dev C++)
------------------------------------
-Paste the code into a .c file in your IDE
+	./bst
 
-Compile and run the program
 
-✨ Functions Used
-------------------
-create(int item) – Insert node into BST
+* On Windows (Turbo C++ / Dev C++)
 
-deletion(NODE *p, int item) – Delete a node using recursive logic
+	Paste the code into a .c file in your IDE
 
-getInSuccessor(NODE *p) – Helper to find minimum in right subtree
+	Compile and run the program
 
-disp(NODE *ptr, int level) – Tree-structured display of nodes
+
+# Functions Used
+----------------
+* create(int item) – Insert node into BST
+
+* deletion(NODE *p, int item) – Delete a node using recursive logic
+
+* getInSuccessor(NODE *p) – Helper to find minimum in right subtree
+
+* disp(NODE *ptr, int level) – Tree-structured display of nodes
 
