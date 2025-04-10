@@ -10,6 +10,7 @@ This is a simple menu-driven program written in C that demonstrates how a stack 
 
 * Exit the program
 
+
 # Features:
 -----------
 * Stack Overflow and Underflow checks
@@ -20,6 +21,7 @@ This is a simple menu-driven program written in C that demonstrates how a stack 
 
 * Perfect for beginners learning Data Structures
 
+
 # Stack Details:
 ----------------
 * Max Capacity: 5 elements
@@ -27,6 +29,7 @@ This is a simple menu-driven program written in C that demonstrates how a stack 
 * Data Type: Integer
 
 * Implementation Type: Array-based (static)
+
 
 # How to Run:
 -------------
@@ -42,7 +45,6 @@ gcc stack_array.c -o stack
 Copy the code into a .c file (e.g., stack_array.c)
 
 Build and run the file in your IDE
-
 
 
 # Sample Menu Output:
