@@ -26,8 +26,8 @@ This C program calculates the Greatest Common Divisor (GCD) of three user-input 
 * gcd_recursive.c
 
 
-🧠 Logic Behind the GCD Function:
----------------------------------
+# Logic Behind the GCD Function
+-------------------------------
 This program uses the Euclidean Algorithm:
 
 int gcd(int a, int b) {
