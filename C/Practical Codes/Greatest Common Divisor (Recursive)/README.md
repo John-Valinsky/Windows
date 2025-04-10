@@ -12,13 +12,13 @@ This C program calculates the Greatest Common Divisor (GCD) of three user-input 
 
 # What It Does
 --------------
-Takes three integers as input from the user.
+* Takes three integers as input from the user.
 
-Uses a recursive function to compute the GCD of two numbers.
+* Uses a recursive function to compute the GCD of two numbers.
 
-Applies it twice to get the GCD of all three numbers.
+* Applies it twice to get the GCD of all three numbers.
 
-Prints the result.
+* Prints the result.
 
 
 📂 File:
