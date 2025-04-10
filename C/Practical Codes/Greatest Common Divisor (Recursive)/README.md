@@ -10,8 +10,8 @@ Think of it like this: "To solve the big problem, I’ll solve a smaller version
 This C program calculates the Greatest Common Divisor (GCD) of three user-input integers using a recursive function.
 
 
-🔍 What It Does:
-----------------
+# What It Does
+--------------
 Takes three integers as input from the user.
 
 Uses a recursive function to compute the GCD of two numbers.
