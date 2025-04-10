@@ -1,4 +1,4 @@
-🔁 What is Recursion?
+# What is Recursion?
 
 Recursion is a programming technique where a function calls itself to solve a smaller part of a bigger problem.
 
