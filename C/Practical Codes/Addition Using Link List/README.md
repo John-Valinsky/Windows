@@ -2,13 +2,13 @@
 -----------------------------------------
 This is a simple menu-driven program written in C that demonstrates how a stack works using a fixed-size array. The program allows users to:
 
-Push elements onto the stack
+* Push elements onto the stack
 
-Pop elements from the stack
+* Pop elements from the stack
 
-Display current stack contents
+* Display current stack contents
 
-Exit the program
+* Exit the program
 
 # Features:
 -----------
