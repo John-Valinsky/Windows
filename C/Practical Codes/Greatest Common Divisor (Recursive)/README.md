@@ -57,12 +57,12 @@ int gcd(int a, int b) {
 * GCD of 4, 6, and 8 is: 2
 
 
-📚 Topics Covered:
-------------------
-Recursion in C
+# Topics Covered
+----------------
+* Recursion in C
 
-Euclidean Algorithm for GCD
+* Euclidean Algorithm for GCD
 
-Working with user input in C
+* Working with user input in C
 
-Basic math logic implementation
+* Basic math logic implementation
