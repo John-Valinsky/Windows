@@ -21,9 +21,9 @@ This C program calculates the Greatest Common Divisor (GCD) of three user-input 
 * Prints the result.
 
 
-📂 File:
---------
-gcd_recursive.c
+# File
+------
+* gcd_recursive.c
 
 
 🧠 Logic Behind the GCD Function:
