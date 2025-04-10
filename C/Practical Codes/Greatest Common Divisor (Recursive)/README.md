@@ -37,11 +37,11 @@ int gcd(int a, int b) {
 }
 
 
-▶️ How to Run:
--------------
-Compile the code:
+# How to Run
+------------
+* Compile the code:
 
-gcc gcd_recursive.c -o gcd_recursive
+	gcc gcd_recursive.c -o gcd_recursive
 
 
 🚀 Run the program:
