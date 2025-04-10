@@ -44,9 +44,9 @@ int gcd(int a, int b) {
 	gcc gcd_recursive.c -o gcd_recursive
 
 
-🚀 Run the program:
--------------------
-./gcd_recursive
+# Run the program
+-----------------
+	./gcd_recursive
 
 
 💡 Sample Output:
