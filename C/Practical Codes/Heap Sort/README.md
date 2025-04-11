@@ -20,3 +20,17 @@ Using GCC:
 	./heap_sort
 
 Or on Windows used Code Blocks.
+
+
+# Sample Input / Output
+-----------------------
+Enter the number of elements: 8
+Enter 8 elements:
+Element [1]: 9
+Element [2]: 16
+Element [3]: 32
+Element [4]: 8
+Element [5]: 4
+Element [6]: 1
+Element [7]: 5
+Element [8]: 0
