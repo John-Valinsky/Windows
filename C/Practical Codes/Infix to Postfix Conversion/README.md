@@ -23,3 +23,21 @@ This project is a simple C program that converts an **infix expression** (like `
 * gcc infix_to_postfix.c -o infix_to_postfix
 * Run the Program
 * ./infix_to_postfix
+
+
+# Usage
+-------
+When prompted, enter a valid infix expression without spaces.
+
+Example:
+--------
+Enter an infix expression: x^y/(5*2)+2
+Postfix Expression: xy^52*/2+
+
+
+# Explanation
+-------------
+What is an Infix Expression?
+
+Infix expressions are the usual way we write expressions in math, e.g., A + B.
+
