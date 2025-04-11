@@ -34,3 +34,21 @@ Element [5]: 4
 Element [6]: 1
 Element [7]: 5
 Element [8]: 0
+
+
+# Sorted array using Heap Sort
+------------------------------
+0 1 4 5 8 9 16 32
+
+
+# Concepts Used
+---------------
+* Heapify: Maintains the max-heap property.
+
+* Max Heap: Parent node is always greater than or equal to its children.
+
+* Heap Sort Algorithm:
+
+* Build a max heap.
+
+* Extract elements from the heap one by one and adjust the heap.
