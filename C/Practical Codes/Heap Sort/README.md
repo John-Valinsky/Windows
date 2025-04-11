@@ -52,3 +52,16 @@ Element [8]: 0
 * Build a max heap.
 
 * Extract elements from the heap one by one and adjust the heap.
+
+
+# File Structure
+----------------
+heap_sort.c       --> Main source code file
+README.md         --> This documentation file
+
+
+# Requirements
+--------------
+Any C compiler (e.g., GCC, Turbo C++)
+
+Basic knowledge of data structures and C programming
