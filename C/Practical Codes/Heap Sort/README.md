@@ -10,3 +10,13 @@ This project is a simple C program that implements the **Heap Sort** algorithm u
 * Validates input size.
 * Simple and readable structure.
 * Written in standard C (compatible with most compilers).
+
+
+# How to Compile and Run
+------------------------
+Using GCC:
+
+	gcc heap_sort.c -o heap_sort
+	./heap_sort
+
+Or on Windows used Code Blocks.
