@@ -10,3 +10,16 @@ This project is a simple C program that converts an **infix expression** (like `
 * Follows proper operator precedence and associativity
 * Easy-to-understand C implementation with comments
 * Lightweight and CLI-based (no extra libraries needed)
+
+
+# Requirements
+--------------
+* C compiler (e.g., `gcc`, `tcc`, `clang`)
+* Command-line terminal or IDE that supports C
+
+
+# Compilation
+-------------
+* gcc infix_to_postfix.c -o infix_to_postfix
+* Run the Program
+* ./infix_to_postfix
