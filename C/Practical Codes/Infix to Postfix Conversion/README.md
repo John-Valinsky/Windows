@@ -41,3 +41,30 @@ What is an Infix Expression?
 
 Infix expressions are the usual way we write expressions in math, e.g., A + B.
 
+
+What is a Postfix Expression?
+
+Postfix (Reverse Polish Notation) means writing the operator after its operands. For example, A B +.
+
+Conversion Logic
+
+Use a stack to temporarily hold operators.
+
+
+# Maintain operator precedence
+------------------------------
+^ (highest)
+
+*, /
+
++, - (lowest)
+
+Handle ( and ) to control precedence grouping.
+
+
+# File Structure
+----------------
+.
+├── infix_to_postfix.c      # Main source code file
+├── README.md               # Project documentation
+
