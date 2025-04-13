@@ -28,3 +28,20 @@ Enter the number of elements in the array (1–100): 7
 Enter 7 elements:
 56 12 89 34 2 90 11
 
+
+
+# Sorted array in ascending order
+---------------------------------
+2 11 12 34 56 89 90
+
+
+
+# How It Works
+--------------
+* Choose Pivot: Select the first element of the sub-array.
+
+* Partition: Place all smaller elements to the left of the pivot and greater elements to the right.
+
+* Recursion: Recursively sort the sub-arrays on the left and right of the pivot.
+
+
