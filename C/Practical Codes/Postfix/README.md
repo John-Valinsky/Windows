@@ -51,3 +51,12 @@ is written in postfix as:
 	gcc postfix_eval.c -o postfix_eval -lm
 	./postfix_eval
 	
+
+
+# Sample Input & Output
+-----------------------
+Example:
+
+Enter the postfix expression (e.g., 53+82-*): 53+82-*
+
+Result of the postfix expression: 48
