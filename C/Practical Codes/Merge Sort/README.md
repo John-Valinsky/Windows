@@ -1,0 +1,3 @@
+# Merge Sort (Descending Order) in C
+
+This project contains a C program that implements the **Merge Sort** algorithm to sort an array of integers in **descending order**. Merge Sort is a classic divide-and-conquer algorithm with a time complexity of **O(n log n)**, making it highly efficient for large datasets.
