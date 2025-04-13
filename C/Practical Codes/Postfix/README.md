@@ -42,3 +42,12 @@ is written in postfix as:
 | `postfix_eval.c`       | Main source code                    |
 | `README.md`            | Documentation (this file)           |
 
+
+
+# How to Compile and Run
+------------------------
+* Using GCC
+
+	gcc postfix_eval.c -o postfix_eval -lm
+	./postfix_eval
+	
