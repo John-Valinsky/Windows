@@ -39,3 +39,7 @@ Element [7]: 7
 Element [8]: 0
 
 
+
+# Sorted Array in Descending Order
+----------------------------------
+75 48 16 8 7 3 1 0
