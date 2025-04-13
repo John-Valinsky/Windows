@@ -1,65 +1,68 @@
-// 11. Write a program to evaluate a postfix expression 53+82-*. Postfix | Input: 53+82-* | Output: 48
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <math.h>
 
-#include<stdio.h>
-#include<string.h>
-#include<math.h>
+#define MAX 100
 
-#define MAX 20
+int stack[MAX];
+int top = -1;
 
-int s[MAX], top=0;
+// Function Prototypes
+void push(int element);
+int pop();
 
-void main()
-{
-	char postfix[MAX],ch;
-	int i,op1,op2,res;
-	clrscr();
+int main() {
+    char postfix[MAX], ch;
+    int i, op1, op2, result;
 
-	printf("\n\t\t Program to Evaluate Postfix Expression\n");
-	printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+    printf("\n Program to Evaluate Postfix Expression\n");
+    printf("=========================================\n");
 
-	printf("\n Enter the postfix expression: ");
-	scanf("%s",&postfix);
+    printf(" Enter the postfix expression (e.g., 53+82-*): ");
+    scanf("%s", postfix);
 
-	for(i=0; i<strlen(postfix); i++)
-	{
-		ch=postfix[i];
-		if(isdigit(ch))
-		
-			push(ch -'0');
-		
-		else
-		{
-			op2=pop();
-			op1=pop();
-			switch(ch)
-			{
-				case '+' : res = op1 + op2; break;
-				case '-' : res = op1 - op2; break;
-				case '*' : res = op1 * op2; break;
-				case '/' : res = op1 / op2; break;
-				case '^' : res = pow(op1,op2); break;
+    for (i = 0; i < strlen(postfix); i++) {
+        ch = postfix[i];
 
-				default  : printf("\n Invalid Character \n");
-			}
-			push(res);
-		}
-	}
-				printf("\n Result of above expression is: %d \n",pop());
+        if (isdigit(ch)) {
+            push(ch - '0');  // Convert char to int
+        } else {
+            op2 = pop();
+            op1 = pop();
 
-getch();
+            switch (ch) {
+                case '+': result = op1 + op2; break;
+                case '-': result = op1 - op2; break;
+                case '*': result = op1 * op2; break;
+                case '/': result = op1 / op2; break;
+                case '^': result = (int)pow(op1, op2); break;
+                default:
+                    printf(" Invalid operator '%c'\n", ch);
+                    return 1;
+            }
+            push(result);
+        }
+    }
+
+    printf(" Result of the postfix expression: %d\n", pop());
+    return 0;
 }
 
-push(int element)
-{
-	++top;
-	s[top]=element;
-	return 0;
+// Pushes an integer onto the stack
+void push(int element) {
+    if (top >= MAX - 1) {
+        printf(" Stack Overflow!\n");
+        return;
+    }
+    stack[++top] = element;
 }
 
-int pop()
-{
-	int element;
-	element = s[top];
-	--top;
-	return(element);
+// Pops and returns an integer from the stack
+int pop() {
+    if (top < 0) {
+        printf(" Stack Underflow!\n");
+        return -1;
+    }
+    return stack[top--];
 }
