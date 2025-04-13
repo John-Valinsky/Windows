@@ -43,3 +43,12 @@ Element [8]: 0
 # Sorted Array in Descending Order
 ----------------------------------
 75 48 16 8 7 3 1 0
+
+
+
+# How to Compile and Run
+------------------------
+* Using GCC (Linux / Windows WSL / MacOS):
+
+	gcc merge_sort.c -o merge_sort
+	./merge_sort
