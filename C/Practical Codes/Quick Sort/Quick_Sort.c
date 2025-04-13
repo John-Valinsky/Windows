@@ -1,63 +1,67 @@
 #include <stdio.h>
 
-// Function to perform partitioning
-int partition(int A[], int low, int high) {
-    int pivot = A[low];
+// Function to swap two elements
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+// Partition function for Quick Sort (Lomuto Partition Scheme)
+int partition(int arr[], int low, int high) {
+    int pivot = arr[low];
     int i = low + 1;
     int j = high;
-    int temp;
 
     while (i <= j) {
-        while (i <= high && A[i] <= pivot) i++;
-        while (A[j] > pivot) j--;
+        while (i <= high && arr[i] <= pivot) i++;
+        while (arr[j] > pivot) j--;
 
         if (i < j) {
-            temp = A[i];
-            A[i] = A[j];
-            A[j] = temp;
+            swap(&arr[i], &arr[j]);
         }
     }
 
-    // Swap pivot with A[j]
-    temp = A[low];
-    A[low] = A[j];
-    A[j] = temp;
-
+    swap(&arr[low], &arr[j]);  // Place pivot in correct position
     return j;
 }
 
-// Function to perform quick sort
-void quicksort(int A[], int low, int high) {
+// Quick Sort recursive function
+void quicksort(int arr[], int low, int high) {
     if (low < high) {
-        int p = partition(A, low, high);
-        quicksort(A, low, p - 1);
-        quicksort(A, p + 1, high);
+        int p = partition(arr, low, high);
+        quicksort(arr, low, p - 1);  // Sort left partition
+        quicksort(arr, p + 1, high); // Sort right partition
     }
 }
 
 int main() {
-    int A[100], n, i;
+    int arr[100], n;
 
-    printf("Enter the number of elements in the array: ");
+    // Input the number of elements
+    printf("Enter the number of elements in the array (1 - 100): ");
     scanf("%d", &n);
 
-    if (n > 100 || n <= 0) {
-        printf("Invalid input. Please enter a value between 1 and 100.\n");
+    if (n <= 0 || n > 100) {
+        printf(" Invalid input. Please enter a number between 1 and 100.\n");
         return 1;
     }
 
+    // Input array elements
     printf("Enter %d elements:\n", n);
-    for (i = 0; i < n; i++) {
-        scanf("%d", &A[i]);
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
 
-    quicksort(A, 0, n - 1);
+    // Perform quick sort
+    quicksort(arr, 0, n - 1);
 
-    printf("Sorted array in ascending order:\n");
-    for (i = 0; i < n; i++) {
-        printf("%d ", A[i]);
+    // Output the sorted array
+    printf(" Sorted array in ascending order:\n");
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
     }
-
     printf("\n");
+
     return 0;
 }
