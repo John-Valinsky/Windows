@@ -16,3 +16,18 @@ is written in postfix as:
 
 53+82-*
 
+
+
+# Features
+----------
+* Supports:
+ 
+ 1 Addition (`+`)
+  2 Subtraction (`-`)
+  3 Multiplication (`*`)
+  4 Division (`/`)
+  5 Power (`^`)
+
+* Evaluates expressions using stack operations.
+* Handles integer operands.
+* Error handling for stack overflow/underflow.
