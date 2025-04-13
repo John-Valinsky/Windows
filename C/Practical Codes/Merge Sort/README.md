@@ -21,3 +21,21 @@ The program uses the **Merge Sort** algorithm which follows:
 2. Recursively sort both halves.
 3. Merge the sorted halves in a **descending** order.
 
+
+
+# Sample Output
+---------------
+Enter number of elements: 8
+
+Enter 8 elements:
+
+Element [1]: 75
+Element [2]: 8
+Element [3]: 1
+Element [4]: 16
+Element [5]: 48
+Element [6]: 3
+Element [7]: 7
+Element [8]: 0
+
+
