@@ -57,6 +57,24 @@ is written in postfix as:
 -----------------------
 Example:
 
-Enter the postfix expression (e.g., 53+82-*): 53+82-*
+* Enter the postfix expression (e.g., 53+82-*): 53+82-*
 
-Result of the postfix expression: 48
+* Result of the postfix expression: 48
+
+
+
+# Data Structures Used
+----------------------
+* Stack (implemented using array)
+
+* Manual character parsing of input
+
+
+
+# Future Enhancements
+---------------------
+* Add support for multi-digit operands
+
+* Add support for variables and input from expressions
+
+* Implement infix-to-postfix converter integration
