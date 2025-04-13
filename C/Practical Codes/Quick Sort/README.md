@@ -45,3 +45,15 @@ Enter 7 elements:
 * Recursion: Recursively sort the sub-arrays on the left and right of the pivot.
 
 
+
+# How to Run the Code
+---------------------
+* Clone this repository or copy the quicksort.c file.
+
+* Compile the code using GCC or any C compiler:
+
+	gcc quicksort.c -o quicksort
+	./quicksort
+	
+* Enter the number of elements and array values when prompted.
+
