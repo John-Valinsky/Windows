@@ -31,3 +31,14 @@ is written in postfix as:
 * Evaluates expressions using stack operations.
 * Handles integer operands.
 * Error handling for stack overflow/underflow.
+
+
+
+# Files Included
+----------------
+
+| File Name              | Description                         |
+|------------------------|-------------------------------------|
+| `postfix_eval.c`       | Main source code                    |
+| `README.md`            | Documentation (this file)           |
+
