@@ -18,3 +18,13 @@ This implementation uses the **Lomuto Partition Scheme**, with the first element
 * Input validation for user-friendliness
 * Uses a recursive approach for sorting
 * Clean and readable code with comments
+
+
+
+# Program Output Example
+------------------------
+Enter the number of elements in the array (1–100): 7
+
+Enter 7 elements:
+56 12 89 34 2 90 11
+
