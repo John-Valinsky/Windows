@@ -1,79 +1,95 @@
-4. Write a program to insert the elements 61,16,8,27 into singly linked list and delete 8,61,27 from the list. 
+#include <stdio.h>
+#include <stdlib.h>
 
-#include<stdio.h>
-#include<conio.h>
+// Structure for a node in the singly linked list
+struct Node {
+    int data;
+    struct Node* next;
+};
 
-void Merge(int A[10], int low, int mid,int high)
-{
-    int i,j,k,c[10];
-    i=low;
-    k=low;
-    j=mid+1;
+struct Node* head = NULL;
 
-    while((i<=mid) && (j<=high))
-    {
-	if(A[i] <= A[j])
-	{
-	    c[k]=A[i];
-	    i++;
-	    k++;
-	}
-	else
-	{
-	    c[k] = A[j];
-	    j++;
-	    k++;
-	}
+// Function to insert a node at the end
+void insert(int value) {
+    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    newNode->data = value;
+    newNode->next = NULL;
 
-    }
-
-    while(i<=mid)
-    {
-	c[k] = A[i];
-	k++;
-	i++;
-    }
-
-    while(j<=high)
-    {
-	c[k]=A[j];
-	k++;
-	j++;
-    }
-
-    for(i=low; i<=k-1; i++)
-    A[i]=c[i];
-}
-void MergeSort(int A[10], int low, int high)
-{
-    int mid;
-    if(low<high)
-    {
-        mid=(low+high)/2;
-        MergeSort(A,low,mid);
-	   MergeSort(A,mid+1,high);
-        Merge(A,low,mid,high);
+    if (head == NULL) {
+        head = newNode;
+    } else {
+        struct Node* temp = head;
+        while (temp->next != NULL)
+            temp = temp->next;
+        temp->next = newNode;
     }
 }
 
-void main()
-{
-    int i, n, A[10];
-    clrscr();
+// Function to delete a node with a given value
+void delete(int value) {
+    struct Node *temp = head, *prev = NULL;
 
-    printf("\n Enter the number of elements of array: ");
-    scanf("%d",&n);
+    if (temp != NULL && temp->data == value) {
+        head = temp->next;
+        free(temp);
+        return;
+    }
 
-    printf("\n Enter the elements of the array: ");
-    for(i=0; i<n; i++)
-	scanf("%d",&A[i]);
+    while (temp != NULL && temp->data != value) {
+        prev = temp;
+        temp = temp->next;
+    }
 
-    MergeSort(A,0,n-1);
+    if (temp == NULL)
+        return;
 
-    printf("\n Sorted list of elements: ");
-    for(i=n-1; i>=0; i--)
-	printf(" %d", A[i]);
-
-    getch();
+    prev->next = temp->next;
+    free(temp);
 }
 
+// Function to display the list
+void display() {
+    struct Node* temp = head;
+    printf("Linked List: ");
+    if (temp == NULL) {
+        printf("Empty\n");
+        return;
+    }
+
+    while (temp != NULL) {
+        printf("%d ", temp->data);
+        temp = temp->next;
+    }
+    printf("\n");
+}
+
+// Main function
+int main() {
+    int i, n, value;
+
+    printf("How many elements do you want to insert? ");
+    scanf("%d", &n);
+
+    printf("Enter %d elements to insert:\n", n);
+    for (i = 0; i < n; i++) {
+        scanf("%d", &value);
+        insert(value);
+    }
+
+    printf("After insertion:\n");
+    display();
+
+    printf("How many elements do you want to delete? ");
+    scanf("%d", &n);
+
+    printf("Enter %d elements to delete:\n", n);
+    for (i = 0; i < n; i++) {
+        scanf("%d", &value);
+        delete(value);
+    }
+
+    printf("After deletion:\n");
+    display();
+
+    return 0;
+}
