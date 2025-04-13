@@ -1,88 +1,61 @@
-// 3. Perform the Merge sort on the input {75,8,1,16,48,3,7,0) and display the output in descending order. 
+// Program: Merge Sort in Descending Order
+// Sorts elements using Merge Sort algorithm and displays them in descending order
 
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
 
-void Merge(int A[10], int low, int mid,int high)
-{
-    int i,j,k,c[10];
-    i=low;
-    k=low;
-    j=mid+1;
+void merge(int A[], int low, int mid, int high) {
+    int i = low, j = mid + 1, k = low;
+    int temp[100];  // Temporary array
 
-    while((i<=mid) && (j<=high))
-    {
-	if(A[i] <= A[j])
-	{
-	    c[k]=A[i];
-	    i++;
-	    k++;
-	}
-	else
-	{
-	    c[k] = A[j];
-	    j++;
-	    k++;
-	}
-
+    // Merge the two halves into temp[]
+    while (i <= mid && j <= high) {
+        if (A[i] >= A[j])
+            temp[k++] = A[i++];
+        else
+            temp[k++] = A[j++];
     }
 
-    while(i<=mid)
-    {
-	c[k] = A[i];
-	k++;
-	i++;
-    }
+    // Copy remaining elements from the left half
+    while (i <= mid)
+        temp[k++] = A[i++];
 
-    while(j<=high)
-    {
-	c[k]=A[j];
-	k++;
-	j++;
-    }
+    // Copy remaining elements from the right half
+    while (j <= high)
+        temp[k++] = A[j++];
 
-    for(i=low; i<=k-1; i++)
-    A[i]=c[i];
+    // Copy the sorted subarray back into the original array
+    for (i = low; i <= high; i++)
+        A[i] = temp[i];
 }
-void MergeSort(int A[10], int low, int high)
-{
-    int mid;
-    if(low<high)
-    {
-        mid=(low+high)/2;
-        MergeSort(A,low,mid);
-	   MergeSort(A,mid+1,high);
-        Merge(A,low,mid,high);
+
+void mergeSort(int A[], int low, int high) {
+    if (low < high) {
+        int mid = (low + high) / 2;
+        mergeSort(A, low, mid);
+        mergeSort(A, mid + 1, high);
+        merge(A, low, mid, high);
     }
 }
 
-void main()
-{
-    int i, n, A[10];
-    clrscr();
+int main() {
+    int A[100], n, i;
 
-    printf("\n Enter the number of elements of array: ");
-    scanf("%d",&n);
+    printf(" Enter number of elements: ");
+    scanf("%d", &n);
 
-    printf("\n Enter the elements of the array: ");
-    for(i=0; i<n; i++)
-	scanf("%d",&A[i]);
+    printf(" Enter %d elements:\n", n);
+    for (i = 0; i < n; i++) {
+        printf("Element [%d]: ", i + 1);
+        scanf("%d", &A[i]);
+    }
 
-    MergeSort(A,0,n-1);
+    mergeSort(A, 0, n - 1);
 
-    printf("\n Sorted list of elements: ");
-    for(i=n-1; i>=0; i--)
-	printf(" %d", A[i]);
+    printf("\n Sorted Array in Descending Order:\n");
+    for (i = 0; i < n; i++)
+        printf(" %d", A[i]);
 
-    getch();
+    printf("\n");
+
+    return 0;
 }
-
-
-
-
-
-
-
-
-
-
