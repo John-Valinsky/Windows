@@ -13,3 +13,14 @@ This project implements basic Stack operations in C using a fixed-size array. Th
 * Display the current stack
 
 * Error handling for Overflow and Underflow
+
+
+
+# Sample Output
+---------------
+Inserting elements into stack: 5, 9, 34, 17, 32
+* Pushed: 5
+* Pushed: 9
+* Pushed: 34
+* Pushed: 17
+* Pushed: 32
