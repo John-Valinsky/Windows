@@ -43,3 +43,14 @@ Functions included:
 * delete(int value) — Deletes the first node that matches the given value.
 
 * display() — Displays the current linked list.
+
+
+
+# How to Run
+------------
+Compile the program
+
+	gcc linked_list_operations.c -o linkedlist
+	Run the executable
+	./linkedlist
+
