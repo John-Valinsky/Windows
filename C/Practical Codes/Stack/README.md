@@ -52,3 +52,13 @@ Stack elements (top to bottom):
 	
 	Run the executable:
 	./stack
+
+
+
+# Functions Used
+----------------
+* Function	Purpose
+* push(int item)	Adds an item to the top of the stack
+* pop()	Removes the top item from the stack
+* display()	Displays all stack elements from top to bottom
+
