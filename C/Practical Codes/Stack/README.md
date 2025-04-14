@@ -18,9 +18,16 @@ This project implements basic Stack operations in C using a fixed-size array. Th
 
 # Sample Output
 ---------------
-Inserting elements into stack: 5, 9, 34, 17, 32
-* Pushed: 5
-* Pushed: 9
-* Pushed: 34
-* Pushed: 17
-* Pushed: 32
+* Inserting elements into stack: 5, 9, 34, 17, 32
+	
+Pushed: 5
+Pushed: 9
+Pushed: 34
+Pushed: 17
+Pushed: 32
+
+* Popping 3 elements from stack:
+
+Popped: 32
+Popped: 17
+Popped: 34
