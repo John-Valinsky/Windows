@@ -21,3 +21,13 @@ This C program demonstrates how to implement a singly linked list and perform th
 * Simple, beginner-friendly implementation
 
 * Works with any set of integers (not hardcoded)
+
+
+
+# Example Output
+---------------
+After insertion:
+Linked List: 61 16 8 27
+
+After deletion:
+Linked List: 16
