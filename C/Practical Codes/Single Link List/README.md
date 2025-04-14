@@ -31,3 +31,15 @@ Linked List: 61 16 8 27
 
 After deletion:
 Linked List: 16
+
+
+
+# Code Overview
+---------------
+Functions included:
+
+* insert(int value) — Inserts a new node at the end of the list.
+
+* delete(int value) — Deletes the first node that matches the given value.
+
+* display() — Displays the current linked list.
