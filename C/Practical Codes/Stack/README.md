@@ -39,3 +39,16 @@ Popped: 34
 Stack elements (top to bottom):
 => 9
 => 5
+
+
+
+# How to Run
+------------
+* Save the code to a file, e.g., stack.c
+
+* Open a terminal and compile:
+
+	gcc stack.c -o stack
+	
+	Run the executable:
+	./stack
