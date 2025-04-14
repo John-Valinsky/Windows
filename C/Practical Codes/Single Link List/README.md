@@ -53,4 +53,21 @@ Compile the program
 	gcc linked_list_operations.c -o linkedlist
 	Run the executable
 	./linkedlist
+	
+	
 
+# Make sure you have GCC installed. You can also run this code in any C IDE (e.g., Code::Blocks, Turbo C, Visual Studio Code with C extension).
+
+
+
+# Concepts Covered
+------------------
+* Data structures
+
+* Singly linked list
+
+* Dynamic memory allocation
+
+* Pointer manipulation
+
+* Insertion and deletion logic in C
