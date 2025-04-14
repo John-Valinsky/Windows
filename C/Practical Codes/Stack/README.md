@@ -62,3 +62,15 @@ Stack elements (top to bottom):
 * pop()	Removes the top item from the stack
 * display()	Displays all stack elements from top to bottom
 
+
+
+# Concepts Covered
+------------------
+* Stack (LIFO - Last In First Out)
+
+* Array implementation of Stack
+
+* Function-based modular design
+
+* Memory bounds checking (Overflow & Underflow)
+
