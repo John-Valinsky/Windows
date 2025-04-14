@@ -31,3 +31,11 @@ Pushed: 32
 Popped: 32
 Popped: 17
 Popped: 34
+
+
+
+# Stack after pop operations
+----------------------------
+Stack elements (top to bottom):
+=> 9
+=> 5
