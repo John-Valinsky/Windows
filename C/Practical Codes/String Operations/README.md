@@ -52,9 +52,19 @@ A simple C program that performs basic string operations without using standard 
 Enter your choice:
 
 
-Sample Input/Output
+
+# Sample Input/Output
+---------------------
 Example: Concatenate
 
 Enter the first string: Flowers
 Enter the second string: are beautiful
 Concatenated String: Flowersare beautiful
+
+
+Example: Extract Substring
+
+Enter the string: Flowers
+Enter the starting position: 3
+Enter the length of substring: 3
+Substring: low
