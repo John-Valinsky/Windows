@@ -49,3 +49,12 @@ A simple C program that performs basic string operations without using standard 
 4. Replace a Word in a String
 5. Exit
 =======================================
+Enter your choice:
+
+
+Sample Input/Output
+Example: Concatenate
+
+Enter the first string: Flowers
+Enter the second string: are beautiful
+Concatenated String: Flowersare beautiful
