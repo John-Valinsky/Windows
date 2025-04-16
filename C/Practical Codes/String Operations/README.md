@@ -68,3 +68,11 @@ Enter the string: Flowers
 Enter the starting position: 3
 Enter the length of substring: 3
 Substring: low
+
+
+Example: Replace Word
+
+Enter the original string: Flowers are beautiful
+Enter the word to replace: are
+Enter the new word: is
+Modified String: Flowers is beautiful
