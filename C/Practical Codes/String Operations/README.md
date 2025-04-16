@@ -76,3 +76,12 @@ Enter the original string: Flowers are beautiful
 Enter the word to replace: are
 Enter the new word: is
 Modified String: Flowers is beautiful
+
+
+
+# How to Run
+------------
+* Compile
+* gcc string_operations.c -o string_operations
+* ./string_operations
+
