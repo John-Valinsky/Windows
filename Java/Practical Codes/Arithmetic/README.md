@@ -34,3 +34,15 @@ p = a + b - c * d + d / a
 k = a + b - c * d + d / a % b
 
 l = (a + b - c) * (d + d) / a % b
+
+
+
+# Output Format
+---------------
+arthmetic operators deministration
+m=8
+n=-1
+o=3
+p=3
+default precedence and associativity k=3
+overriden precedence and associativity l=1
