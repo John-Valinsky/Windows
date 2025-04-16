@@ -9,3 +9,43 @@ A simple C program that performs basic string operations without using standard 
 * Extracting a substring
 
 * Replacing a word in a string
+
+
+
+# Features
+----------
+* Find the length of a string manually
+
+*  Concatenate two strings without strcat()
+
+*  Extract any substring by specifying position and length
+
+*  Replace a substring with another word
+
+* Menu-driven user interface
+
+
+
+# Concepts Covered
+------------------
+* String arrays and pointers
+
+* Custom string manipulation functions
+
+* Basic input/output handling
+
+* Use of strstr(), strncpy(), strlen() where applicable
+
+* Handling newline characters from fgets()
+
+
+
+# Sample Menu
+
+========== STRING OPERATIONS ==========
+1. Find Length of a String
+2. Concatenate Two Strings
+3. Extract a Substring
+4. Replace a Word in a String
+5. Exit
+=======================================
