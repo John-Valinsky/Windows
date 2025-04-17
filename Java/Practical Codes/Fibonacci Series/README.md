@@ -40,3 +40,12 @@ The Fibonacci Series is a sequence where each number is the sum of the two prece
 
 * Use a loop to generate and print the next t - 2 terms of the sequence.
 
+
+
+# Sample Output
+---------------
+Enter the value of t: 8
+
+The first 8 Fibonacci Series are:
+
+0 1 1 2 3 5 8 13
