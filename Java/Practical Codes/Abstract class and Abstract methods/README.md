@@ -13,3 +13,15 @@ AbstractDemo.java    // Main class to test polymorphism
 Shape.java           // Abstract base class
 Rectangle.java       // Subclass representing a rectangle
 Triangle.java        // Subclass representing a triangle
+
+
+
+# Concepts Demonstrated
+-----------------------
+* Abstraction using abstract classes
+
+* Inheritance for code reuse
+
+* Method Overriding
+
+* Runtime Polymorphism via superclass references
