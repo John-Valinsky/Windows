@@ -91,3 +91,13 @@ Area of triangle : 51.0
 * Rectangle.java
 
 * Triangle.java
+
+
+
+# Compile
+---------
+javac AbstractDemo.java Shape.java Rectangle.java Triangle.java
+
+Run:
+----
+java AbstractDemo
