@@ -39,3 +39,13 @@ Initializes product ID and name.
 Method:
 -------
 display() — Displays product information.
+
+
+
+# ArrayOfObjects (Main Class)
+-----------------------------
+* Creates an array of Product objects.
+
+* Initializes each object using the constructor.
+
+* Displays each product using the display() method.
