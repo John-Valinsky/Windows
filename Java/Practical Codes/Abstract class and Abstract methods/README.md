@@ -70,3 +70,10 @@ Creates Shape references pointing to Rectangle and Triangle objects.
 
 Demonstrates polymorphism by calling getArea() using the Shape reference.
 s
+
+
+
+# Sample Output
+---------------
+Area of rectangle : 390.0
+Area of triangle : 51.0
