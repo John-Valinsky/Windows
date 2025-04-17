@@ -49,3 +49,19 @@ display() — Displays product information.
 * Initializes each object using the constructor.
 
 * Displays each product using the display() method.
+
+
+
+# Sample Output
+---------------
+Product Object 1:
+Product Id = 23907  Product Name = Dell Laptop
+Product Object 2:
+Product Id = 91240  Product Name = HP 630
+Product Object 3:
+Product Id = 29823  Product Name = LG OLED TV
+Product Object 4:
+Product Id = 11908  Product Name = MI Note Pro Max 9
+Product Object 5:
+Product Id = 43590  Product Name = Kingston USB
+
