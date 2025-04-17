@@ -48,3 +48,16 @@ Triangle.java        // Subclass representing a triangle
 	getWidth()
 
 	abstract double getArea()
+
+
+
+# Rectangle (Subclass of Shape)
+-------------------------------
+Overrides getArea() to return:
+
+height × width
+Triangle (Subclass of Shape)
+
+Overrides getArea() to return:
+
+(height × width) / 2
