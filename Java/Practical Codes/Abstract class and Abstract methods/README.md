@@ -101,3 +101,15 @@ javac AbstractDemo.java Shape.java Rectangle.java Triangle.java
 Run:
 ----
 java AbstractDemo
+
+
+
+# Educational Use
+-----------------
+This project is perfect for:
+
+* Understanding abstraction in Java
+
+* Learning how polymorphism allows flexible code execution
+
+* Practicing OOP design principles
