@@ -11,3 +11,16 @@ This Java program demonstrates the concepts of inheritance and runtime polymorph
 * Game.java         // Base class
 * Cricket.java      // Subclass inheriting from Game and overriding method
 (Note: In your code, both classes are written in the same file. This is valid as long as only one of them is public.)
+
+
+
+# Concepts Demonstrated
+-----------------------
+* Inheritance (Cricket extends Game)
+
+* Method Overriding
+
+* Dynamic Method Dispatch (runtime polymorphism)
+
+* Upcasting (gm = ck)
+
