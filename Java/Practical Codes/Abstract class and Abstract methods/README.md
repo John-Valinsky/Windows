@@ -25,3 +25,26 @@ Triangle.java        // Subclass representing a triangle
 * Method Overriding
 
 * Runtime Polymorphism via superclass references
+
+
+
+# Classes Breakdown
+-------------------
+* Shape (Abstract Class)
+
+	Fields:
+
+	double height
+
+	double width
+
+
+* Methods:
+
+	setValues(double height, double width)
+
+	getHeight()
+
+	getWidth()
+
+	abstract double getArea()
