@@ -46,3 +46,13 @@ Overrides the type() method to print "outdoor game"
 Indoor & outdoor
 outdoor game
 outdoor game
+
+
+
+# Explanation
+-------------
+* gm.type() — calls Game's version.
+
+* ck.type() — calls Cricket's version.
+
+* gm = ck; gm.type(); — although gm is a reference of type Game, it refers to a Cricket object, so Cricket's type() method is called due to runtime polymorphism.
