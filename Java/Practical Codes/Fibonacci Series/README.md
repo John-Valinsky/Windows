@@ -21,3 +21,11 @@ Fibonacci.java
 * Loops (for loop)
 
 * Basic Variable Usage
+
+
+
+# What is the Fibonacci Series?
+
+The Fibonacci Series is a sequence where each number is the sum of the two preceding ones, starting from 0 and 1:
+
+0, 1, 1, 2, 3, 5, 8, 13, ...
