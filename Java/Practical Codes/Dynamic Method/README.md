@@ -56,3 +56,17 @@ outdoor game
 * ck.type() — calls Cricket's version.
 
 * gm = ck; gm.type(); — although gm is a reference of type Game, it refers to a Cricket object, so Cricket's type() method is called due to runtime polymorphism.
+
+
+
+# How to Run
+------------
+Save the code as Cricket.java.
+
+Compile:
+--------
+javac Cricket.java
+
+Run:
+----
+java Cricket
