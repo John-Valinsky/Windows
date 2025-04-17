@@ -65,3 +65,30 @@ Product Id = 11908  Product Name = MI Note Pro Max 9
 Product Object 5:
 Product Id = 43590  Product Name = Kingston USB
 
+
+
+# How to Run
+------------
+Save the code in a file named ArrayOfObjects.java.
+
+Compile the code:
+-----------------
+javac ArrayOfObjects.java
+
+Run the program:
+----------------
+java ArrayOfObjects
+
+
+
+# Educational Use
+-----------------
+This program is great for:
+
+* Understanding how to store and manage multiple objects using arrays.
+
+* Practicing class and object creation in Java.
+
+* Strengthening your understanding of constructors and method calling via objects.
+
+
