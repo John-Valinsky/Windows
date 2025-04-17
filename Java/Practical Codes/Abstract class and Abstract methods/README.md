@@ -77,3 +77,17 @@ s
 ---------------
 Area of rectangle : 390.0
 Area of triangle : 51.0
+
+
+
+# How to Run
+------------
+* Save all four files in the same folder:
+
+* AbstractDemo.java
+
+* Shape.java
+
+* Rectangle.java
+
+* Triangle.java
