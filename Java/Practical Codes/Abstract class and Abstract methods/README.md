@@ -61,3 +61,12 @@ Triangle (Subclass of Shape)
 Overrides getArea() to return:
 
 (height × width) / 2
+
+
+
+# AbstractDemo (Main Class)
+---------------------------
+Creates Shape references pointing to Rectangle and Triangle objects.
+
+Demonstrates polymorphism by calling getArea() using the Shape reference.
+s
