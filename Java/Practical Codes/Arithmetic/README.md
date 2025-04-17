@@ -46,3 +46,26 @@ o=3
 p=3
 default precedence and associativity k=3
 overriden precedence and associativity l=1
+
+
+
+# How to Run
+------------
+Save the code as Arithmetic.java
+
+Compile the code:
+
+	javac Arithmetic.java
+	
+	Run the program:
+	java Arithmetic
+
+
+
+# Concepts Covered
+------------------
+* Arithmetic operators
+
+* Operator precedence and associativity
+
+* Java syntax for variable declarations and expressions
