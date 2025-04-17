@@ -1,3 +1,21 @@
 # Overview
 ----------
 This Java program demonstrates how to use arrays of objects by managing a small product inventory system. It defines a Product class and creates an array to hold multiple product objects. Each product contains a unique ID and name.
+
+
+
+# File Structure
+----------------
+ArrayOfObjects.java  // Contains both main class and Product class
+
+
+
+# Concepts Demonstrated
+-----------------------
+* Creating and initializing arrays of objects
+
+* Using constructors to initialize object data
+
+* Object-oriented programming (OOP)
+
+* Accessing object methods through an array
