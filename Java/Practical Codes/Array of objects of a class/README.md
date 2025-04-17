@@ -19,3 +19,23 @@ ArrayOfObjects.java  // Contains both main class and Product class
 * Object-oriented programming (OOP)
 
 * Accessing object methods through an array
+
+
+
+# Class Breakdown
+-----------------
+Product Class
+
+Fields:
+-------
+int pro_Id — Product ID
+
+String pro_name — Product Name
+
+Constructor:
+------------
+Initializes product ID and name.
+
+Method:
+-------
+display() — Displays product information.
