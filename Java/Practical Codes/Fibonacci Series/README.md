@@ -49,3 +49,32 @@ Enter the value of t: 8
 The first 8 Fibonacci Series are:
 
 0 1 1 2 3 5 8 13
+
+
+
+# How to Run
+------------
+Save the code in a file named Fibonacci.java.
+
+Compile the program:
+--------------------
+javac Fibonacci.java
+
+Run the program:
+----------------
+java Fibonacci
+
+
+
+# Educational Use
+-----------------
+This program is ideal for beginners learning:
+
+Loops
+
+Sequences
+
+User Input Handling
+
+Simple mathematical logic in Java
+
