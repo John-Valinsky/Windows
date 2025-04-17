@@ -24,3 +24,25 @@ This Java program demonstrates the concepts of inheritance and runtime polymorph
 
 * Upcasting (gm = ck)
 
+
+
+# Class Breakdown
+-----------------
+* Game Class
+
+Method:
+-------
+type() — prints "Indoor & outdoor"
+
+
+* Cricket Class (extends Game)
+
+Overrides the type() method to print "outdoor game"
+
+
+
+# Sample Output
+---------------
+Indoor & outdoor
+outdoor game
+outdoor game
