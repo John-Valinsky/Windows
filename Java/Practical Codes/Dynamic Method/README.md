@@ -70,3 +70,15 @@ javac Cricket.java
 Run:
 ----
 java Cricket
+
+
+
+# Educational Use
+-----------------
+* Perfect for learners exploring:
+
+* Object-Oriented Programming (OOP)
+
+* Method overriding and polymorphism
+
+* Upcasting and dynamic method dispatch in Java
