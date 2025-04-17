@@ -29,3 +29,14 @@ Fibonacci.java
 The Fibonacci Series is a sequence where each number is the sum of the two preceding ones, starting from 0 and 1:
 
 0, 1, 1, 2, 3, 5, 8, 13, ...
+
+
+
+# Program Flow
+--------------
+* Prompt the user to enter how many Fibonacci numbers (t) they want.
+
+* Print the first two terms: 0 and 1.
+
+* Use a loop to generate and print the next t - 2 terms of the sequence.
+
