@@ -63,3 +63,21 @@ Prepare Files:
 * Make sure sample.txt exists at the specified path with some content.
 
 * Save the code in a file named ReadWrite.java.
+
+
+
+# Compile the program
+---------------------
+javac ReadWrite.java
+
+
+
+# Run the program
+-----------------
+java ReadWrite
+
+
+
+# Check Output
+--------------
+You will see data2.txt created (or overwritten) at the same location, containing the same content as sample.txt.
