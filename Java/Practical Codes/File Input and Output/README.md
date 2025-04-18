@@ -31,3 +31,19 @@ Try-catch exception handling
 
 Streams (FileInputStream, FileOutputStream)
 
+
+
+# Program Flow
+--------------
+The readFile() method:
+
+* Opens the input file sample.txt
+
+* Reads its contents byte by byte
+
+* Writes the bytes to the output file data2.txt
+
+
+Once writing is complete, it prints:
+
+content writen successfully
