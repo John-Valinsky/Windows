@@ -49,3 +49,12 @@ obj.disp();              // Calls parent class disp()
 
 ABC obj2 = new Demo();   // Parent class reference to child class object
 obj2.disp();             // Calls child class disp() due to overriding
+
+
+
+# Output
+--------
+disp() method of parent class
+disp() method of Child class
+Even though obj2 is declared as type ABC, it refers to a Demo object, so the child class method is executed — this is runtime polymorphism.
+
