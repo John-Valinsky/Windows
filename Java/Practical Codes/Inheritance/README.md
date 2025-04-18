@@ -39,3 +39,13 @@ public void disp() {
     System.out.println("disp() method of Child class");
 }
 Defines an additional method: newMethod()
+
+
+
+# Program Flow
+--------------
+ABC obj = new ABC();     // Creates object of parent class
+obj.disp();              // Calls parent class disp()
+
+ABC obj2 = new Demo();   // Parent class reference to child class object
+obj2.disp();             // Calls child class disp() due to overriding
