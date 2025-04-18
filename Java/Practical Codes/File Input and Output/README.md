@@ -89,3 +89,13 @@ You will see data2.txt created (or overwritten) at the same location, containing
 Ensure that the file paths are correct and exist on your system.
 
 File operations may throw IOException, which is handled in a try-catch block.
+
+
+
+# Use Cases
+-----------
+* File duplication
+
+* Backup utilities
+
+* Basic understanding of byte stream handling in Java
