@@ -47,3 +47,19 @@ The readFile() method:
 Once writing is complete, it prints:
 
 content writen successfully
+
+
+
+# Sample Output
+---------------
+content writen successfully
+
+
+
+# How to Run
+------------
+Prepare Files:
+
+* Make sure sample.txt exists at the specified path with some content.
+
+* Save the code in a file named ReadWrite.java.
