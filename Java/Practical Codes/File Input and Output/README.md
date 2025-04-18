@@ -81,3 +81,11 @@ java ReadWrite
 # Check Output
 --------------
 You will see data2.txt created (or overwritten) at the same location, containing the same content as sample.txt.
+
+
+
+# Notes
+-------
+Ensure that the file paths are correct and exist on your system.
+
+File operations may throw IOException, which is handled in a try-catch block.
