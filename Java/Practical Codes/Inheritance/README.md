@@ -13,3 +13,11 @@ This Java program demonstrates the concept of method overriding, which is a key 
 * Dynamic Method Dispatch (Polymorphism)
 
 * Parent-child class relationships in Java
+
+
+
+# What is Method Overriding?
+----------------------------
+Method overriding allows a subclass to provide a specific implementation of a method that is already defined in its superclass.
+
+When an overridden method is called through a parent class reference, Java uses dynamic method dispatch to decide which version of the method to invoke at runtime.
