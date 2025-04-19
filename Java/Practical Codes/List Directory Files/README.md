@@ -40,3 +40,21 @@ Adds a new method newMethod().
 
 * The output shows that the child class version of disp() is called at runtime.
 
+
+
+
+# Sample Output
+---------------
+disp() method of parent class
+disp() method of Child class
+
+
+
+# Code Behavior Summary
+-----------------------
+ABC obj = new ABC();
+obj.disp();          // Calls ABC's disp()
+
+ABC obj2 = new Demo();
+obj2.disp();         // Calls Demo's overridden disp() (polymorphism)
+Note: obj2 cannot call newMethod() because it's declared as type ABC.
