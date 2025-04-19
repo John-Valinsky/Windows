@@ -58,3 +58,20 @@ disp() method of parent class
 disp() method of Child class
 Even though obj2 is declared as type ABC, it refers to a Demo object, so the child class method is executed — this is runtime polymorphism.
 
+
+
+# How to Run
+------------
+Save the code in a file named: Demo.java
+
+
+
+# Compile
+---------
+javac Demo.java
+
+
+
+# Run
+-----
+java Demo
