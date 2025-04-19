@@ -58,3 +58,14 @@ obj.disp();          // Calls ABC's disp()
 ABC obj2 = new Demo();
 obj2.disp();         // Calls Demo's overridden disp() (polymorphism)
 Note: obj2 cannot call newMethod() because it's declared as type ABC.
+
+
+
+
+# Use Cases
+-----------
+* Designing flexible and extensible software (OOP principles)
+
+* Frameworks and libraries (e.g., in GUI or event handling)
+
+* Achieving polymorphic behavior in enterprise Java applications
