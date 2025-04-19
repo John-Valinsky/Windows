@@ -69,3 +69,14 @@ Note: obj2 cannot call newMethod() because it's declared as type ABC.
 * Frameworks and libraries (e.g., in GUI or event handling)
 
 * Achieving polymorphic behavior in enterprise Java applications
+
+
+
+
+# Related Topics
+----------------
+* Method Overloading vs Overriding
+
+* Abstract Classes and Interfaces
+
+* Upcasting and Downcasting
