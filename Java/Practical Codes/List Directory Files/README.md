@@ -13,3 +13,19 @@ This Java program illustrates the concept of method overriding in object-oriente
 * Runtime Polymorphism: When a superclass reference refers to a subclass object, the subclass’s overridden method is executed at runtime.
 
 * Dynamic Method Dispatch: The mechanism behind runtime polymorphism.
+
+
+
+# Files and Classes
+-------------------
+* ABC class (Parent Class)
+
+Method: disp()
+
+Prints a message indicating it belongs to the parent class.
+
+* Demo class (Child Class)
+
+Overrides disp() to provide its own implementation.
+
+Adds a new method newMethod().
