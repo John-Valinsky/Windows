@@ -29,3 +29,12 @@ This file contains the main class Tables, which:
 * Validates the input to ensure the start is less than the end.
 
 * Displays multiplication tables from the start to the end number (inclusive), each up to 10 multiples.
+
+
+
+# Sample Output
+---------------
+Input:
+
+Table Range Start from: 2
+Table End to: 4
