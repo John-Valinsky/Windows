@@ -75,3 +75,14 @@ javac Demo.java
 # Run
 -----
 java Demo
+
+
+
+
+# Use Case
+----------
+* This example is useful for understanding:
+
+* How Java resolves method calls dynamically at runtime
+
+* How subclasses can change inherited behaviors
