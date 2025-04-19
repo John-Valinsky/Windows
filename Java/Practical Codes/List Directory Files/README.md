@@ -29,3 +29,14 @@ Prints a message indicating it belongs to the parent class.
 Overrides disp() to provide its own implementation.
 
 Adds a new method newMethod().
+
+
+
+# Program Execution Flow
+------------------------
+* An object of ABC is created and its disp() method is called.
+
+* A parent class reference (ABC) is used to point to a child class object (Demo), and the overridden disp() method is invoked.
+
+* The output shows that the child class version of disp() is called at runtime.
+
