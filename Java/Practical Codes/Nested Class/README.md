@@ -13,3 +13,24 @@ This Java program demonstrates the use of a non-static nested class (also known 
 * Inner Class Instantiation
 
 * Object-Oriented Programming (OOP) concepts in Java
+
+
+
+# File Description
+------------------
+* Outer
+
+Contains a method display() which instantiates and uses the inner class Inner.
+
+* Inner
+
+A non-static inner class defined inside Outer.
+
+Contains the method show() which prints a message to the console.
+
+* Nestedclass
+
+Contains the main method to execute the program.
+
+Creates an object of Outer and calls the display() method.
+
