@@ -34,3 +34,18 @@ Contains the main method to execute the program.
 
 Creates an object of Outer and calls the display() method.
 
+
+
+# Sample Output
+---------------
+inside inner class
+
+
+
+# How It Works
+--------------
+* In the main() method, an object of the Outer class is created.
+
+* display() is called, which creates an object of the Inner class.
+
+* The show() method of the inner class is invoked, displaying a message.
