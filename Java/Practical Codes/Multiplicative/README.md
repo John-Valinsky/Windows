@@ -53,3 +53,10 @@ Multiplicaiton table of 2 is
 Multiplicaiton table of 3 is
 
 Multiplicaiton table of 4 is
+
+
+
+# Invalid Input Example:
+
+Table Range Start from: 5
+Table End to: 3
