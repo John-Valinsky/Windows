@@ -68,3 +68,13 @@ Highlights encapsulation and structuring of code in a clean and modular way.
 
 * Organizing tightly-coupled classes in a readable manner.
 
+
+
+# Suggestions for Extension
+---------------------------
+* Add more methods to Inner to simulate real-world encapsulation.
+
+* Try a static nested class for comparison.
+
+* Create multiple levels of nested classes to simulate complex structures.
+
