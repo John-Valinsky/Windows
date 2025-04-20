@@ -65,3 +65,15 @@ Table End to: 3
 Output:
 
 Multiplicaiton table not possible
+
+
+
+# Program Logic
+---------------
+Accept starting (m) and ending (n) numbers from the user.
+
+Check if m < n.
+
+Loop through each number from m to n.
+
+For each number, print its multiplication table from 1 to 10.
