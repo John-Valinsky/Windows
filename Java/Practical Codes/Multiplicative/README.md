@@ -77,3 +77,13 @@ Check if m < n.
 Loop through each number from m to n.
 
 For each number, print its multiplication table from 1 to 10.
+
+
+
+# Features
+----------
+Input validation prevents invalid ranges.
+
+Clear table formatting for each number.
+
+Easy to extend (e.g., changing the multiplication limit from 10 to any other number).
