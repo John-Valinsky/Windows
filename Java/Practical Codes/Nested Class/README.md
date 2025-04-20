@@ -49,3 +49,11 @@ inside inner class
 * display() is called, which creates an object of the Inner class.
 
 * The show() method of the inner class is invoked, displaying a message.
+
+
+
+# Features
+----------
+Demonstrates how an inner class can be used to logically group classes that are only used in one place.
+
+Highlights encapsulation and structuring of code in a clean and modular way.
