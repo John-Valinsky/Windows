@@ -57,3 +57,14 @@ inside inner class
 Demonstrates how an inner class can be used to logically group classes that are only used in one place.
 
 Highlights encapsulation and structuring of code in a clean and modular way.
+
+
+
+# Use Cases
+-----------
+* Implementing helper classes that should not be used outside the outer class.
+
+* GUI components in frameworks like JavaFX or Swing.
+
+* Organizing tightly-coupled classes in a readable manner.
+
