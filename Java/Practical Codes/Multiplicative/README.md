@@ -38,3 +38,18 @@ Input:
 
 Table Range Start from: 2
 Table End to: 4
+
+
+
+Output:
+
+Multiplicaiton table of 2 is
+
+2*1=2
+2*2=4
+...
+2*10=20
+
+Multiplicaiton table of 3 is
+
+Multiplicaiton table of 4 is
