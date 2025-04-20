@@ -60,3 +60,8 @@ Multiplicaiton table of 4 is
 
 Table Range Start from: 5
 Table End to: 3
+
+
+Output:
+
+Multiplicaiton table not possible
