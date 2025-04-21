@@ -53,3 +53,9 @@ Utilizes three nested loops:
 * Each row ends with a System.out.println() to move to the next line.
 
 
+
+# Features
+----------
+* Simple yet effective demonstration of pattern printing logic.
+
+* Enhances understanding of how to align text in console output.
