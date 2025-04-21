@@ -73,3 +73,12 @@ Create variations like:
 * Number triangle
 
 * Alphabet pyramid
+
+
+
+# Sample Enhancement (User Input)
+---------------------------------
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter number of rows: ");
+int rows = sc.nextInt();
+Then replace i<=5 with i<=rows and adjust accordingly.
