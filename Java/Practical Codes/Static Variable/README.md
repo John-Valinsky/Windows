@@ -25,3 +25,16 @@ s: A string with value "beginner books"
 Static Method
 
 display(): Prints values of i and s
+
+
+Instance Method
+
+func(): Calls the static display() method
+
+Main Method
+
+Creates an object of Staticmethod
+
+Calls func() using the object
+
+Directly calls display() without creating an object
