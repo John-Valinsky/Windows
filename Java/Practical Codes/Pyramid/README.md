@@ -39,4 +39,17 @@ Utilizes three nested loops:
    3 3 3 
   4 4 4 4 
  5 5 5 5 5 
+ 
+
+
+# How It Works
+--------------
+* The outer loop (i) runs from 1 to 5, representing the row number.
+
+* The first inner loop (j) prints spaces to align the pyramid.
+
+* The second inner loop (k) prints the current row number (i), repeated i times.
+
+* Each row ends with a System.out.println() to move to the next line.
+
 
