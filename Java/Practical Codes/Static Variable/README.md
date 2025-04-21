@@ -47,3 +47,17 @@ i:100
 s:beginner books
 i:100
 s:beginner books
+
+
+
+# Explanation
+-------------
+Static variables and methods belong to the class rather than to any specific object.
+
+The display() method accesses static variables and prints their values.
+
+You can:
+--------
+Call a static method from another static context (like main())
+
+Call a static method from an instance method (func())
