@@ -71,3 +71,13 @@ Call a static method from an instance method (func())
 * Useful for utility or helper methods that don’t depend on object state.
 
 * Great for constants or fixed data used across objects.
+
+
+
+# Suggestions for Exploration
+-----------------------------
+* Try modifying the values of static variables and see how the output changes.
+
+* Create multiple objects and observe how static variables behave (they remain shared).
+
+* Add non-static variables to compare behavior.
