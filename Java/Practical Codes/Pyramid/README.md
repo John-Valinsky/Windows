@@ -59,3 +59,17 @@ Utilizes three nested loops:
 * Simple yet effective demonstration of pattern printing logic.
 
 * Enhances understanding of how to align text in console output.
+
+
+
+# Suggestions for Improvement
+-----------------------------
+Allow user input for the number of pyramid levels.
+
+Create variations like:
+-----------------------
+* Inverted pyramid
+
+* Number triangle
+
+* Alphabet pyramid
