@@ -38,3 +38,12 @@ Creates an object of Staticmethod
 Calls func() using the object
 
 Directly calls display() without creating an object
+
+
+
+# Sample Output
+---------------
+i:100
+s:beginner books
+i:100
+s:beginner books
