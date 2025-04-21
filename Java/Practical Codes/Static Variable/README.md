@@ -61,3 +61,13 @@ You can:
 Call a static method from another static context (like main())
 
 Call a static method from an instance method (func())
+
+
+
+# Benefits of Using Static
+--------------------------
+* Memory efficient – shared among all instances.
+
+* Useful for utility or helper methods that don’t depend on object state.
+
+* Great for constants or fixed data used across objects.
