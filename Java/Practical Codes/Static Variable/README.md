@@ -10,3 +10,18 @@
 
 
 
+# Program Description
+---------------------
+Class: Staticmethod
+
+This class contains:
+--------------------
+Static Variables
+
+i: An integer with value 100
+
+s: A string with value "beginner books"
+
+Static Method
+
+display(): Prints values of i and s
