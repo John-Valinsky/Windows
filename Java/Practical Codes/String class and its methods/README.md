@@ -45,3 +45,23 @@ trim()
 contains(String)
 
 toCharArray()
+
+
+
+# Sample Output
+---------------
+Char at index 2(third position): v
+After Concat: Java is fun to learn-Enjoy-
+Checking equals ignoring case: true
+Checking equals with case: false
+Checking Length: 21
+Replace function: Java is easy to learn
+SubString of targetString: fun to learn
+SubString of targetString: fun 
+Converting to lower case: java is fun to learn
+Converting to upper case: JAVA IS FUN TO LEARN
+Triming string: Hello Java
+searching s1 in targetString: false
+searching s2 in targetString: true
+Size of char array: 4
+Printing last element of array: a
