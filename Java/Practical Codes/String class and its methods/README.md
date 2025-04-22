@@ -95,3 +95,12 @@ toCharArray()	Converts the string to a character array
 
 * Methods like equalsIgnoreCase, trim, and contains are common in user input validation.
 
+
+
+# Suggestions for Practice
+--------------------------
+* Try replacing "Java" with "Python" and observe results.
+
+* Add more test cases with empty strings, long strings, or different character sets.
+
+* Explore other String methods like indexOf(), split(), and format().
