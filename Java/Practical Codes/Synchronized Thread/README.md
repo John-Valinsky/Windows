@@ -30,3 +30,23 @@ ProducerConsumer – Synchronization using wait() and notifyAll()
 
 * The shared resource (Shop) acts as a buffer that can only hold one item at a time.
 
+
+
+# Working Mechanism
+-------------------
+Shared Resource – Shop
+Holds an integer material.
+
+Manages production and consumption using a boolean flag available.
+
+Uses synchronized methods along with wait() and notifyAll() for coordination.
+
+Producer Thread
+Puts 10 integer values (0 to 9) into the shop.
+
+Sleeps randomly between each production to simulate delay.
+
+Consumer Thread
+Retrieves the 10 values from the shop.
+
+Prints what it has consumed.
