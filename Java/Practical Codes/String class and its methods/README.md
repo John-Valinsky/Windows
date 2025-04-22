@@ -17,3 +17,31 @@ StringMethodsDemo – Demonstrating Common Java String Operations
 * Substring extraction
 
 * Trimming and character operations
+
+
+
+# Program Description
+---------------------
+This program demonstrates the use of common methods provided by the String class in Java, including:
+
+charAt(index)
+
+concat(String)
+
+equalsIgnoreCase(String)
+
+equals(String)
+
+length()
+
+replace(old, new)
+
+substring(start) and substring(start, end)
+
+toLowerCase(), toUpperCase()
+
+trim()
+
+contains(String)
+
+toCharArray()
