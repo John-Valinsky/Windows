@@ -65,3 +65,11 @@ searching s1 in targetString: false
 searching s2 in targetString: true
 Size of char array: 4
 Printing last element of array: a
+
+
+
+# Explanation of Key Methods
+----------------------------
+Method	Description
+charAt(index)	Gets character at the given position
+concat(str)	Appends the specified string
