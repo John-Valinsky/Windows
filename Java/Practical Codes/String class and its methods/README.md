@@ -73,3 +73,5 @@ Printing last element of array: a
 Method	Description
 charAt(index)	Gets character at the given position
 concat(str)	Appends the specified string
+equalsIgnoreCase(str)	Compares two strings ignoring case
+equals(str)	Compares strings considering case
