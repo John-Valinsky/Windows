@@ -79,3 +79,6 @@ length()	Returns the number of characters in the string
 replace(old, new)	Replaces characters or substrings
 substring(start, [end])	Extracts part of the string
 toLowerCase() / toUpperCase()	Converts string to lower/upper case
+trim()	Removes leading/trailing spaces
+contains(str)	Checks if the string contains the specified sequence
+toCharArray()	Converts the string to a character array
