@@ -75,3 +75,8 @@ wait()	Pauses current thread until another thread calls notifyAll().
 notifyAll()	Wakes up all threads waiting on the object’s monitor.
 Thread.sleep()	Simulates a delay in production.
 start()	Starts a new thread by calling its run() method.
+
+
+
+# Why It Matters
+----------------
