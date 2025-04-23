@@ -73,3 +73,4 @@ Method/Concept	Description
 synchronized	Ensures only one thread accesses method at a time.
 wait()	Pauses current thread until another thread calls notifyAll().
 notifyAll()	Wakes up all threads waiting on the object’s monitor.
+Thread.sleep()	Simulates a delay in production.
