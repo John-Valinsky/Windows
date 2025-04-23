@@ -70,3 +70,4 @@ Note: Due to thread scheduling, output sequence may vary slightly on different r
 # Core Methods and Concepts
 ---------------------------
 Method/Concept	Description
+synchronized	Ensures only one thread accesses method at a time.
