@@ -88,3 +88,15 @@ Understanding the Producer-Consumer problem helps you:
 * Manage critical sections and shared resources.
 
 * Avoid race conditions and deadlocks.
+
+
+
+# Suggestions for Practice
+--------------------------
+* Modify the program to allow a buffer size greater than 1 (multi-item buffer).
+
+* Add multiple producers or consumers.
+
+* Use ReentrantLock and Condition for more control (Java concurrency utilities).
+
+* Add logging to measure thread execution timings.
