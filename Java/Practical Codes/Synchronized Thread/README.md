@@ -50,3 +50,18 @@ Consumer Thread
 Retrieves the 10 values from the shop.
 
 Prints what it has consumed.
+
+
+
+# Sample Output
+---------------
+Produced value 1 put: 0
+Consumed value 1 got: 0
+Produced value 1 put: 1
+Consumed value 1 got: 1
+
+Produced value 1 put: 9
+Consumed value 1 got: 9
+
+Note: Due to thread scheduling, output sequence may vary slightly on different runs.
+
