@@ -83,8 +83,8 @@ start()	Starts a new thread by calling its run() method.
 
 Understanding the Producer-Consumer problem helps you:
 
-Learn inter-thread communication, which is essential in multithreaded programming.
+* Learn inter-thread communication, which is essential in multithreaded programming.
 
-Manage critical sections and shared resources.
+* Manage critical sections and shared resources.
 
-Avoid race conditions and deadlocks.
+* Avoid race conditions and deadlocks.
