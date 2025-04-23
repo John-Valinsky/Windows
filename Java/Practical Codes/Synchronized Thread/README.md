@@ -71,3 +71,4 @@ Note: Due to thread scheduling, output sequence may vary slightly on different r
 ---------------------------
 Method/Concept	Description
 synchronized	Ensures only one thread accesses method at a time.
+wait()	Pauses current thread until another thread calls notifyAll().
