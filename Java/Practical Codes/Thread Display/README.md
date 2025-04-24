@@ -14,3 +14,5 @@ ProducerConsumer.java – Thread Communication Using wait() and notifyAll()
 
 * Thread synchronization with synchronized keyword
 
+* The Producer-Consumer design pattern
+
