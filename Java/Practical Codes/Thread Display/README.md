@@ -22,4 +22,6 @@ ProducerConsumer.java – Thread Communication Using wait() and notifyAll()
 ---------------------
 This program demonstrates the classic Producer-Consumer problem, where:
 
+* The Producer thread produces data (materials).
 
+* 
