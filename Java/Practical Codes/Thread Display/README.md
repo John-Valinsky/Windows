@@ -27,3 +27,6 @@ This program demonstrates the classic Producer-Consumer problem, where:
 * The Consumer thread consumes the data.
 
 * A shared resource (Shop) acts as a buffer that holds one item at a time.
+
+* Proper synchronization ensures that:
+
