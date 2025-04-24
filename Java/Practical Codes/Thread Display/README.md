@@ -24,4 +24,4 @@ This program demonstrates the classic Producer-Consumer problem, where:
 
 * The Producer thread produces data (materials).
 
-* 
+* The Consumer thread consumes the data.
