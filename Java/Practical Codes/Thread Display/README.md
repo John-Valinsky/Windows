@@ -9,3 +9,6 @@ ProducerConsumer.java – Thread Communication Using wait() and notifyAll()
 # Key Concepts Covered
 ----------------------
 * Java multithreading
+
+* Thread communication using wait() and notifyAll()
+
