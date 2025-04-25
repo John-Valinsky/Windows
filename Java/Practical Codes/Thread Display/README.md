@@ -45,3 +45,5 @@ This program demonstrates the classic Producer-Consumer problem, where:
 * Consumer thread calls get() to take items from the shop.
 
 * If the Shop is empty → consumer waits.
+
+* If the Shop is full → producer waits.
