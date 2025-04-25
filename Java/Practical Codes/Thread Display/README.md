@@ -33,3 +33,8 @@ This program demonstrates the classic Producer-Consumer problem, where:
 * The producer waits if the buffer is full.
 
 * The consumer waits if the buffer is empty.
+
+
+
+# Flow Explanation
+------------------
