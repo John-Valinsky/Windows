@@ -47,3 +47,5 @@ This program demonstrates the classic Producer-Consumer problem, where:
 * If the Shop is empty → consumer waits.
 
 * If the Shop is full → producer waits.
+
+* wait() and notifyAll() methods are used for inter-thread communication.
