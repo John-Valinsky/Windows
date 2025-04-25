@@ -43,3 +43,5 @@ This program demonstrates the classic Producer-Consumer problem, where:
 * Producer thread calls put() to add items to the shop.
 
 * Consumer thread calls get() to take items from the shop.
+
+* If the Shop is empty → consumer waits.
