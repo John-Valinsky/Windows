@@ -54,3 +54,4 @@ This program demonstrates the classic Producer-Consumer problem, where:
 
 # Sample Output
 ---------------
+Produced value 1 put: 0
