@@ -31,3 +31,5 @@ This program demonstrates the classic Producer-Consumer problem, where:
 * Proper synchronization ensures that:
 
 * The producer waits if the buffer is full.
+
+* The consumer waits if the buffer is empty.
