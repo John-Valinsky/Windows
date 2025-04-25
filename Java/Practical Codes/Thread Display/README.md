@@ -57,3 +57,4 @@ This program demonstrates the classic Producer-Consumer problem, where:
 Produced value 1 put: 0
 Consumed value 1 got: 0
 Produced value 1 put: 1
+Consumed value 1 got: 1
