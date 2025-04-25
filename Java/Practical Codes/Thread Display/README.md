@@ -39,3 +39,5 @@ This program demonstrates the classic Producer-Consumer problem, where:
 # Flow Explanation
 ------------------
 * Shop is the shared resource (like a warehouse).
+
+* Producer thread calls put() to add items to the shop.
