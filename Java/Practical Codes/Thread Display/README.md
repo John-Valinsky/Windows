@@ -70,5 +70,6 @@ Consumed value 1 got: 9
 Class Name	Responsibility
 ProducerConsumer	Main class that starts the Producer and Consumer threads
 Shop	Shared buffer with synchronized put() and get() methods
+Producer	Extends Thread, calls Shop.put() to produce data
 
 
