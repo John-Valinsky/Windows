@@ -61,5 +61,6 @@ Consumed value 1 got: 1
 Produced value 1 put: 2
 Consumed value 1 got: 2
 Produced value 1 put: 9
+Consumed value 1 got: 9
 
 
