@@ -89,3 +89,8 @@ Consumer	Extends Thread, calls Shop.get() to consume data
 * Use a larger buffer size (like a queue or array) instead of a single integer.
 * Try replacing notifyAll() with notify() and observe the behavior.
 * Handle interruptions more gracefully.
+
+
+
+# Real-World Use Case
+---------------------
