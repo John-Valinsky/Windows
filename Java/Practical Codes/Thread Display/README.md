@@ -82,3 +82,6 @@ wait() causes the current thread to wait until another thread invokes notifyAll(
 notifyAll() wakes up all waiting threads when a state change occurs.
 
 
+
+# Suggestions for Practice
+--------------------------
