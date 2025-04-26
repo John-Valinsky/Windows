@@ -79,7 +79,7 @@ Consumer	Extends Thread, calls Shop.get() to consume data
 -------------------------
 * synchronized keyword ensures thread-safe access to shared data (materials).
 * wait() causes the current thread to wait until another thread invokes notifyAll().
-notifyAll() wakes up all waiting threads when a state change occurs.
+* notifyAll() wakes up all waiting threads when a state change occurs.
 
 
 
