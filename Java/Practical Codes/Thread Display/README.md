@@ -67,5 +67,6 @@ Consumed value 1 got: 9
 
 # Class Breakdown
 -----------------
+Class Name	Responsibility
 
 
