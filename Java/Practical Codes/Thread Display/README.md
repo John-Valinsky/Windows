@@ -86,3 +86,4 @@ notifyAll() wakes up all waiting threads when a state change occurs.
 # Suggestions for Practice
 --------------------------
 * Add more producers and consumers.
+* Use a larger buffer size (like a queue or array) instead of a single integer.
