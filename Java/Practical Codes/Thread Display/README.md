@@ -74,3 +74,9 @@ Producer	Extends Thread, calls Shop.put() to produce data
 Consumer	Extends Thread, calls Shop.get() to consume data
 
 
+
+# Synchronization Details
+-------------------------
+synchronized keyword ensures thread-safe access to shared data (materials).
+
+
