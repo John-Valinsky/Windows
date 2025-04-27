@@ -95,3 +95,4 @@ Consumer	Extends Thread, calls Shop.get() to consume data
 # Real-World Use Case
 ---------------------
 * The Producer-Consumer problem is widely used in:
+* Operating systems (task queues)
