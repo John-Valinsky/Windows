@@ -10,3 +10,4 @@ Exceptionsampel.java – Creating and Throwing a Custom Exception
 ----------------------
 * Defining a custom exception by extending the Exception class
 * Throwing exceptions manually using the throw keyword
+* Catching exceptions using try-catch blocks
