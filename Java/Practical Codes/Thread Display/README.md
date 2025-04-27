@@ -96,3 +96,4 @@ Consumer	Extends Thread, calls Shop.get() to consume data
 ---------------------
 * The Producer-Consumer problem is widely used in:
 * Operating systems (task queues)
+* Web servers (request handlers)
