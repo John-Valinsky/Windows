@@ -55,3 +55,4 @@ MyException Occurred: This is My error Message
 
 # Class Breakdown
 -----------------
+Class Name	Responsibility
