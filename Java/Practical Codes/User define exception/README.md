@@ -29,3 +29,5 @@ Exceptionsampel.java – Creating and Throwing a Custom Exception
 Custom Exception Class:
 
 * MyException extends the base Exception class.
+
+* It has a constructor to accept a custom error message.
