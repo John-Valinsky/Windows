@@ -56,3 +56,4 @@ MyException Occurred: This is My error Message
 # Class Breakdown
 -----------------
 Class Name	Responsibility
+MyException	Defines a user-created exception with a custom message.
