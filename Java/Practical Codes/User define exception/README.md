@@ -36,3 +36,5 @@ Custom Exception Class:
 
 
 Main Class (Exceptionsampel):
+
+* A custom exception is thrown inside a try block.
