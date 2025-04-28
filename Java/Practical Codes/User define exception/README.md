@@ -47,3 +47,4 @@ Main Class (Exceptionsampel):
 
 # Sample Output
 ---------------
+Starting of try block
