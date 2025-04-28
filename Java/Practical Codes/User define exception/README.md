@@ -50,3 +50,8 @@ Main Class (Exceptionsampel):
 Starting of try block
 Catch Block
 MyException Occurred: This is My error Message
+
+
+
+# Class Breakdown
+-----------------
