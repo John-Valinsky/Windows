@@ -33,3 +33,6 @@ Custom Exception Class:
 * It has a constructor to accept a custom error message.
 
 * The toString() method is overridden to display a user-defined error message when the exception is printed.
+
+
+Main Class (Exceptionsampel):
