@@ -42,3 +42,8 @@ Main Class (Exceptionsampel):
 * It is caught using a catch block specifically for MyException.
 
 * The custom message is printed.
+
+
+
+# Sample Output
+---------------
