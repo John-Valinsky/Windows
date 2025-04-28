@@ -21,3 +21,8 @@ Exceptionsampel.java – Creating and Throwing a Custom Exception
 * Create your own custom exception class (MyException).
 * Manually throw the custom exception.
 * Catch and handle the custom exception inside a catch block.
+
+
+
+# Structure Explanation
+-----------------------
