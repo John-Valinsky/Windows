@@ -26,3 +26,5 @@ Exceptionsampel.java – Creating and Throwing a Custom Exception
 
 # Structure Explanation
 -----------------------
+Custom Exception Class:
+
