@@ -38,3 +38,7 @@ Custom Exception Class:
 Main Class (Exceptionsampel):
 
 * A custom exception is thrown inside a try block.
+
+* It is caught using a catch block specifically for MyException.
+
+* The custom message is printed.
