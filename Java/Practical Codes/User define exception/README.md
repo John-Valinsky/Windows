@@ -66,3 +66,8 @@ Exceptionsampel	Main class to throw and catch the custom exception.
 throw is used to manually throw an exception.
 try-catch is used to handle the thrown exception gracefully.
 toString() is overridden to customize the way the exception is displayed.
+
+
+
+# Suggestions for Practice
+--------------------------
