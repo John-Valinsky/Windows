@@ -72,3 +72,4 @@ toString() is overridden to customize the way the exception is displayed.
 # Suggestions for Practice
 --------------------------
 Try creating multiple types of custom exceptions.
+Add additional fields like error codes to your exception class.
