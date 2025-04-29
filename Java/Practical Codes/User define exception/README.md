@@ -82,3 +82,4 @@ Use getMessage() and printStackTrace() methods to see default behaviors.
 ---------------------
 Custom exceptions are heavily used in:
 Business applications (e.g., throwing InvalidTransactionException)
+Large projects to handle specific errors gracefully
