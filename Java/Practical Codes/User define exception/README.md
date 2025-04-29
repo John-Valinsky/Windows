@@ -74,3 +74,4 @@ toString() is overridden to customize the way the exception is displayed.
 Try creating multiple types of custom exceptions.
 Add additional fields like error codes to your exception class.
 Try re-throwing the caught exception.
+Use getMessage() and printStackTrace() methods to see default behaviors.
