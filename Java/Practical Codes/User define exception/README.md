@@ -62,3 +62,5 @@ Exceptionsampel	Main class to throw and catch the custom exception.
 
 
 # Important Points
+------------------
+throw is used to manually throw an exception.
