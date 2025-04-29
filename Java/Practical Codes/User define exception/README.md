@@ -80,3 +80,4 @@ Use getMessage() and printStackTrace() methods to see default behaviors.
 
 # Real-World Use Case
 ---------------------
+Custom exceptions are heavily used in:
