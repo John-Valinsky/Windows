@@ -18,3 +18,13 @@ This program demonstrates how to:
 # Folder Structure
 ------------------
 Make sure your files are organized like this:
+
+project_root/
+│
+├── Animal.java
+└── forest/
+    └── Tiger.java
+
+Tiger.java belongs to the forest package
+
+Animal.java uses the Tiger class from the forest package
