@@ -73,3 +73,35 @@ Tiger weight is 50
 Open terminal or command prompt and navigate to the project root.
 
 Compile the package class first:
+
+javac forest/Tiger.java
+
+Then compile the main class:
+
+javac Animal.java
+
+
+
+Run the program:
+
+java Animal
+
+
+
+# Key Concepts
+--------------
+Concept	Description
+package	Groups related classes (used to define forest.Tiger)
+import	Brings in external package classes into current file (used in Animal)
+Access Modifier	public is necessary to access Tiger class and its method from another package
+Object Instantiation	new Tiger() creates an object of the Tiger class
+
+
+
+# Notes
+-------
+Make sure the folder name matches the package name (forest).
+
+The class in the package must be public to be accessed from outside.
+
+Java packages help in avoiding class name conflicts and in better code organization.
