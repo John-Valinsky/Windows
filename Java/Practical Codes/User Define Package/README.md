@@ -44,3 +44,17 @@ public class Tiger {
         System.out.println("Tiger weight is " + weight);
     }
 }
+
+
+2. Animal.java
+java
+Copy
+Edit
+import forest.Tiger;
+
+public class Animal {
+    public static void main(String[] args) {
+        Tiger t1 = new Tiger();
+        t1.getDetails("Everest", 50);
+    }
+}
