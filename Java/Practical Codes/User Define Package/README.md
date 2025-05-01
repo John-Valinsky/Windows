@@ -70,3 +70,6 @@ Tiger weight is 50
 
 # How to Compile and Run
 ------------------------
+Open terminal or command prompt and navigate to the project root.
+
+Compile the package class first:
