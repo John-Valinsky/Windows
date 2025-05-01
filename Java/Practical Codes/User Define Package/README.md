@@ -28,3 +28,8 @@ project_root/
 Tiger.java belongs to the forest package
 
 Animal.java uses the Tiger class from the forest package
+
+
+
+# Code Overview
+---------------
