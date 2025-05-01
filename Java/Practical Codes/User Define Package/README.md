@@ -17,3 +17,4 @@ This program demonstrates how to:
 
 # Folder Structure
 ------------------
+Make sure your files are organized like this:
