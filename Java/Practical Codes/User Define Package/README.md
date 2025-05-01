@@ -65,3 +65,8 @@ public class Animal {
 --------
 Tiger nick name is Everest
 Tiger weight is 50
+
+
+
+# How to Compile and Run
+------------------------
