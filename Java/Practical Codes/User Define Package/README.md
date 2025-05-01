@@ -63,3 +63,5 @@ public class Animal {
 
 # Output
 --------
+Tiger nick name is Everest
+Tiger weight is 50
