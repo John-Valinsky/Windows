@@ -58,3 +58,8 @@ public class Animal {
         t1.getDetails("Everest", 50);
     }
 }
+
+
+
+# Output
+--------
