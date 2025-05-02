@@ -84,3 +84,6 @@ Save the file as ValiDate.java
 Compile the code:
 
 javac ValiDate.java
+
+
+Run the program:
