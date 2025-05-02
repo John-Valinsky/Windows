@@ -79,3 +79,8 @@ Invalid Date
 
 # How to Run
 ------------
+Save the file as ValiDate.java
+
+Compile the code:
+
+javac ValiDate.java
