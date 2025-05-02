@@ -94,3 +94,19 @@ java ValiDate
 # Key Concepts
 --------------
 Concept	Explanation
+
+String.substring()	Extracts parts of the input string
+Leap year check	Adjusts February’s days to 29 if it's a leap year
+Scanner	Reads user input from the console
+Array for days	Stores number of days in each month
+
+
+
+# Limitations
+-------------
+Does not handle malformed input like 99/99/abcd (no error handling or try-catch)
+
+Assumes date is well-formatted (dd/MM/yyyy)
+
+Better alternatives include using LocalDate.parse() in modern Java (Java 8+)
+
