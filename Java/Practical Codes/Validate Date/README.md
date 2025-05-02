@@ -87,3 +87,5 @@ javac ValiDate.java
 
 
 Run the program:
+
+java ValiDate
