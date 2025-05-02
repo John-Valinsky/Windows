@@ -64,3 +64,8 @@ class ValiDate {
 
 # Sample I/O
 ------------
+
+Valid Input:
+
+Enter Date (dd/MM/yyyy): 29/02/2024
+Valid Date
