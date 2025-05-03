@@ -6,3 +6,6 @@ using namespace std;
 int main() {
 
     int num1, num2, num3;
+
+    // Input three numbers
+    cout << "Enter three numbers: ";
