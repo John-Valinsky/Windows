@@ -17,3 +17,4 @@ int main() {
 	// 0 and 1 are not prime numbers
     if (num <= 1) {
 		        isPrime = false;
+    } else {
