@@ -21,3 +21,7 @@ int main() {
 
 	// Check from 2 to sqrt(num)
         for (i = 2; i <= num / 2; ++i) {
+			 if (num % i == 0) {
+                isPrime = false;
+                break;
+            }
