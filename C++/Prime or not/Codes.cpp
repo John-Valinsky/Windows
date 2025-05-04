@@ -18,3 +18,6 @@ int main() {
     if (num <= 1) {
 		        isPrime = false;
     } else {
+
+	// Check from 2 to sqrt(num)
+        for (i = 2; i <= num / 2; ++i) {
