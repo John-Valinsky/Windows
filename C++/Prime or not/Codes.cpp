@@ -7,3 +7,4 @@ using namespace std;
 int main() {
 
     int num, i;
+    bool isPrime = true;
