@@ -8,3 +8,6 @@ int main() {
 
     int num, i;
     bool isPrime = true;
+
+    // Input a number
+    cout << "Enter a positive number: ";
