@@ -30,3 +30,9 @@ int main() {
 
     // Output result
     if (isPrime)
+		 cout << num << " is a prime number." << endl;
+    else
+        cout << num << " is not a prime number." << endl;
+
+    return 0;
+}
