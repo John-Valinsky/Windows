@@ -13,3 +13,6 @@ int main() {
     cout << "Enter a positive number: ";
 
     cin >> num;
+
+	// 0 and 1 are not prime numbers
+    if (num <= 1) {
