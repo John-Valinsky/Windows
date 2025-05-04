@@ -11,3 +11,5 @@ int main() {
 
     // Input a number
     cout << "Enter a positive number: ";
+
+    cin >> num;
