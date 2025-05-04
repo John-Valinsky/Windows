@@ -25,3 +25,8 @@ int main() {
                 isPrime = false;
                 break;
             }
+		}
+    }
+
+    // Output result
+    if (isPrime)
