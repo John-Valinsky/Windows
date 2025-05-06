@@ -19,3 +19,6 @@ int main() {
             int temp = b;
             b = a % b;
             a = temp;
+        }
+        gcd = a;
+
