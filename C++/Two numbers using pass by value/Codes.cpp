@@ -24,3 +24,8 @@ int main() {
 
 // Call swap function
     swapNumbers(x, y);
+
+ // After swapping (note: values remain unchanged in main)
+    cout << "After swap (in main):" << endl;
+    cout << "x = " << x << ", y = " << y << endl;
+
