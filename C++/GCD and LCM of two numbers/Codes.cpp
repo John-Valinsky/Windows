@@ -8,3 +8,8 @@ int main() {
 
         // Input two numbers
         cout << "Enter two positive integers: ";
+        cin >> num1 >> num2;
+
+        // Store original values for LCM calculation
+        a = num1;
+        b = num2;
