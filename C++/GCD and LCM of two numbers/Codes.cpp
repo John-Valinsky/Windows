@@ -27,3 +27,4 @@ int main() {
 
          // Output the results
         cout << "GCD of " << num1 << " and " << num2 << " is: " << gcd << endl;
+        cout << "LCM of " << num1 << " and " << num2 << " is: " << lcm << endl;
