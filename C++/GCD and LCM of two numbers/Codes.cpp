@@ -25,3 +25,5 @@ int main() {
         // LCM formula: (num1 * num2) / GCD
         lcm = (num1 * num2) / gcd;
 
+         // Output the results
+        cout << "GCD of " << num1 << " and " << num2 << " is: " << gcd << endl;
