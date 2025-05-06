@@ -12,3 +12,5 @@ int main() {
 
    // Inner loop to multiply by 1 to 10
         for (int j = 1; j <= 10; ++j) {
+            cout << i << " x " << j << " = " << i * j << endl;
+        }
