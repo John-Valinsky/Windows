@@ -13,3 +13,6 @@ int main() {
         // Store original values for LCM calculation
         a = num1;
         b = num2;
+
+        // Euclidean Algorithm to find GCD
+        while (b != 0) {
