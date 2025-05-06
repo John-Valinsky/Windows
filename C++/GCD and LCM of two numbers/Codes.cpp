@@ -16,3 +16,4 @@ int main() {
 
         // Euclidean Algorithm to find GCD
         while (b != 0) {
+            int temp = b;
