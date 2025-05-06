@@ -15,3 +15,7 @@ int main() {
             cout << i << " x " << j << " = " << i * j << endl;
         }
         cout << "--------------------------" << endl;
+  }
+
+    return 0;
+}
