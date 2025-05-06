@@ -17,3 +17,7 @@ int main() {
  // Input two numbers
     cout << "Enter two numbers: ";
     cin >> x >> y;
+
+ // Before swapping
+    cout << "Before swap (in main):" << endl;
+    cout << "x = " << x << ", y = " << y << endl;
