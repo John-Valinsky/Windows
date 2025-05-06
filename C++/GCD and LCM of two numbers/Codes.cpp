@@ -22,3 +22,6 @@ int main() {
         }
         gcd = a;
 
+        // LCM formula: (num1 * num2) / GCD
+        lcm = (num1 * num2) / gcd;
+
