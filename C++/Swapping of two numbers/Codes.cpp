@@ -23,3 +23,5 @@ int main() {
 
   // Before swapping
     cout << "Before swap (in main):" << endl;
+    cout << "x = " << x << ", y = " << y << endl;
+
