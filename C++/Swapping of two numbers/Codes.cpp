@@ -14,3 +14,5 @@ void swapNumbers(int *a, int *b) {
     cout << "a = " << *a << ", b = " << *b << endl;
 }
 
+int main() {
+    int x, y;
