@@ -16,3 +16,7 @@ void swapNumbers(int *a, int *b) {
 
 int main() {
     int x, y;
+
+  // Input two numbers
+    cout << "Enter two numbers: ";
+    cin >> x >> y;
