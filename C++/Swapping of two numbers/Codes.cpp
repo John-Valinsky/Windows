@@ -10,3 +10,7 @@ void swapNumbers(int *a, int *b) {
     *a = *b;
     *b = temp;
 
+    cout << "Inside swap function:" << endl;
+    cout << "a = " << *a << ", b = " << *b << endl;
+}
+
