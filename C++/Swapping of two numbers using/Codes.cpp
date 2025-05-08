@@ -17,3 +17,4 @@ int main() {
 
  // Input two numbers
  cout << "Enter two numbers: ";
+ cin >> x >> y;
