@@ -2,3 +2,6 @@
 
 #include <iostream>
 using namespace std;
+
+// Function to swap using reference variables
+void swapNumbers(int &a, int &b) {
