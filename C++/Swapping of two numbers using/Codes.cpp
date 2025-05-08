@@ -7,3 +7,5 @@ using namespace std;
 void swapNumbers(int &a, int &b) {
  	int temp = a;
 	a = b;
+
+   	cout << "Inside swap function:" << endl;
