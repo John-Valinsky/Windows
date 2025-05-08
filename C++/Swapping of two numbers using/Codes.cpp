@@ -25,3 +25,6 @@ int main() {
 
  // Call swap function using references
  swapNumbers(x, y);
+
+ // After swapping
+ cout << "After swap (in main):" << endl;
