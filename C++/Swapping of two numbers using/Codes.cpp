@@ -28,3 +28,4 @@ int main() {
 
  // After swapping
  cout << "After swap (in main):" << endl;
+ cout << "x = " << x << ", y = " << y << endl;
