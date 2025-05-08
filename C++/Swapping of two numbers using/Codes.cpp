@@ -23,3 +23,5 @@ int main() {
  cout << "Before swap (in main):" << endl;
  cout << "x = " << x << ", y = " << y << endl;
 
+ // Call swap function using references
+ swapNumbers(x, y);
