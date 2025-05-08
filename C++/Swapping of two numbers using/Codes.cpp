@@ -11,3 +11,5 @@ void swapNumbers(int &a, int &b) {
    	cout << "Inside swap function:" << endl;
     	cout << "a = " << a << ", b = " << b << endl;
 }
+
+int main() {
