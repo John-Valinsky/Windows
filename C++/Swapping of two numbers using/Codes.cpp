@@ -13,3 +13,4 @@ void swapNumbers(int &a, int &b) {
 }
 
 int main() {
+    int x, y;
