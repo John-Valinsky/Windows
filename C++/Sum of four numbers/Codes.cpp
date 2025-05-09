@@ -22,3 +22,4 @@ int main() {
 
     // Call inline functions
     cout << "Square of " << num << " is: " << square(num) << endl;
+    cout << "Cube of " << num << " is: " << cube(num) << endl;
