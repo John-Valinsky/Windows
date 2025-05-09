@@ -7,3 +7,6 @@ using namespace std;
 inline int square(int x) {
     return x * x;
 }
+
+// Inline function to find cube
+inline int cube(int x) {
