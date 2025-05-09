@@ -18,4 +18,5 @@ int main() {
 
     // Input a number
     cout << "Enter a number: ";
+    cin >> num;
 
