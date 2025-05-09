@@ -20,3 +20,5 @@ int main() {
     cout << "Enter a number: ";
     cin >> num;
 
+    // Call inline functions
+    cout << "Square of " << num << " is: " << square(num) << endl;
