@@ -16,3 +16,6 @@ return x * x * x;
 int main() {
     int num;
 
+    // Input a number
+    cout << "Enter a number: ";
+
