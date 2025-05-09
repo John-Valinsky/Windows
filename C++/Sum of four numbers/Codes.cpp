@@ -10,3 +10,5 @@ inline int square(int x) {
 
 // Inline function to find cube
 inline int cube(int x) {
+return x * x * x;
+}
