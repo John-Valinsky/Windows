@@ -5,3 +5,5 @@ using namespace std;
 
 // Inline function to find square
 inline int square(int x) {
+    return x * x;
+}
