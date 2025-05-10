@@ -22,3 +22,6 @@ int main() {
     for (int i = 1; i <= n; ++i) {
    factorial *= i;
     }
+  // Output the result
+        cout << "Factorial of " << n << " is: " << factorial << endl;
+    }
