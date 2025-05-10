@@ -10,3 +10,4 @@ int main() {
 
     // Input a number
     cout << "Enter a positive integer: ";
+    cin >> n;
