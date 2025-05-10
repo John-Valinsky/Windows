@@ -17,3 +17,6 @@ int main() {
 
     cout << "Factorial is not defined for negative numbers." << endl;
     } else {
+
+    // Calculate factorial using a loop
+    for (int i = 1; i <= n; ++i) {
