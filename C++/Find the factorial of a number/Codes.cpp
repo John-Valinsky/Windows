@@ -20,3 +20,5 @@ int main() {
 
     // Calculate factorial using a loop
     for (int i = 1; i <= n; ++i) {
+   factorial *= i;
+    }
