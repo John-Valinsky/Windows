@@ -14,3 +14,5 @@ int main() {
 
     // Loop to reverse the digits
     while (num != 0) {
+
+    int digit = num % 10;         // Get last digit
