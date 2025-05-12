@@ -9,3 +9,5 @@ int main() {
     // Input number
     cout << "Enter an integer: ";
     cin >> num;
+
+    int original = num; // Save original number for output
