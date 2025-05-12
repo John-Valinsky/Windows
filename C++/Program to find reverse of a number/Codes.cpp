@@ -17,3 +17,4 @@ int main() {
 
     int digit = num % 10;         // Get last digit
     reversed = reversed * 10 + digit; // Append digit
+    num = num / 10;               // Remove last digit
