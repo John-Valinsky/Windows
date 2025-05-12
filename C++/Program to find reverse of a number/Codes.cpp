@@ -11,3 +11,6 @@ int main() {
     cin >> num;
 
     int original = num; // Save original number for output
+
+    // Loop to reverse the digits
+    while (num != 0) {
