@@ -8,3 +8,4 @@ int main() {
 
     // Input number
     cout << "Enter an integer: ";
+    cin >> num;
