@@ -22,3 +22,5 @@ int main() {
 
     // Output the reversed number
     cout << "Reverse of " << original << " is: " << reversed << endl;
+    return 0;
+}
