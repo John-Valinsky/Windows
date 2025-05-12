@@ -4,3 +4,4 @@
 using namespace std;
 
 int main() {
+    int num, reversed = 0;
