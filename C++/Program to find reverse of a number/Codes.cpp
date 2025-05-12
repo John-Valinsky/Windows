@@ -16,3 +16,4 @@ int main() {
     while (num != 0) {
 
     int digit = num % 10;         // Get last digit
+    reversed = reversed * 10 + digit; // Append digit
