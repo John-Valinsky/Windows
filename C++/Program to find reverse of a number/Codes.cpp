@@ -5,3 +5,6 @@ using namespace std;
 
 int main() {
     int num, reversed = 0;
+
+    // Input number
+    cout << "Enter an integer: ";
