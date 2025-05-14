@@ -26,3 +26,6 @@ private:
 
     // Initialize static member
     int Demo::staticCount = 0;
+
+    int main() {
+    Demo obj1, obj2;
