@@ -1,0 +1,2 @@
+//Q. Write a program to distinguish the properties of static and non-static ata members.
+
