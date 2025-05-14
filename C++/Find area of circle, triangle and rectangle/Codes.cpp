@@ -13,3 +13,6 @@ public:
 
       return M_PI * radius * radius;
     }
+
+     // Area of a triangle: 0.5 × base × height
+    double area(double base, double height) {
