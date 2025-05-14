@@ -28,3 +28,10 @@ public:
 
 int main() {
     AreaCalculator calc;
+    double radius, base, height;
+    int length, breadth;
+
+    // Circle
+    cout << "Enter radius of circle: ";
+    cin >> radius;
+    cout << "Area of circle = " << calc.area(radius) << endl;
