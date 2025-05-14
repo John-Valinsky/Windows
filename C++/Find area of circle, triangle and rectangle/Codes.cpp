@@ -18,3 +18,6 @@ public:
     double area(double base, double height)
      return 0.5 * base * height;
     }
+
+     // Area of a rectangle: length × breadth
+    int area(int length, int breadth) {
