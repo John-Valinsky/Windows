@@ -7,3 +7,6 @@ using namespace std;
 class AreaCalculator {
 public:
 
+
+    // Area of a circle: π × r²
+    double area(double radius) {
