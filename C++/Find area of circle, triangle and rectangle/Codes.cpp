@@ -15,4 +15,6 @@ public:
     }
 
      // Area of a triangle: 0.5 × base × height
-    double area(double base, double height) {
+    double area(double base, double height)
+     return 0.5 * base * height;
+    }
