@@ -35,3 +35,6 @@ private:
 
     cout << "--- obj2.show() ---" << endl;
     obj2.show();
+
+    cout << "--- obj1.show() again ---" << endl;
+    obj1.show();
