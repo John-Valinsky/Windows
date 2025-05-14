@@ -10,3 +10,6 @@ public:
 
     // Area of a circle: π × r²
     double area(double radius) {
+
+      return M_PI * radius * radius;
+    }
