@@ -32,3 +32,6 @@ private:
 
     cout << "--- obj1.show() ---" << endl;
     obj1.show();
+
+    cout << "--- obj2.show() ---" << endl;
+    obj2.show();
