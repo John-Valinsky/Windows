@@ -35,3 +35,16 @@ int main() {
     cout << "Enter radius of circle: ";
     cin >> radius;
     cout << "Area of circle = " << calc.area(radius) << endl;
+
+    // Triangle
+    cout << "Enter base and height of triangle: ";
+    cin >> base >> height;
+    cout << "Area of triangle = " << calc.area(base, height) << endl;
+
+    // Rectangle
+    cout << "Enter length and breadth of rectangle: ";
+    cin >> length >> breadth;
+    cout << "Area of rectangle = " << calc.area(length, breadth) << endl;
+
+    return 0;
+}
