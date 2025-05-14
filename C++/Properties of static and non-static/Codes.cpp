@@ -16,3 +16,5 @@ private:
         nonStatic = 0;
         staticCount++;
     }
+ // Function to show values
+    void show() {
