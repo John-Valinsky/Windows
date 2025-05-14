@@ -21,3 +21,7 @@ public:
 
      // Area of a rectangle: length × breadth
     int area(int length, int breadth) {
+
+     return length * breadth;
+    }
+};
