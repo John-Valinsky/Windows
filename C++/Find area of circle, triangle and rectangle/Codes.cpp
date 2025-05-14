@@ -5,3 +5,5 @@
 using namespace std;
 
 class AreaCalculator {
+public:
+
