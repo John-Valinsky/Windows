@@ -20,3 +20,6 @@ private:
     void show() {
     nonStatic++;
         cout << "Non-static (object-specific): " << nonStatic << endl;
+         cout << "Static (shared across objects): " << staticCount << endl;
+    }
+};
