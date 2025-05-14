@@ -6,3 +6,6 @@ using namespace std;
 class Demo {
 
 private:
+
+    int nonStatic;             // Non-static data member
+    static int staticCount;    // Static data member
