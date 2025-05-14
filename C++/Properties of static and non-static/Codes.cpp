@@ -23,3 +23,6 @@ private:
          cout << "Static (shared across objects): " << staticCount << endl;
     }
 };
+
+    // Initialize static member
+    int Demo::staticCount = 0;
