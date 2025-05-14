@@ -29,3 +29,6 @@ private:
 
     int main() {
     Demo obj1, obj2;
+
+    cout << "--- obj1.show() ---" << endl;
+    obj1.show();
