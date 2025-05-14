@@ -18,3 +18,5 @@ private:
     }
  // Function to show values
     void show() {
+    nonStatic++;
+        cout << "Non-static (object-specific): " << nonStatic << endl;
