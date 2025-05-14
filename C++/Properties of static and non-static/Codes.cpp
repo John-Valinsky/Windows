@@ -14,3 +14,5 @@ private:
     // Constructor increments static and non-static members
     Demo() {
         nonStatic = 0;
+        staticCount++;
+    }
