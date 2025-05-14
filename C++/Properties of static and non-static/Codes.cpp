@@ -9,3 +9,7 @@ private:
 
     int nonStatic;             // Non-static data member
     static int staticCount;    // Static data member
+
+    public:
+    // Constructor increments static and non-static members
+    Demo() {
