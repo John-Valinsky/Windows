@@ -38,3 +38,6 @@ private:
 
     cout << "--- obj1.show() again ---" << endl;
     obj1.show();
+
+    return 0;
+}
