@@ -14,3 +14,7 @@ private:
 public:
     // Public static member function to access the private one
     static void accessPrivateFunction() {
+  cout << "Accessing private static function from public static function:" << endl;
+        privateStaticFunction(); // Valid call within class
+    }
+};
