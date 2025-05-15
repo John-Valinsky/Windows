@@ -25,3 +25,5 @@ int main() {
 
   // Access through public static function
     Demo::accessPrivateFunction(); // Correct
+return 0;
+}
