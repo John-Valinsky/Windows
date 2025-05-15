@@ -23,3 +23,5 @@ int main() {
     // Try to access private function directly (Invalid)
     // Demo::privateStaticFunction(); // Error: not accessible
 
+  // Access through public static function
+    Demo::accessPrivateFunction(); // Correct
