@@ -11,3 +11,6 @@ private:
         cout << "This is a private static member function." << endl;
     }
 
+public:
+    // Public static member function to access the private one
+    static void accessPrivateFunction() {
