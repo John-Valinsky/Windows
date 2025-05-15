@@ -5,3 +5,6 @@ using namespace std;
 
 class Demo {
 private:
+
+ // Private static member function
+    static void privateStaticFunction() {
