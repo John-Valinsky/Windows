@@ -18,3 +18,8 @@ public:
         privateStaticFunction(); // Valid call within class
     }
 };
+
+int main() {
+    // Try to access private function directly (Invalid)
+    // Demo::privateStaticFunction(); // Error: not accessible
+
