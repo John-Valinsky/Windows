@@ -8,6 +8,6 @@ private:
 
  // Private static member function
     static void privateStaticFunction() {
-        out << "This is a private static member function." << endl;
+        cout << "This is a private static member function." << endl;
     }
 
