@@ -31,3 +31,18 @@ public:
         cout << "Destructor called for Value = " << value << endl;
     }
 };
+
+int main() {
+    cout << "\nCreating object1 with default constructor:" << endl;
+    Demo obj1; // Default constructor
+
+    cout << "\nCreating object2 with parameterized constructor:" << endl;
+    Demo obj2(100); // Parameterized constructor
+
+    cout << "\nCreating object3 using copy constructor (copy of obj2):" << endl;
+    Demo obj3 = obj2; // Copy constructor
+
+    cout << "\nMain function is ending, destructors will now be called..." << endl;
+
+    return 0;
+}
