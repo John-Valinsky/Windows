@@ -28,3 +28,6 @@ int main() {
 
     cout << "Original ";
     c1.display();
+    ++c1; // Calls overloaded prefix ++
+    cout << "After prefix ++ ";
+    c1.display();
