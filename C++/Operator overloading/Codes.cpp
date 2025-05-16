@@ -26,3 +26,5 @@ public:
 int main() {
     Counter c1(5);
 
+    cout << "Original ";
+    c1.display();
