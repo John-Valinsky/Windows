@@ -19,3 +19,6 @@ public:
 
     // Function to display count
     void display() {
+    cout << "Count = " << count << endl;
+    }
+};
