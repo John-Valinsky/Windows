@@ -9,4 +9,5 @@ private:
 public:
     // Constructor
     Counter(int c = 0) {
-
+ count = c;
+    }
