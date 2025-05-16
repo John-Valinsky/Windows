@@ -22,3 +22,7 @@ public:
     cout << "Count = " << count << endl;
     }
 };
+
+int main() {
+    Counter c1(5);
+
