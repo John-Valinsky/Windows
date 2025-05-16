@@ -6,4 +6,7 @@ using namespace std;
 class Counter {
 private:
     int count;
+public:
+    // Constructor
+    Counter(int c = 0) {
 
