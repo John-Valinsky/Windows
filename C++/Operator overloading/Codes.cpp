@@ -11,3 +11,5 @@ public:
     Counter(int c = 0) {
  count = c;
     }
+ // Overload prefix ++ operator
+    Counter operator++() {
