@@ -15,3 +15,7 @@ public:
     Counter operator++() {
     ++count; // Increment before return
     return *this;
+ }
+
+    // Function to display count
+    void display() {
