@@ -13,3 +13,5 @@ public:
     }
  // Overload prefix ++ operator
     Counter operator++() {
+    ++count; // Increment before return
+    return *this;
