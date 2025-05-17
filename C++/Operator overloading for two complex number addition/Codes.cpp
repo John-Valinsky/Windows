@@ -7,3 +7,7 @@ class Complex {
 private:
     float real;
     float imag;
+
+public:
+    // Constructor
+    Complex(float r = 0, float i = 0) {
