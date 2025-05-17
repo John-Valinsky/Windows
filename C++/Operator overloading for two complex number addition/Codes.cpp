@@ -14,3 +14,5 @@ public:
         real = r;
         imag = i;
     }
+    // Overload + operator using member function
+    Complex operator+(const Complex &obj) {
