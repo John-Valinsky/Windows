@@ -24,3 +24,6 @@ public:
 
     // Display function
     void display() {
+    cout << real << " + " << imag << "i" << endl;
+    }
+};
