@@ -21,3 +21,6 @@ public:
         result.imag = imag + obj.imag;
         return result;
     }
+
+    // Display function
+    void display() {
