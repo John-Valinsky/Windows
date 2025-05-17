@@ -2,4 +2,5 @@
 
 class Complex {
 private:
-
+    float real;
+    float imag;
