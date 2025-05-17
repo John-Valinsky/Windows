@@ -32,3 +32,7 @@ int main() {
 
     cout << "First Complex Number: ";
     c1.display();
+    cout << "Second Complex Number: ";
+    c2.display();
+
+    c3 = c1 + c2; // Calls overloaded + operator
