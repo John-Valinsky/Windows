@@ -16,5 +16,8 @@ public:
     }
     // Overload + operator using member function
     Complex operator+(const Complex &obj) {
-    Complex result;
-    result.real = real + obj.real;
+        Complex result;
+        result.real = real + obj.real;
+        result.imag = imag + obj.imag;
+        return result;
+    }
