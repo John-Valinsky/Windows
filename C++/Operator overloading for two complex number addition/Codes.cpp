@@ -27,3 +27,5 @@ public:
     cout << real << " + " << imag << "i" << endl;
     }
 };
+int main() {
+    Complex c1(2.5, 3.5), c2(1.5, 2.5), c3;
