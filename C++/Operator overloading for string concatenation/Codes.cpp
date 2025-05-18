@@ -30,3 +30,6 @@ private:
 
     int main() {
     MyString s1("Hello "), s2("World!"), s3;
+
+    cout << "First String: ";
+    s1.display();
