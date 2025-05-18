@@ -41,3 +41,6 @@ private:
 
     cout << "Concatenated String: ";
     s3.display();
+
+    return 0;
+}
