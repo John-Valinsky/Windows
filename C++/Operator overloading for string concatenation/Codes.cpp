@@ -16,3 +16,5 @@ private:
 
     // Overload + operator
     MyString operator+(const MyString& obj) {
+    MyString result;
+    strcpy(result.str, str);         // Copy first string
