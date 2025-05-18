@@ -18,3 +18,6 @@ private:
     MyString operator+(const MyString& obj) {
     MyString result;
     strcpy(result.str, str);         // Copy first string
+    strcat(result.str, obj.str);     // Concatenate second string
+    return result;
+    }
