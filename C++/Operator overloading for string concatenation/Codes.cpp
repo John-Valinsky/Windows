@@ -36,3 +36,8 @@ private:
 
     cout << "Second String: ";
     s2.display();
+
+    s3 = s1 + s2;  // Calls overloaded + operator
+
+    cout << "Concatenated String: ";
+    s3.display();
