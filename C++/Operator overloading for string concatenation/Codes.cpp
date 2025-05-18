@@ -11,3 +11,5 @@ private:
 
     // Constructor
     MyString(const char* s = "") {
+        strcpy(str, s);
+    }
