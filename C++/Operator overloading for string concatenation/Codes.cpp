@@ -3,3 +3,7 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
+
+class MyString {
+private:
+    char str[100];
