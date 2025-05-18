@@ -21,3 +21,6 @@ private:
     strcat(result.str, obj.str);     // Concatenate second string
     return result;
     }
+
+    // Display function
+    void display() {
