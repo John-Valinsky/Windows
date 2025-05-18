@@ -27,3 +27,6 @@ private:
     cout << str << endl;
     }
 };
+
+    int main() {
+    MyString s1("Hello "), s2("World!"), s3;
