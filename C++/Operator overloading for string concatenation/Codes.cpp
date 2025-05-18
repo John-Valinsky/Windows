@@ -7,3 +7,7 @@ using namespace std;
 class MyString {
 private:
     char str[100];
+    public:
+
+    // Constructor
+    MyString(const char* s = "") {
