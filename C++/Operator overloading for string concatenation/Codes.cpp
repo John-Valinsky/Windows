@@ -24,3 +24,6 @@ private:
 
     // Display function
     void display() {
+    cout << str << endl;
+    }
+};
