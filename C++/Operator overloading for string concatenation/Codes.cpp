@@ -13,3 +13,6 @@ private:
     MyString(const char* s = "") {
         strcpy(str, s);
     }
+
+    // Overload + operator
+    MyString operator+(const MyString& obj) {
