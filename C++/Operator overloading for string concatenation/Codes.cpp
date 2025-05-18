@@ -33,3 +33,6 @@ private:
 
     cout << "First String: ";
     s1.display();
+
+    cout << "Second String: ";
+    s2.display();
