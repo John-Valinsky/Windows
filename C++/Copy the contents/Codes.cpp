@@ -1,6 +1,5 @@
 //Q. Write a program to Copy the contents of one file to other.
 
-
 #include <iostream>
 #include <fstream>
 using namespace std;
