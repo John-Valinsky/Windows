@@ -54,3 +54,16 @@ public:
         }
     }
 
+    // Function to display the stack elements
+    void display() {
+        if (isEmpty()) {
+            cout << "Stack is empty." << endl;
+        } else {
+            cout << "Stack elements: ";
+            for (int i = 0; i <= top; i++) {
+                cout << arr[i] << " ";
+            }
+            cout << endl;
+        }
+    }
+};
