@@ -65,3 +65,18 @@ public:
             return arr[front];
         }
     }
+
+
+    // Function to display the queue elements
+    void display() {
+        if (isEmpty()) {
+            cout << "Queue is empty." << endl;
+        } else {
+            cout << "Queue elements: ";
+            for (int i = front; i <= rear; i++) {
+                cout << arr[i] << " ";
+            }
+            cout << endl;
+        }
+    }
+};
