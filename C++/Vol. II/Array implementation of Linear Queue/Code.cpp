@@ -38,3 +38,20 @@ public:
             cout << value << " enqueued to queue." << endl;
         }
     }
+
+    // Function to remove an element from the queue (dequeue)
+    void dequeue() {
+        if (isEmpty()) {
+            cout << "Queue Underflow! No element to dequeue." << endl;
+        } else {
+            cout << arr[front] << " dequeued from queue." << endl;
+            // Shift all elements to the left
+            for (int i = 0; i < rear; i++) {
+                arr[i] = arr[i + 1];
+            }
+            rear--;  // Decrease the rear index
+            if (rear == -1) {
+                front = -1;  // If the queue becomes empty, reset front and rear
+            }
+        }
+    }
