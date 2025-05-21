@@ -9,4 +9,20 @@ class Queue {
     int arr[MAX];  // Array to hold queue elements
     int front, rear;  // Indices for the front and rear of the queue
 
+public:
+    // Constructor to initialize the queue
+    Queue() {
+        front = -1;
+        rear = -1;
+    }
+
+    // Function to check if the queue is empty
+    bool isEmpty() {
+        return front == -1;
+    }
+
+    // Function to check if the queue is full
+    bool isFull() {
+        return rear == MAX - 1;
+    }
 
