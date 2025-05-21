@@ -83,3 +83,31 @@ int main() {
         cout << "Enter your choice: ";
         cin >> choice;
 
+        switch (choice) {
+            case 1:
+                cout << "Enter value to push: ";
+                cin >> value;
+                stack.push(value);
+                break;
+            case 2:
+                stack.pop();
+                break;
+            case 3:
+                value = stack.peek();
+                if (value != -1) {
+                    cout << "Top element is: " << value << endl;
+                }
+                break;
+            case 4:
+                stack.display();
+                break;
+            case 5:
+                cout << "Exiting program..." << endl;
+                return 0;
+            default:
+                cout << "Invalid choice!" << endl;
+        }
+    }
+
+    return 0;
+}
