@@ -35,3 +35,22 @@ public:
             cout << value << " pushed to stack." << endl;
         }
     }
+    // Function to pop an element from the stack
+    void pop() {
+        if (isEmpty()) {
+            cout << "Stack Underflow! No element to pop." << endl;
+        } else {
+            cout << arr[top--] << " popped from stack." << endl;  // Pop the top element
+        }
+    }
+
+    // Function to return the top element of the stack
+    int peek() {
+        if (isEmpty()) {
+            cout << "Stack is empty." << endl;
+            return -1;
+        } else {
+            return arr[top];  // Return the top element
+        }
+    }
+
