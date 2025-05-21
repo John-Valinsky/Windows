@@ -10,3 +10,28 @@ class Stack {
     int top;       // Index of the top element in the stack
 
 
+public:
+    // Constructor to initialize the stack
+    Stack() {
+        top = -1;  // Stack is empty initially
+    }
+
+    // Function to check if the stack is full
+    bool isFull() {
+        return top == MAX - 1;
+    }
+
+    // Function to check if the stack is empty
+    bool isEmpty() {
+        return top == -1;
+    }
+
+    // Function to push an element into the stack
+    void push(int value) {
+        if (isFull()) {
+            cout << "Stack Overflow! Cannot push " << value << endl;
+        } else {
+            arr[++top] = value;  // Increment top and insert value
+            cout << value << " pushed to stack." << endl;
+        }
+    }
