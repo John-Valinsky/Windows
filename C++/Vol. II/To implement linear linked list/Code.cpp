@@ -57,3 +57,31 @@ public:
             cout << value << " deleted from the list." << endl;
             return;
         }
+
+        Node* temp = head;
+        while (temp->next != nullptr && temp->next->data != value) {
+            temp = temp->next;  // Traverse to the node before the one to be deleted
+        }
+
+        if (temp->next == nullptr) {
+            cout << "Value " << value << " not found in the list." << endl;
+            return;
+        }
+
+        Node* nodeToDelete = temp->next;
+        temp->next = temp->next->next;  // Bypass the node to delete
+        delete nodeToDelete;  // Free memory
+        cout << value << " deleted from the list." << endl;
+    }
+
+    // Function to search for an element in the list
+    bool search(int value) {
+        Node* temp = head;
+        while (temp != nullptr) {
+            if (temp->data == value) {
+                return true;  // Value found
+            }
+            temp = temp->next;  // Move to next node
+        }
+        return false;  // Value not found
+    }
