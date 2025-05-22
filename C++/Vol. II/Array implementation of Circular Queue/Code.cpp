@@ -40,3 +40,17 @@ public:
             cout << value << " enqueued to queue." << endl;
         }
     }
+
+    // Function to remove an element from the queue (dequeue)
+    void dequeue() {
+        if (isEmpty()) {
+            cout << "Queue Underflow! No element to dequeue." << endl;
+        } else {
+            cout << arr[front] << " dequeued from queue." << endl;
+            if (front == rear) {
+                front = rear = -1;  // Reset when the queue becomes empty
+            } else {
+                front = (front + 1) % MAX;  // Circular increment of front index
+            }
+        }
+    }
