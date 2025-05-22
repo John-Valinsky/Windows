@@ -23,3 +23,21 @@ public:
     LinkedList() {
         head = nullptr;
     }
+
+    // Function to insert a node at the end of the list
+    void insertEnd(int value) {
+        Node* newNode = new Node(value);
+        if (head == nullptr) {
+            head = newNode;  // If list is empty, make new node as head
+            cout << value << " inserted at the end of the list." << endl;
+            return;
+        }
+
+        Node* temp = head;
+        while (temp->next != nullptr) {
+            temp = temp->next;  // Traverse to the last node
+        }
+
+        temp->next = newNode;  // Insert new node at the end
+        cout << value << " inserted at the end of the list." << endl;
+    }
