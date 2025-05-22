@@ -14,3 +14,12 @@ struct Node {
     }
 };
 
+class LinkedList {
+private:
+    Node* head;   // Head of the linked list
+
+public:
+    // Constructor to initialize the list
+    LinkedList() {
+        head = nullptr;
+    }
