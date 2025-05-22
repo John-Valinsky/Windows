@@ -80,3 +80,18 @@ public:
         }
     }
 };
+
+
+int main() {
+    CircularQueue q;
+    int choice, value;
+
+    while (true) {
+        cout << "\n--- Menu ---" << endl;
+        cout << "1. Enqueue" << endl;
+        cout << "2. Dequeue" << endl;
+        cout << "3. Peek" << endl;
+        cout << "4. Display Queue" << endl;
+        cout << "5. Exit" << endl;
+        cout << "Enter your choice: ";
+        cin >> choice;
