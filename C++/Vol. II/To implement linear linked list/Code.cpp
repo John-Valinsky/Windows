@@ -41,3 +41,19 @@ public:
         temp->next = newNode;  // Insert new node at the end
         cout << value << " inserted at the end of the list." << endl;
     }
+
+        // Function to delete a node from the list
+    void deleteNode(int value) {
+        if (head == nullptr) {
+            cout << "List is empty. Cannot delete!" << endl;
+            return;
+        }
+
+        // If the node to be deleted is the head node
+        if (head->data == value) {
+            Node* temp = head;
+            head = head->next;  // Move the head pointer to the next node
+            delete temp;  // Free memory of the old head
+            cout << value << " deleted from the list." << endl;
+            return;
+        }
