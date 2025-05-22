@@ -63,4 +63,20 @@ public:
         } else {
             return arr[front];
         }
+
+
+    // Function to display the queue elements
+    void display() {
+        if (isEmpty()) {
+            cout << "Queue is empty." << endl;
+        } else {
+            cout << "Queue elements: ";
+            int i = front;
+            while (i != rear) {
+                cout << arr[i] << " ";
+                i = (i + 1) % MAX;  // Circular increment of index
+            }
+            cout << arr[rear] << endl;  // Print the last element
+        }
     }
+};
