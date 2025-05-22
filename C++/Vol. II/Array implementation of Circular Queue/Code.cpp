@@ -54,3 +54,13 @@ public:
             }
         }
     }
+
+    // Function to return the front element of the queue
+    int peek() {
+        if (isEmpty()) {
+            cout << "Queue is empty." << endl;
+            return -1;
+        } else {
+            return arr[front];
+        }
+    }
