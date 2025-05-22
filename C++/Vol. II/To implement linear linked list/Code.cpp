@@ -85,3 +85,98 @@ public:
         }
         return false;  // Value not found
     }
+  // Function to reverse the linked list
+    void reverse() {
+        Node* prev = nullptr;
+        Node* current = head;
+        Node* next = nullptr;
+
+        while (current != nullptr) {
+            next = current->next;  // Save the next node
+            current->next = prev;  // Reverse the link
+            prev = current;        // Move prev and current one step forward
+            current = next;
+        }
+
+        head = prev;  // Make the last node as the new head
+        cout << "List reversed." << endl;
+    }
+
+    // Function to display the list
+    void display() {
+        if (head == nullptr) {
+            cout << "List is empty." << endl;
+            return;
+        }
+
+        Node* temp = head;
+        cout << "List elements: ";
+        while (temp != nullptr) {
+            cout << temp->data << " ";
+            temp = temp->next;
+        }
+        cout << endl;
+    }
+
+    // Destructor to clean up memory
+    ~LinkedList() {
+        while (head != nullptr) {
+            Node* temp = head;
+            head = head->next;
+            delete temp;
+        }
+        cout << "Memory freed." << endl;
+    }
+};
+
+int main() {
+    LinkedList list;
+    int choice, value;
+
+    while (true) {
+        cout << "\n--- Menu ---" << endl;
+        cout << "1. Insert at the end" << endl;
+        cout << "2. Delete a node" << endl;
+        cout << "3. Search for an element" << endl;
+        cout << "4. Reverse the list" << endl;
+        cout << "5. Display list" << endl;
+        cout << "6. Exit" << endl;
+        cout << "Enter your choice: ";
+        cin >> choice;
+
+        switch (choice) {
+            case 1:
+                cout << "Enter value to insert: ";
+                cin >> value;
+                list.insertEnd(value);
+                break;
+            case 2:
+                cout << "Enter value to delete: ";
+                cin >> value;
+                list.deleteNode(value);
+                break;
+            case 3:
+                cout << "Enter value to search: ";
+                cin >> value;
+                if (list.search(value)) {
+                    cout << value << " found in the list." << endl;
+                } else {
+                    cout << value << " not found in the list." << endl;
+                }
+                break;
+            case 4:
+                list.reverse();
+                break;
+            case 5:
+                list.display();
+                break;
+            case 6:
+                cout << "Exiting program..." << endl;
+                return 0;
+            default:
+                cout << "Invalid choice!" << endl;
+        }
+    }
+
+    return 0;
+}
