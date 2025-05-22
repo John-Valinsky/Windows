@@ -26,3 +26,17 @@ public:
     bool isFull() {
         return (rear + 1) % MAX == front;
     }
+
+    // Function to add an element to the queue (enqueue)
+    void enqueue(int value) {
+        if (isFull()) {
+            cout << "Queue Overflow! Cannot enqueue " << value << endl;
+        } else {
+            if (front == -1) {
+                front = 0;  // Set front to 0 when the first element is enqueued
+            }
+            rear = (rear + 1) % MAX;  // Circular increment of rear index
+            arr[rear] = value;  // Insert the element at the rear
+            cout << value << " enqueued to queue." << endl;
+        }
+    }
