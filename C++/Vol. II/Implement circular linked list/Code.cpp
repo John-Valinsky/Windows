@@ -77,3 +77,18 @@ public:
                 return;
             }
         }
+
+         // Traverse the list to find the node to delete
+        while (temp->next != head && temp->data != value) {
+            prev = temp;
+            temp = temp->next;
+        }
+
+        if (temp->data == value) {
+            prev->next = temp->next;  // Bypass the node to delete
+            delete temp;  // Free memory
+            cout << value << " deleted from the list." << endl;
+        } else {
+            cout << "Value " << value << " not found in the list." << endl;
+        }
+    }
