@@ -135,3 +135,28 @@ public:
         cout << "4. Exit" << endl;
         cout << "Enter your choice: ";
         cin >> choice;
+
+        switch (choice) {
+            case 1:
+                cout << "Enter value to insert: ";
+                cin >> value;
+                list.insertEnd(value);
+                break;
+            case 2:
+                cout << "Enter value to delete: ";
+                cin >> value;
+                list.deleteNode(value);
+                break;
+            case 3:
+                list.display();
+                break;
+            case 4:
+                cout << "Exiting program..." << endl;
+                return 0;
+            default:
+                cout << "Invalid choice!" << endl;
+        }
+    }
+
+    return 0;
+}
