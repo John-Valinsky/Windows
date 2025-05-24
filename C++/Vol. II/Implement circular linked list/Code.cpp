@@ -108,3 +108,17 @@ public:
         } while (temp != head);  // Stop when we loop back to the head
         cout << endl;
     }
+
+      // Destructor to clean up memory
+    ~CircularLinkedList() {
+        if (head == nullptr) return;
+
+        Node* temp = head;
+        do {
+            Node* nodeToDelete = temp;
+            temp = temp->next;
+            delete nodeToDelete;
+        } while (temp != head);
+        cout << "Memory freed." << endl;
+    }
+};
