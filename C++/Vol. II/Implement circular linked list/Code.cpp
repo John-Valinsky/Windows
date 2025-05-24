@@ -14,3 +14,12 @@ struct Node {
     }
 };
 
+class CircularLinkedList {
+private:
+    Node* head;   // Head of the circular linked list
+
+public:
+    // Constructor to initialize the list
+    CircularLinkedList() {
+        head = nullptr;
+    }
