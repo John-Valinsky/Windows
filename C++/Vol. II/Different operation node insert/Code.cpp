@@ -15,3 +15,28 @@ struct Node {
         prev = nullptr;
     }
 };
+
+class DoublyLinkedList {
+private:
+    Node* head;   // Head of the doubly linked list
+
+public:
+    // Constructor to initialize the list
+    DoublyLinkedList() {
+        head = nullptr;
+    }
+
+    // Function to insert a node at the beginning of the list
+    void insertFront(int value) {
+        Node* newNode = new Node(value);
+
+        // If the list is empty, the new node becomes the head
+        if (head == nullptr) {
+            head = newNode;
+        } else {
+            newNode->next = head;  // New node's next points to the current head
+            head->prev = newNode;  // Current head's prev points to the new node
+            head = newNode;        // New node becomes the head
+        }
+        cout << value << " inserted at the front of the list." << endl;
+    }
