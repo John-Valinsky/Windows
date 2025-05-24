@@ -57,3 +57,23 @@ public:
         Node* temp = head;
         Node* prev = nullptr;
 
+        // If the node to be deleted is the head node
+        if (head->data == value) {
+            if (head->next == head) {  // Only one node in the list
+                delete head;
+                head = nullptr;
+                cout << value << " deleted from the list." << endl;
+                return;
+            } else {
+                // Find the last node to update its next pointer
+                while (temp->next != head) {
+                    temp = temp->next;
+                }
+                temp->next = head->next;  // Last node points to the new head
+                Node* nodeToDelete = head;
+                head = head->next;  // Move head to the next node
+                delete nodeToDelete;  // Free the old head
+                cout << value << " deleted from the list." << endl;
+                return;
+            }
+        }
