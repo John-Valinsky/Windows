@@ -35,3 +35,14 @@ public:
             cout << value << " inserted at the end of the list." << endl;
             return;
         }
+
+     // Otherwise, find the last node and insert the new node
+        Node* temp = head;
+        while (temp->next != head) {
+            temp = temp->next;  // Traverse to the last node
+        }
+
+        temp->next = newNode;  // Last node's next points to the new node
+        newNode->next = head;  // New node points back to the head
+        cout << value << " inserted at the end of the list." << endl;
+    }
