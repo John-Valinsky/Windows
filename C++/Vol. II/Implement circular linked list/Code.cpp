@@ -23,3 +23,15 @@ public:
     CircularLinkedList() {
         head = nullptr;
     }
+
+    // Function to insert a node at the end of the list
+    void insertEnd(int value) {
+        Node* newNode = new Node(value);
+
+        // If the list is empty, the new node points to itself
+        if (head == nullptr) {
+            head = newNode;
+            newNode->next = head;  // Points to itself
+            cout << value << " inserted at the end of the list." << endl;
+            return;
+        }
