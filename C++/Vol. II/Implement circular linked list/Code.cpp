@@ -122,3 +122,16 @@ public:
         cout << "Memory freed." << endl;
     }
 };
+
+    int main() {
+    CircularLinkedList list;
+    int choice, value;
+
+    while (true) {
+        cout << "\n--- Menu ---" << endl;
+        cout << "1. Insert at the end" << endl;
+        cout << "2. Delete a node" << endl;
+        cout << "3. Display list" << endl;
+        cout << "4. Exit" << endl;
+        cout << "Enter your choice: ";
+        cin >> choice;
