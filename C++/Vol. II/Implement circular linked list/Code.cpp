@@ -92,3 +92,19 @@ public:
             cout << "Value " << value << " not found in the list." << endl;
         }
     }
+
+    // Function to display the circular linked list
+    void display() {
+        if (head == nullptr) {
+            cout << "List is empty." << endl;
+            return;
+        }
+
+        Node* temp = head;
+        cout << "Circular Linked List elements: ";
+        do {
+            cout << temp->data << " ";
+            temp = temp->next;  // Move to next node
+        } while (temp != head);  // Stop when we loop back to the head
+        cout << endl;
+    }
