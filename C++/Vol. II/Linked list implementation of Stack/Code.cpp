@@ -43,3 +43,12 @@ public:
         cout << temp->data << " popped from the stack." << endl;
         delete temp;  // Free the memory of the popped node
     }
+
+    // Function to peek the top element of the stack
+    void peek() {
+        if (top == nullptr) {
+            cout << "Stack is empty." << endl;
+            return;
+        }
+        cout << "Top element is " << top->data << endl;
+    }
