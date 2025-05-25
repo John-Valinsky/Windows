@@ -40,3 +40,20 @@ public:
     }
 
 
+  // Function to dequeue an element (remove from the front)
+    void dequeue() {
+        if (front == nullptr) {
+            cout << "Queue is empty. Cannot dequeue!" << endl;
+            return;
+        }
+
+        Node* temp = front;
+        front = front->next;  // Move the front pointer to the next node
+
+        if (front == nullptr) {  // If the queue becomes empty, rear should be null as well
+            rear = nullptr;
+        }
+
+        cout << temp->data << " dequeued from the queue." << endl;
+        delete temp;  // Free the memory of the dequeued node
+    }
