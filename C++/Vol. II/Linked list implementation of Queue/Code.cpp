@@ -57,3 +57,29 @@ public:
         cout << temp->data << " dequeued from the queue." << endl;
         delete temp;  // Free the memory of the dequeued node
     }
+
+    // Function to peek the front element of the queue
+    void peek() {
+        if (front == nullptr) {
+            cout << "Queue is empty." << endl;
+            return;
+        }
+        cout << "Front element is " << front->data << endl;
+    }
+
+    // Function to check if the queue is empty
+    bool isEmpty() {
+        return front == nullptr; // If front is null, the queue is empty
+    }
+
+    // Destructor to free the memory
+    ~Queue() {
+        while (front != nullptr) {
+            Node* temp = front;
+            front = front->next;  // Move to the next node
+            delete temp;          // Free memory
+        }
+        cout << "Queue memory freed." << endl;
+    }
+};
+
