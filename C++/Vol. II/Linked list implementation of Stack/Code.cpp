@@ -68,3 +68,18 @@ public:
         cout << "Stack memory freed." << endl;
     }
 };
+
+    int main() {
+    Stack stack;
+    int choice, value;
+
+    while (true) {
+        cout << "\n--- Stack Menu ---" << endl;
+        cout << "1. Push" << endl;
+        cout << "2. Pop" << endl;
+        cout << "3. Peek" << endl;
+        cout << "4. Check if Stack is Empty" << endl;
+        cout << "5. Exit" << endl;
+        cout << "Enter your choice: ";
+        cin >> choice;
+
