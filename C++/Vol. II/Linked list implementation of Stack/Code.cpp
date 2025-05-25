@@ -14,3 +14,12 @@ struct Node {
     }
 };
 
+class Stack {
+private:
+    Node* top; // Pointer to the top of the stack
+
+public:
+    // Constructor to initialize the stack
+    Stack() {
+        top = nullptr; // Stack is initially empty
+    }
