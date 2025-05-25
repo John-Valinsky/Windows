@@ -52,3 +52,19 @@ public:
         }
         cout << "Top element is " << top->data << endl;
     }
+
+     // Function to check if the stack is empty
+    bool isEmpty() {
+        return top == nullptr; // If top is null, the stack is empty
+    }
+
+    // Destructor to free the allocated memory
+    ~Stack() {
+        while (top != nullptr) {
+            Node* temp = top;
+            top = top->next;  // Move to the next node
+            delete temp;      // Free memory
+        }
+        cout << "Stack memory freed." << endl;
+    }
+};
