@@ -83,3 +83,47 @@ public:
     }
 };
 
+int main() {
+    Queue queue;
+    int choice, value;
+
+    while (true) {
+        cout << "\n--- Queue Menu ---" << endl;
+        cout << "1. Enqueue" << endl;
+        cout << "2. Dequeue" << endl;
+        cout << "3. Peek" << endl;
+        cout << "4. Check if Queue is Empty" << endl;
+        cout << "5. Exit" << endl;
+        cout << "Enter your choice: ";
+        cin >> choice;
+
+        switch (choice) {
+            case 1:
+                cout << "Enter value to enqueue: ";
+                cin >> value;
+                queue.enqueue(value);
+                break;
+            case 2:
+                queue.dequeue();
+                break;
+            case 3:
+                queue.peek();
+                break;
+            case 4:
+                if (queue.isEmpty()) {
+                    cout << "Queue is empty." << endl;
+                } else {
+                    cout << "Queue is not empty." << endl;
+                }
+                break;
+            case 5:
+                cout << "Exiting program..." << endl;
+                return 0;
+            default:
+                cout << "Invalid choice! Please enter a valid option." << endl;
+        }
+    }
+
+    return 0;
+}
+
