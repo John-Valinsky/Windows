@@ -23,3 +23,11 @@ public:
     Stack() {
         top = nullptr; // Stack is initially empty
     }
+
+     // Function to push an element onto the stack
+    void push(int value) {
+        Node* newNode = new Node(value);
+        newNode->next = top;  // New node points to the current top
+        top = newNode;        // Update the top pointer to the new node
+        cout << value << " pushed onto the stack." << endl;
+    }
