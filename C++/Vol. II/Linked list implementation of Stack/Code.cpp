@@ -102,3 +102,13 @@ public:
                     cout << "Stack is not empty." << endl;
                 }
                 break;
+            case 5:
+                cout << "Exiting program..." << endl;
+                return 0;
+            default:
+                cout << "Invalid choice! Please enter a valid option." << endl;
+        }
+    }
+
+    return 0;
+}
