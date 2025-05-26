@@ -48,3 +48,10 @@ public:
         }
         cout << "Inserted value " << value << " at position (" << row << ", " << col << ")." << endl;
     }
+
+    // Function to display the sparse matrix
+    void display(int rows, int cols) {
+        if (head == nullptr) {
+            cout << "Sparse matrix is empty." << endl;
+            return;
+        }
