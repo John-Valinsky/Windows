@@ -65,3 +65,12 @@ public:
             matrix[temp->row][temp->col] = temp->value;
             temp = temp->next;
         }
+        // Display the matrix
+        cout << "Sparse Matrix Representation:" << endl;
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                cout << matrix[i][j] << " ";
+            }
+            cout << endl;
+        }
+    }
