@@ -36,3 +36,27 @@ private:
         // Return the (unchanged) node pointer
         return node;
     }
+
+    // Helper function for searching a node with a given value
+    Node* search(Node* node, int value) {
+        // Base case: root is null or value is present at the root
+        if (node == nullptr || node->data == value)
+            return node;
+
+        // Value is greater than root's data, so search in the right subtree
+        if (value > node->data)
+            return search(node->right, value);
+
+        // Value is smaller, so search in the left subtree
+        return search(node->left, value);
+    }
+
+    // Helper function to do inorder traversal of the tree
+    void inorder(Node* node) {
+        if (node == nullptr)
+            return;
+
+        inorder(node->left);  // Traverse the left subtree
+        cout << node->data << " ";  // Visit the node
+        inorder(node->right);  // Traverse the right subtree
+    }
