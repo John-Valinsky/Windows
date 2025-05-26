@@ -74,3 +74,15 @@ public:
             cout << endl;
         }
     }
+
+     // Destructor to free memory
+    SparseMatrix() {
+        Node* temp = head;
+        while (temp != nullptr) {
+            Node* nodeToDelete = temp;
+            temp = temp->next;
+            delete nodeToDelete;
+        }
+        cout << "Memory freed." << endl;
+    }
+};
