@@ -34,3 +34,16 @@ int main() {
     int arr[] = {2, 5, 8, 12, 16, 23, 38, 45, 56, 72};
     int size = sizeof(arr) / sizeof(arr[0]);
     int target;
+ cout << "Enter the number to search: ";
+    cin >> target;
+
+    int result = binarySearch(arr, size, target);
+
+    if (result != -1) {
+        cout << "Element found at index " << result << "." << endl;
+    } else {
+        cout << "Element not found in the array." << endl;
+    }
+
+    return 0;
+}
