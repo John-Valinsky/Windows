@@ -17,3 +17,13 @@ struct Node {
     }
 };
 
+class SparseMatrix {
+private:
+    Node* head;  // Head of the linked list to store non-zero elements
+
+public:
+    // Constructor to initialize the linked list
+    SparseMatrix() {
+        head = nullptr;
+    }
+
