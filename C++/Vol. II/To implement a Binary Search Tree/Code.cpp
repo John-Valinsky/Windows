@@ -60,3 +60,17 @@ private:
         cout << node->data << " ";  // Visit the node
         inorder(node->right);  // Traverse the right subtree
     }
+
+    // Helper function to find the node with the minimum value
+    Node* minValueNode(Node* node) {
+        Node* current = node;
+        while (current && current->left != nullptr)
+            current = current->left;  // Find the leftmost leaf
+        return current;
+    }
+
+    // Helper function to delete a node
+    Node* deleteNode(Node* node, int value) {
+        // Base case: If the tree is empty
+        if (node == nullptr)
+            return node;
