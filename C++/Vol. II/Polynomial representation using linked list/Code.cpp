@@ -108,3 +108,14 @@ public:
 
         return result;
     }
+
+    // Destructor to free memory
+    Polynomial() {
+        Term* temp;
+        while (head != nullptr) {
+            temp = head;
+            head = head->next;
+            delete temp;
+        }
+    }
+};
