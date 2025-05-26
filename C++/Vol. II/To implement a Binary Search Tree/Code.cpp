@@ -130,3 +130,22 @@ private:
         cout << endl;
     }
 
+ // Function to delete a node in the BST
+    void deleteNode(int value) {
+        root = deleteNode(root, value);
+    }
+};
+
+    int main() {
+    BST tree;
+    int choice, value;
+
+    while (true) {
+        cout << "\n--- Menu ---" << endl;
+        cout << "1. Insert a node" << endl;
+        cout << "2. Search for a node" << endl;
+        cout << "3. Display Inorder traversal" << endl;
+        cout << "4. Delete a node" << endl;
+        cout << "5. Exit" << endl;
+        cout << "Enter your choice: ";
+        cin >> choice;
