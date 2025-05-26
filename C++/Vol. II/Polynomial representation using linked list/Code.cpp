@@ -52,3 +52,21 @@ public:
             }
         }
     }
+
+    // Function to display the polynomial
+    void display() {
+        if (head == nullptr) {
+            cout << "Polynomial is empty." << endl;
+            return;
+        }
+
+        Term* temp = head;
+        while (temp != nullptr) {
+            if (temp->coeff > 0 && temp != head)
+                cout << "+";
+
+            cout << temp->coeff << "x^" << temp->exp << " ";
+            temp = temp->next;
+        }
+        cout << endl;
+    }
