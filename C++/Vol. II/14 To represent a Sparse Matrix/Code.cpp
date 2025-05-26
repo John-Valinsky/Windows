@@ -55,3 +55,13 @@ public:
             cout << "Sparse matrix is empty." << endl;
             return;
         }
+
+         // Initialize a matrix with all values set to 0
+        int matrix[rows][cols] = {0};
+
+        // Traverse the linked list and fill the matrix with non-zero values
+        Node* temp = head;
+        while (temp != nullptr) {
+            matrix[temp->row][temp->col] = temp->value;
+            temp = temp->next;
+        }
