@@ -27,3 +27,28 @@ public:
         head = nullptr;
     }
 
+
+    // Function to insert a term into the polynomial
+    void insertTerm(int coeff, int exp) {
+        Term* newTerm = new Term(coeff, exp);
+
+        // If the list is empty or the new term has a higher exponent
+        if (head == nullptr || head->exp < exp) {
+            newTerm->next = head;
+            head = newTerm;
+        } else {
+            Term* temp = head;
+            // Traverse to find the correct position for the term
+            while (temp->next != nullptr && temp->next->exp > exp) {
+                temp = temp->next;
+            }
+            // If a term with the same exponent exists, add the coefficients
+            if (temp->next != nullptr && temp->next->exp == exp) {
+                temp->next->coeff += coeff;
+                delete newTerm;
+            } else {
+                newTerm->next = temp->next;
+                temp->next = newTerm;
+            }
+        }
+    }
