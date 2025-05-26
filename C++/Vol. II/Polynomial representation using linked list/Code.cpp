@@ -119,3 +119,21 @@ public:
         }
     }
 };
+
+    int main() {
+    Polynomial poly1, poly2, result;
+
+    // Insert terms into the first polynomial
+    poly1.insertTerm(5, 3);
+    poly1.insertTerm(4, 2);
+    poly1.insertTerm(2, 1);
+    poly1.insertTerm(1, 0);
+
+    cout << "Polynomial 1: ";
+    poly1.display();
+
+    // Insert terms into the second polynomial
+    poly2.insertTerm(3, 3);
+    poly2.insertTerm(5, 2);
+    poly2.insertTerm(2, 1);
+    poly2.insertTerm(4, 0);
