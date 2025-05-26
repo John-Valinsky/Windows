@@ -86,3 +86,18 @@ public:
         cout << "Memory freed." << endl;
     }
 };
+
+int main() {
+    SparseMatrix matrix;
+
+    // Insert non-zero elements into the sparse matrix
+    matrix.insert(0, 1, 5);
+    matrix.insert(1, 3, 8);
+    matrix.insert(2, 2, 10);
+    matrix.insert(3, 4, 6);
+
+    // Display the sparse matrix (Assuming a 4x5 matrix)
+    matrix.display(4, 5);
+
+    return 0;
+}
