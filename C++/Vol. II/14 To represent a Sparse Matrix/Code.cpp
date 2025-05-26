@@ -32,3 +32,10 @@ public:
         if (value == 0) {
             return;  // Do not store zero values
         }
+
+         Node* newNode = new Node(row, col, value);
+
+        // Insert the new node at the beginning of the linked list
+        if (head == nullptr) {
+            head = newNode;
+        } else {
