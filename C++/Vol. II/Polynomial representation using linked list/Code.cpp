@@ -70,3 +70,26 @@ public:
         }
         cout << endl;
     }
+
+     // Function to add two polynomials
+    Polynomial add(Polynomial& other) {
+        Polynomial result;
+        Term* t1 = head;
+        Term* t2 = other.head;
+
+        // Traverse both polynomials and add terms
+        while (t1 != nullptr && t2 != nullptr) {
+            if (t1->exp > t2->exp) {
+                result.insertTerm(t1->coeff, t1->exp);
+                t1 = t1->next;
+            } else if (t1->exp < t2->exp) {
+                result.insertTerm(t2->coeff, t2->exp);
+                t2 = t2->next;
+            } else {
+                int coeffSum = t1->coeff + t2->coeff;
+                if (coeffSum != 0)
+                    result.insertTerm(coeffSum, t1->exp);
+                t1 = t1->next;
+                t2 = t2->next;
+            }
+        }
