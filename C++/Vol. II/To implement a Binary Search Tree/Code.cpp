@@ -149,3 +149,38 @@ private:
         cout << "5. Exit" << endl;
         cout << "Enter your choice: ";
         cin >> choice;
+
+        switch (choice) {
+            case 1:
+                cout << "Enter value to insert: ";
+                cin >> value;
+                tree.insert(value);
+                break;
+            case 2:
+                cout << "Enter value to search: ";
+                cin >> value;
+                if (tree.search(value))
+                    cout << value << " found in the tree." << endl;
+                else
+                    cout << value << " not found in the tree." << endl;
+                break;
+            case 3:
+                cout << "Inorder traversal: ";
+                tree.inorder();
+                break;
+            case 4:
+                cout << "Enter value to delete: ";
+                cin >> value;
+                tree.deleteNode(value);
+                cout << value << " deleted from the tree." << endl;
+                break;
+            case 5:
+                cout << "Exiting program..." << endl;
+                return 0;
+            default:
+                cout << "Invalid choice!" << endl;
+        }
+    }
+
+    return 0;
+}
