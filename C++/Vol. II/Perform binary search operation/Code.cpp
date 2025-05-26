@@ -25,3 +25,12 @@ int binarySearch(int arr[], int size, int target) {
             low = mid + 1;
         }
     }
+
+// Target not found
+    return -1;
+}
+
+int main() {
+    int arr[] = {2, 5, 8, 12, 16, 23, 38, 45, 56, 72};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    int target;
