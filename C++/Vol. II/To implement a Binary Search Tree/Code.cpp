@@ -94,3 +94,39 @@ private:
                 delete node;
                 return temp;
             }
+
+                     // Node with two children: Get the inorder successor (smallest in the right subtree)
+            Node* temp = minValueNode(node->right);
+
+            // Copy the inorder successor's content to this node
+            node->data = temp->data;
+
+            // Delete the inorder successor
+            node->right = deleteNode(node->right, temp->data);
+        }
+        return node;
+    }
+
+    public:
+    // Constructor to initialize the tree
+    BST() {
+        root = nullptr;
+    }
+
+    // Function to insert a value in the BST
+    void insert(int value) {
+        root = insert(root, value);
+    }
+
+    // Function to search for a value in the BST
+    bool search(int value) {
+        Node* result = search(root, value);
+        return result != nullptr;
+    }
+
+    // Function to display the inorder traversal of the tree
+    void inorder() {
+        inorder(root);
+        cout << endl;
+    }
+
