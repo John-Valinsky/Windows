@@ -27,3 +27,8 @@ public:
         head = nullptr;
     }
 
+    // Function to insert a non-zero element into the sparse matrix
+    void insert(int row, int col, int value) {
+        if (value == 0) {
+            return;  // Do not store zero values
+        }
