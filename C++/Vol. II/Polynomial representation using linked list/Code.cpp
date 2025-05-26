@@ -137,3 +137,15 @@ public:
     poly2.insertTerm(5, 2);
     poly2.insertTerm(2, 1);
     poly2.insertTerm(4, 0);
+
+     cout << "Polynomial 2: ";
+    poly2.display();
+
+    // Add the two polynomials
+    result = poly1.add(poly2);
+
+    cout << "Result of addition: ";
+    result.display();
+
+    return 0;
+}
