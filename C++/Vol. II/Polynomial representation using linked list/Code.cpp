@@ -17,3 +17,13 @@ struct Term {
     }
 };
 
+class Polynomial {
+private:
+    Term* head;  // Head of the linked list
+
+public:
+    // Constructor to initialize an empty polynomial
+    Polynomial() {
+        head = nullptr;
+    }
+
