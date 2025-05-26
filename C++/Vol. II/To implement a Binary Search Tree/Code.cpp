@@ -74,3 +74,23 @@ private:
         // Base case: If the tree is empty
         if (node == nullptr)
             return node;
+
+              // Recur down the tree
+        if (value < node->data)
+            node->left = deleteNode(node->left, value);  // If value is smaller, it is in the left subtree
+        else if (value > node->data)
+            node->right = deleteNode(node->right, value);  // If value is greater, it is in the right subtree
+        else {
+            // This is the node to be deleted
+
+            // Node with only one child or no child
+            if (node->left == nullptr) {
+                Node* temp = node->right;
+                delete node;
+                return temp;
+            }
+            else if (node->right == nullptr) {
+                Node* temp = node->left;
+                delete node;
+                return temp;
+            }
