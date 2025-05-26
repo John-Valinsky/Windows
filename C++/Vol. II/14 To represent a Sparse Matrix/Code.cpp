@@ -39,3 +39,12 @@ public:
         if (head == nullptr) {
             head = newNode;
         } else {
+
+          Node* temp = head;
+            while (temp->next != nullptr) {
+                temp = temp->next;
+            }
+            temp->next = newNode;
+        }
+        cout << "Inserted value " << value << " at position (" << row << ", " << col << ")." << endl;
+    }
