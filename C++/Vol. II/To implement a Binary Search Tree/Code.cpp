@@ -17,3 +17,22 @@ struct Node {
     }
 };
 
+class BST {
+private:
+    Node* root;  // Root of the binary search tree
+
+    // Helper function for insertion
+    Node* insert(Node* node, int value) {
+        // If the tree is empty, return a new node
+        if (node == nullptr)
+            return new Node(value);
+
+        // Otherwise, recur down the tree
+        if (value < node->data)
+            node->left = insert(node->left, value);  // Insert in the left subtree
+        else if (value > node->data)
+            node->right = insert(node->right, value);  // Insert in the right subtree
+
+        // Return the (unchanged) node pointer
+        return node;
+    }
