@@ -93,3 +93,18 @@ public:
                 t2 = t2->next;
             }
         }
+
+     // Insert remaining terms from t1
+        while (t1 != nullptr) {
+            result.insertTerm(t1->coeff, t1->exp);
+            t1 = t1->next;
+        }
+
+        // Insert remaining terms from t2
+        while (t2 != nullptr) {
+            result.insertTerm(t2->coeff, t2->exp);
+            t2 = t2->next;
+        }
+
+        return result;
+    }
