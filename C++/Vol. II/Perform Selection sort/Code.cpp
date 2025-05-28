@@ -15,3 +15,12 @@ void selectionSort(int arr[], int size) {
                 minIndex = j;  // Update the index of the minimum element
             }
         }
+
+        // Swap the minimum element found with the element at the current position
+        if (minIndex != i) {
+            int temp = arr[i];
+            arr[i] = arr[minIndex];
+            arr[minIndex] = temp;
+        }
+    }
+}
