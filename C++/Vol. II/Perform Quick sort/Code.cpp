@@ -15,3 +15,9 @@ int partition(int arr[], int low, int high) {
             swap(arr[i], arr[j]);  // Swap elements
         }
     }
+
+     // Place the pivot in its correct position
+    swap(arr[i + 1], arr[high]);
+
+    return (i + 1);  // Return the partitioning index
+}
