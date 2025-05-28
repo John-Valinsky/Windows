@@ -19,3 +19,10 @@ void bubbleSort(int arr[], int size) {
                 swapped = true;  // Mark that a swap occurred
             }
         }
+
+        // If no two elements were swapped in the inner loop, the array is already sorted
+        if (!swapped) {
+            break;
+        }
+    }
+}
