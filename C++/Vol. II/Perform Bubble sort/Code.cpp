@@ -34,3 +34,10 @@ void printArray(int arr[], int size) {
     }
     cout << endl;
 }
+
+int main() {
+    int arr[] = {64, 34, 25, 12, 22, 11, 90};
+    int size = sizeof(arr) / sizeof(arr[0]);
+
+    cout << "Original array: ";
+    printArray(arr, size);
