@@ -25,3 +25,6 @@ int partition(int arr[], int low, int high) {
 // Function to perform Quick Sort
 void quickSort(int arr[], int low, int high) {
     if (low < high) {
+
+     // Partitioning index
+        int pi = partition(arr, low, high);
