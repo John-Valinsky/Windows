@@ -7,3 +7,11 @@ using namespace std;
 int partition(int arr[], int low, int high) {
     int pivot = arr[high];  // Choose the last element as pivot
     int i = low - 1;  // Index of smaller element
+
+// Traverse through the array, comparing each element with the pivot
+    for (int j = low; j <= high - 1; j++) {
+        if (arr[j] < pivot) {  // If current element is smaller than pivot
+            i++;  // Increment index of smaller element
+            swap(arr[i], arr[j]);  // Swap elements
+        }
+    }
