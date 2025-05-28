@@ -34,3 +34,6 @@ void quickSort(int arr[], int low, int high) {
         quickSort(arr, pi + 1, high);  // Right sub-array
     }
 }
+
+// Function to print the array
+void printArray(int arr[], int size) {
