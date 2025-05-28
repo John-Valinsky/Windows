@@ -55,3 +55,6 @@ int main() {
 
     cout << "Sorted array: ";
     printArray(arr, size);
+
+     return 0;
+}
