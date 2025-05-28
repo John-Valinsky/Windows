@@ -41,3 +41,11 @@ int main() {
 
     cout << "Original array: ";
     printArray(arr, size);
+
+        bubbleSort(arr, size);  // Sort the array
+
+    cout << "Sorted array: ";
+    printArray(arr, size);
+
+    return 0;
+}
