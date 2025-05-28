@@ -9,3 +9,13 @@ void bubbleSort(int arr[], int size) {
     for (int i = 0; i < size - 1; i++) {
         bool swapped = false;  // Flag to check if any swap occurred
 
+ // Inner loop to compare and swap adjacent elements
+        for (int j = 0; j < size - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                // Swap the elements if they are in the wrong order
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+                swapped = true;  // Mark that a swap occurred
+            }
+        }
