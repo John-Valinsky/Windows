@@ -50,3 +50,8 @@ int main() {
 
     cout << "Original array: ";
     printArray(arr, size);
+
+    quickSort(arr, 0, size - 1);  // Sort the array
+
+    cout << "Sorted array: ";
+    printArray(arr, size);
