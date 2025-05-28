@@ -21,3 +21,7 @@ int partition(int arr[], int low, int high) {
 
     return (i + 1);  // Return the partitioning index
 }
+
+// Function to perform Quick Sort
+void quickSort(int arr[], int low, int high) {
+    if (low < high) {
