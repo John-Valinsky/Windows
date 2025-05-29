@@ -42,3 +42,11 @@ void merge(int arr[], int l, int m, int r) {
         i++;
         k++;
     }
+
+     // Copy remaining elements of R[], if any
+    while (j < n2) {
+        arr[k] = R[j];
+        j++;
+        k++;
+    }
+}
