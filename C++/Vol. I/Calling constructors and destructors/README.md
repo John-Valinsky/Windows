@@ -17,3 +17,17 @@ This program illustrates the different ways constructors and destructors are inv
 * Copy Constructor
 
 * Destructor
+
+
+
+These constructors initialize objects in different ways, and the destructor is automatically invoked when an object goes out of scope.
+
+
+
+# Features
+----------
+Shows how constructors are triggered upon object creation.
+
+Shows how destructors are automatically called when objects are destroyed.
+
+Provides a clear order of execution for object lifecycle events.
