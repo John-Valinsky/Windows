@@ -74,3 +74,17 @@ void printArray(int arr[], int size) {
     cout << endl;
 }
 
+int main() {
+    int arr[] = {38, 27, 43, 3, 9, 82, 10};
+    int size = sizeof(arr) / sizeof(arr[0]);
+
+    cout << "Original array: ";
+    printArray(arr, size);
+
+    mergeSort(arr, 0, size - 1);  // Sort the array
+
+    cout << "Sorted array: ";
+    printArray(arr, size);
+
+    return 0;
+}
