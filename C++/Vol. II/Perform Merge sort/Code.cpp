@@ -46,7 +46,23 @@ void merge(int arr[], int l, int m, int r) {
      // Copy remaining elements of R[], if any
     while (j < n2) {
         arr[k] = R[j];
-        j++;
+          j++;
         k++;
     }
 }
+
+// Function to implement merge sort
+void mergeSort(int arr[], int l, int r) {
+    if (l < r) {
+        // Find the middle point
+        int m = l + (r - l) / 2;
+
+        // Recursively sort the two halves
+        mergeSort(arr, l, m);
+        mergeSort(arr, m + 1, r);
+
+        // Merge the sorted halves
+        merge(arr, l, m, r);
+    }
+}
+
