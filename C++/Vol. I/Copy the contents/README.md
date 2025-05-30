@@ -59,3 +59,15 @@ while (source.get(ch)) {
 
 source.close();
 destination.close();
+
+
+
+# Sample Output
+===============
+Enter the source file name: input.txt
+
+Enter the destination file name: output.txt
+File content copied successfully!
+
+If the source file doesn't exist:
+Source file not found!
