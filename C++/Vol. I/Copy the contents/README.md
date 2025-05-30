@@ -78,3 +78,11 @@ Source file not found!
 ========================
 Compile:
 g++ file_copy.cpp -o filecopy
+
+
+
+# Run
+=====
+./filecopy
+
+Make sure input.txt exists in the same directory before running.
