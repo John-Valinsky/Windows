@@ -36,7 +36,7 @@ File Validation	Checks if files opened successfully before proceeding.
 
 # Code Overview
 ===============
-User Input
+* User Input
 
 cin >> sourceFile;
 cin >> destinationFile;
@@ -45,3 +45,11 @@ File Opening and Validation
 
 ifstream source(sourceFile, ios::in);
 ofstream destination(destinationFile, ios::out);
+
+
+* Copy Logic
+
+char ch;
+while (source.get(ch)) {
+    destination.put(ch);
+}
