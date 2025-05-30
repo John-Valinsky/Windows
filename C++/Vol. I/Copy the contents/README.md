@@ -53,3 +53,9 @@ char ch;
 while (source.get(ch)) {
     destination.put(ch);
 }
+
+
+* File Closing
+
+source.close();
+destination.close();
