@@ -31,3 +31,17 @@ ifstream	Used to open and read from the source file.
 ofstream	Used to open and write to the destination file.
 get() and put()	Character-based file handling functions to copy file contents.
 File Validation	Checks if files opened successfully before proceeding.
+
+
+
+# Code Overview
+===============
+User Input
+
+cin >> sourceFile;
+cin >> destinationFile;
+
+File Opening and Validation
+
+ifstream source(sourceFile, ios::in);
+ofstream destination(destinationFile, ios::out);
