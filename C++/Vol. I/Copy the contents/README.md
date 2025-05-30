@@ -71,3 +71,10 @@ File content copied successfully!
 
 If the source file doesn't exist:
 Source file not found!
+
+
+
+# How to Compile and Run
+========================
+Compile:
+g++ file_copy.cpp -o filecopy
