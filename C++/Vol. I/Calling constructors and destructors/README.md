@@ -66,3 +66,22 @@ Creates obj3 as a copy of obj2, invoking the copy constructor.
 Destructor is called for each object automatically when the program ends.
 
 
+
+# Sample Output
+===============
+Creating object1 with default constructor:
+Default constructor called. Value = 0
+
+Creating object2 with parameterized constructor:
+Parameterized constructor called. Value = 100
+
+Creating object3 using copy constructor (copy of obj2):
+Copy constructor called. Copied Value = 100
+
+Main function is ending, destructors will now be called...
+Destructor called for Value = 100
+Destructor called for Value = 100
+Destructor called for Value = 0
+
+Note: Destructors are called in reverse order of creation.
+
