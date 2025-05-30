@@ -20,3 +20,14 @@ This program allows the user to copy the content from a source file to a destina
 * Writes content to the destination file.
 
 * Handles file opening errors gracefully.
+
+
+
+# Key Concepts Used
+===================
+Concept	Description
+
+ifstream	Used to open and read from the source file.
+ofstream	Used to open and write to the destination file.
+get() and put()	Character-based file handling functions to copy file contents.
+File Validation	Checks if files opened successfully before proceeding.
