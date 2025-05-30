@@ -86,3 +86,13 @@ g++ file_copy.cpp -o filecopy
 ./filecopy
 
 Make sure input.txt exists in the same directory before running.
+
+
+
+# Possible Enhancements
+=======================
+Add line-by-line or buffered reading to improve performance.
+
+Show file sizes before and after copy.
+
+Add support for binary file copying using ios::binary.
