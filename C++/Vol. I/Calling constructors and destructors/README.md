@@ -40,5 +40,29 @@ Concept	Description
 Default Constructor	Invoked when an object is created with no arguments
 Parameterized Constructor	Invoked when an object is created with specific arguments
 Copy Constructor	Invoked when a new object is created from an existing one
-Destructor	Invoked automatically when an object goes out of scope
+Destructor	Invoked automatically when an object goes out of scope.
+
+
+
+# Code Overview
+===============
+* Class: Demo
+Demo() – Initializes value to 0.
+
+Demo(int val) – Initializes value to the provided argument.
+
+Demo(const Demo &obj) – Creates a copy of another Demo object.
+
+Demo() – Prints a message when the object is destroyed.
+
+
+* main() function:
+Creates obj1 using the default constructor.
+
+Creates obj2 using the parameterized constructor.
+
+Creates obj3 as a copy of obj2, invoking the copy constructor.
+
+Destructor is called for each object automatically when the program ends.
+
 
