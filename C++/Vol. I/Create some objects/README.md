@@ -85,3 +85,8 @@ Enter name: Alice
 Enter age: 20
 Enter roll number: 101
 
+Name: Alice
+Age: 20
+Roll Number: 101
+Student object deleted.
+Person object deleted.
