@@ -33,3 +33,12 @@ The base class Person is inherited by two derived classes: Teacher and Student. 
 
 * Ensures extensibility using inheritance and OOP principles.
 
+
+
+# Concepts Covered
+==================
+Concept	Description
+Inheritance	Teacher and Student inherit from Person.
+Runtime Polymorphism	Achieved using virtual functions and base class pointers.
+Virtual Destructor	Ensures proper destructor chaining when deleting derived objects.
+
