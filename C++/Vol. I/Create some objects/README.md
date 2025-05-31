@@ -90,3 +90,17 @@ Age: 20
 Roll Number: 101
 Student object deleted.
 Person object deleted.
+
+
+
+# Code Flow
+===========
+Create a Person* pointer.
+
+Assign it to a new Teacher object.
+
+Input and display details using polymorphic functions.
+
+Delete the object using delete to call the correct destructor.
+
+Repeat for a Student object.
