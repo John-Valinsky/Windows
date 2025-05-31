@@ -104,3 +104,13 @@ Input and display details using polymorphic functions.
 Delete the object using delete to call the correct destructor.
 
 Repeat for a Student object.
+
+
+
+# How to Compile and Run
+========================
+Compile:
+g++ polymorphism_inheritance.cpp -o polymorphism
+
+Run:
+./polymorphism
