@@ -75,3 +75,9 @@ Enter name: John
 Enter age: 40
 Enter subject taught: Physics
 
+Name: John
+Age: 40
+Subject: Physics
+Teacher object deleted.
+Person object deleted.
+
