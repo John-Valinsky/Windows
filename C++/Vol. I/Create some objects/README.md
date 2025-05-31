@@ -17,3 +17,6 @@ Runtime Polymorphism
 Virtual Functions
 
 Virtual Destructors
+
+
+The base class Person is inherited by two derived classes: Teacher and Student. The program dynamically creates and deletes objects using a base class pointer to showcase polymorphic behavior.
