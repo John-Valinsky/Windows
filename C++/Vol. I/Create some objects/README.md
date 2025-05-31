@@ -81,3 +81,7 @@ Subject: Physics
 Teacher object deleted.
 Person object deleted.
 
+Enter name: Alice
+Enter age: 20
+Enter roll number: 101
+
