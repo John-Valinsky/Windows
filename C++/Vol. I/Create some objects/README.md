@@ -114,3 +114,13 @@ g++ polymorphism_inheritance.cpp -o polymorphism
 
 Run:
 ./polymorphism
+
+
+
+# Enhancements Ideas
+====================
+Add a menu-driven loop to handle multiple entries.
+
+Add input validation for age, roll number, etc.
+
+Store multiple Person objects using arrays or vectors with dynamic allocation.
