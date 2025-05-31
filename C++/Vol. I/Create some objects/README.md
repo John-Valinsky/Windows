@@ -10,3 +10,10 @@ Demonstration of Inheritance and Runtime Polymorphism using Person, Teacher, and
 =============
 This C++ program demonstrates the concepts of:
 
+Class Inheritance
+
+Runtime Polymorphism
+
+Virtual Functions
+
+Virtual Destructors
