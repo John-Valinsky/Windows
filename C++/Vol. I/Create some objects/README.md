@@ -69,3 +69,9 @@ Virtual Destructor	Ensures proper destructor chaining when deleting derived obje
  
  
  
+# Sample Output
+===============
+Enter name: John
+Enter age: 40
+Enter subject taught: Physics
+
