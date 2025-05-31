@@ -42,3 +42,6 @@ Inheritance	Teacher and Student inherit from Person.
 Runtime Polymorphism	Achieved using virtual functions and base class pointers.
 Virtual Destructor	Ensures proper destructor chaining when deleting derived objects.
 
+
+
+# Class Diagram Overview
