@@ -45,3 +45,27 @@ Virtual Destructor	Ensures proper destructor chaining when deleting derived obje
 
 
 # Class Diagram Overview
+
+
+      +-------------+
+      |   Person    |
+      +-------------+
+      | - name      |
+      | - age       |
+      +-------------+
+      | +getDetails() [virtual] |
+      | +showDetails() [virtual]|
+      +-------------+
+            /\
+           /  \
+ +----------------+    +----------------+
+ |   Teacher      |    |   Student      |
+ +----------------+    +----------------+
+ | - subject      |    | - rollNo       |
+ +----------------+    +----------------+
+ | +getDetails()  |    | +getDetails()  |
+ | +showDetails() |    | +showDetails() |
+ +----------------+    +----------------+
+ 
+ 
+ 
