@@ -16,3 +16,15 @@ Another for a triangle.
 And one more for a rectangle.
 
 Each method has a different parameter list, allowing the compiler to choose the correct one based on the number and types of arguments passed.
+
+
+
+# Features
+==========
+Calculates area of:
+
+Circle (using radius)
+
+Triangle (using base and height)
+
+Rectangle (using length and breadth)
