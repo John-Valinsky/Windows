@@ -64,3 +64,17 @@ Area of triangle = 20
 Enter length and breadth of rectangle: 6 3
 Area of rectangle = 18
 
+
+
+# Code Flow
+===========
+The user inputs:
+
+Radius for a circle
+
+Base and height for a triangle
+
+Length and breadth for a rectangle
+
+The AreaCalculator class uses overloaded area() functions to compute and return respective areas.
+
