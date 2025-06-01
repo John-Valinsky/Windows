@@ -87,3 +87,11 @@ Results are displayed on the screen.
 Compile:
 
 g++ area_overloading.cpp -o area
+
+
+Run:
+
+./area
+
+
+
