@@ -79,3 +79,11 @@ Length and breadth for a rectangle
 The AreaCalculator class uses overloaded area() functions to compute and return respective areas.
 
 Results are displayed on the screen.
+
+
+
+# How to Compile and Run
+========================
+Compile:
+
+g++ area_overloading.cpp -o area
