@@ -50,3 +50,17 @@ public:
     double area(double base, double height);     // Triangle
     int    area(int length, int breadth);        // Rectangle
 };
+
+
+
+# Sample Output
+===============
+Enter radius of circle: 5
+Area of circle = 78.5398
+
+Enter base and height of triangle: 10 4
+Area of triangle = 20
+
+Enter length and breadth of rectangle: 6 3
+Area of rectangle = 18
+
