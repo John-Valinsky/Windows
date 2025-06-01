@@ -39,3 +39,14 @@ Concept	Explanation
 Function Overloading	Same function name (area) with different parameter types and counts.
 Encapsulation	All area calculations are encapsulated inside the AreaCalculator class.
 Math Library	M_PI from <cmath> is used to get the value of π.
+
+
+
+# Class Definition
+==================
+class AreaCalculator {
+public:
+    double area(double radius);                  // Circle
+    double area(double base, double height);     // Triangle
+    int    area(int length, int breadth);        // Rectangle
+};
