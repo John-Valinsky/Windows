@@ -30,3 +30,12 @@ Triangle (using base and height)
 Rectangle (using length and breadth)
 
 Demonstrates compile-time polymorphism through function overloading.
+
+
+
+# Concepts Used
+===============
+Concept	Explanation
+Function Overloading	Same function name (area) with different parameter types and counts.
+Encapsulation	All area calculations are encapsulated inside the AreaCalculator class.
+Math Library	M_PI from <cmath> is used to get the value of π.
