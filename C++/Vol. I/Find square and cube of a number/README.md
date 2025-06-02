@@ -58,3 +58,15 @@ Enter second number (or 0 if none): 10
 Enter third number (or 0 if none): 0
 Enter fourth number (or 0 if none): 3
 Sum = 18
+
+
+
+# Code Flow
+===========
+The user is prompted to enter 1 to 4 integers.
+
+Any skipped numbers can be entered as 0.
+
+The function sum() calculates and returns the result.
+
+The sum is printed to the console.
