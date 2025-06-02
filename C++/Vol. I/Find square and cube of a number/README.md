@@ -70,3 +70,11 @@ Any skipped numbers can be entered as 0.
 The function sum() calculates and returns the result.
 
 The sum is printed to the console.
+
+
+
+# How to Compile and Run
+========================
+Compile:
+
+g++ sum_default_args.cpp -o sum
