@@ -11,3 +11,9 @@ Sum of Numbers Using Default Argument Passing in C++
 This program demonstrates the use of default arguments in C++.
 It calculates the sum of up to four numbers, where the last three numbers are optional.
 If not all four values are provided, the missing ones default to 0.
+
+
+
+# Features
+==========
+Uses a single function sum() with default parameters.
