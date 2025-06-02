@@ -29,3 +29,12 @@ Concept	Explanation
 Classes & Objects	Logic is encapsulated inside a class Calculator.
 Member Function	sum() is defined inside the class and uses default parameters.
 Default Arguments	Parameters b, c, and d default to 0 if not provided.
+
+
+
+# Function Definition
+=====================
+int sum(int a, int b = 0, int c = 0, int d = 0);
+a is required.
+
+b, c, and d are optional and default to 0.
