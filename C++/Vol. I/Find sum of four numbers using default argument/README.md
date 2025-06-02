@@ -10,3 +10,13 @@ Sum Using Default Arguments in a Member Function
 =============
 This program calculates the sum of up to four integers using a member function of a class in C++ with default argument values.
 This is a demonstration of default argument passing inside class methods.
+
+
+
+# Key Features
+==============
+Uses class-based approach with a member function sum().
+
+Employs default arguments for flexible function calls.
+
+Clean, reusable, and modular design.
