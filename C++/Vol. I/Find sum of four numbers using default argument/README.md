@@ -20,3 +20,12 @@ Uses class-based approach with a member function sum().
 Employs default arguments for flexible function calls.
 
 Clean, reusable, and modular design.
+
+
+
+# Concepts Used
+===============
+Concept	Explanation
+Classes & Objects	Logic is encapsulated inside a class Calculator.
+Member Function	sum() is defined inside the class and uses default parameters.
+Default Arguments	Parameters b, c, and d default to 0 if not provided.
