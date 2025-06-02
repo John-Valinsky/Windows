@@ -38,3 +38,12 @@ Concept	Explanation
 Default Arguments	Function parameters are given default values so fewer arguments can be passed.
 Function Parameters	The function sum() can be called with 1–4 arguments without overloading.
 Simplicity	One function handles all possible use-cases.
+
+
+
+# Function Definition
+=====================
+int sum(int a, int b = 0, int c = 0, int d = 0);
+a is mandatory.
+
+b, c, and d are optional (default to 0).
