@@ -78,3 +78,18 @@ The sum is printed to the console.
 Compile:
 
 g++ sum_default_args.cpp -o sum
+
+
+# Run:
+======
+./sum
+
+
+
+# Enhancement Ideas
+===================
+Automatically detect how many numbers the user enters and call sum() accordingly.
+
+Add input validation to check for numeric values only.
+
+Allow optional input via a single line for cleaner UX.
