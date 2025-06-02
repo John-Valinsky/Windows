@@ -17,3 +17,15 @@ If not all four values are provided, the missing ones default to 0.
 # Features
 ==========
 Uses a single function sum() with default parameters.
+
+Supports adding:
+
+Just 1 number
+
+2 numbers
+
+3 numbers
+
+All 4 numbers
+
+Reduces the need to overload functions for different number of parameters.
