@@ -50,3 +50,15 @@ Accept up to 4 numbers from the user.
 Call the sum() member function of the object.
 
 Display the calculated result.
+
+
+
+# Sample Output
+===============
+Enter up to 4 numbers (press Enter after each):
+Enter first number: 6
+Enter second number (or 0 if none): 4
+Enter third number (or 0 if none): 0
+Enter fourth number (or 0 if none): 10
+Sum = 20
+
