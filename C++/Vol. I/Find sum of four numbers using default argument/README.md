@@ -38,3 +38,15 @@ int sum(int a, int b = 0, int c = 0, int d = 0);
 a is required.
 
 b, c, and d are optional and default to 0.
+
+
+
+# Code Flow
+===========
+Create an object of the Calculator class.
+
+Accept up to 4 numbers from the user.
+
+Call the sum() member function of the object.
+
+Display the calculated result.
