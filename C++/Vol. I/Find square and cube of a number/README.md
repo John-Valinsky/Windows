@@ -47,3 +47,14 @@ int sum(int a, int b = 0, int c = 0, int d = 0);
 a is mandatory.
 
 b, c, and d are optional (default to 0).
+
+
+
+# Sample Output
+===============
+Enter up to 4 numbers (press Enter after each):
+Enter first number: 5
+Enter second number (or 0 if none): 10
+Enter third number (or 0 if none): 0
+Enter fourth number (or 0 if none): 3
+Sum = 18
