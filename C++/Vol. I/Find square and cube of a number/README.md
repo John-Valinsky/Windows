@@ -29,3 +29,12 @@ Just 1 number
 All 4 numbers
 
 Reduces the need to overload functions for different number of parameters.
+
+
+
+# Concepts Used
+===============
+Concept	Explanation
+Default Arguments	Function parameters are given default values so fewer arguments can be passed.
+Function Parameters	The function sum() can be called with 1–4 arguments without overloading.
+Simplicity	One function handles all possible use-cases.
