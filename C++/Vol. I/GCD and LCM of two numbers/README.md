@@ -10,3 +10,9 @@ int findGCD(int a, int b) {
     }
     return a;
 }
+
+// Function to compute LCM
+int findLCM(int a, int b) {
+    return (a * b) / findGCD(a, b);  // LCM formula
+}
+
