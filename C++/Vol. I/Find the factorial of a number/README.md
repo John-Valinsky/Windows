@@ -39,3 +39,15 @@ class Calculator {
 public:
     int sum(int a, int b = 0, int c = 0, int d = 0);
 };
+
+
+
+
+# Example Usage
+===============
+Enter up to 4 numbers (press Enter after each):
+Enter first number: 5
+Enter second number (or 0 if none): 10
+Enter third number (or 0 if none): 0
+Enter fourth number (or 0 if none): 3
+Sum = 18
