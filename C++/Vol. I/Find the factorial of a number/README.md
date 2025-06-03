@@ -31,3 +31,11 @@ Classes & Objects	The program uses a Calculator class to perform the sum operati
 Member Functions	The sum function is a method of the class Calculator.
 Default Arguments	Parameters b, c, and d default to 0 if not explicitly passed.
 
+
+
+# Class Definition
+==================
+class Calculator {
+public:
+    int sum(int a, int b = 0, int c = 0, int d = 0);
+};
