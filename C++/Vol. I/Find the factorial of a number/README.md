@@ -21,3 +21,13 @@ Uses default arguments inside a member function of a class.
 Demonstrates how classes and functions work together in C++.
 
 Supports calling the function with 1 to 4 values.
+
+
+
+# Concepts Used
+===============
+Concept	Explanation
+Classes & Objects	The program uses a Calculator class to perform the sum operation.
+Member Functions	The sum function is a method of the class Calculator.
+Default Arguments	Parameters b, c, and d default to 0 if not explicitly passed.
+
