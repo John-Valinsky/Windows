@@ -42,7 +42,6 @@ public:
 
 
 
-
 # Example Usage
 ===============
 Enter up to 4 numbers (press Enter after each):
@@ -51,3 +50,15 @@ Enter second number (or 0 if none): 10
 Enter third number (or 0 if none): 0
 Enter fourth number (or 0 if none): 3
 Sum = 18
+
+
+
+# How the Program Works
+=======================
+The Calculator class contains a member function sum() with default arguments.
+
+In main(), user input is taken for up to 4 numbers.
+
+The sum() function is called via a class object.
+
+The result is displayed using cout.
