@@ -29,3 +29,12 @@ Handles user input for flexible array sizes.
 Shows basic arithmetic operations (sum and average).
 
 Implements memory deallocation to avoid leaks.
+
+
+
+# Concepts Used
+===============
+Concept	Description
+new operator	Used to allocate memory dynamically at runtime.
+delete[] operator	Frees the memory allocated for the array.
+static_cast<float>(...)	Type casting to ensure floating-point division for average calculation.
