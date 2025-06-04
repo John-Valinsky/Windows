@@ -35,3 +35,11 @@ Dynamic Allocation	Object is created using new and destroyed using delete.
 ================
 Base
 Contains a virtual destructor that prints a message when invoked.
+
+
+
+# Derived
+=========
+Inherits from Base.
+
+Contains its own destructor that also prints a message.
