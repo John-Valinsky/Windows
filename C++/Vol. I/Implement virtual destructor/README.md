@@ -9,3 +9,13 @@ Demonstrate the Use of Virtual Destructor in Inheritance
 # Description
 =============
 This C++ program illustrates the importance of virtual destructors when using polymorphism in object-oriented programming. It ensures that destructors of both the base and derived classes are called properly when a derived class object is deleted via a base class pointer.
+
+
+
+# Key Features
+==============
+Demonstrates runtime polymorphism using a base class pointer.
+
+Proper destructor chaining using virtual destructors.
+
+Helps avoid memory leaks and ensures safe cleanup in inheritance.
