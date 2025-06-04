@@ -28,3 +28,10 @@ Concept	Explanation
 Virtual Destructor	Ensures base class destructor is overridden correctly in derived classes.
 Polymorphism	Used to point to derived objects via base class pointers.
 Dynamic Allocation	Object is created using new and destroyed using delete.
+
+
+
+# Class Overview
+================
+Base
+Contains a virtual destructor that prints a message when invoked.
