@@ -43,3 +43,10 @@ Contains a virtual destructor that prints a message when invoked.
 Inherits from Base.
 
 Contains its own destructor that also prints a message.
+
+
+
+# Sample Output
+===============
+Derived class destructor called.
+Base class destructor called.
