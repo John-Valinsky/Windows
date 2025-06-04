@@ -69,3 +69,11 @@ Element 5: 50
 
 Sum = 150
 Average = 30
+
+
+
+# How to Compile and Run
+========================
+Compile:
+
+g++ dynamic_array_sum_avg.cpp -o sumavg
