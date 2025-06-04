@@ -19,3 +19,12 @@ Demonstrates runtime polymorphism using a base class pointer.
 Proper destructor chaining using virtual destructors.
 
 Helps avoid memory leaks and ensures safe cleanup in inheritance.
+
+
+
+# Concepts Used
+===============
+Concept	Explanation
+Virtual Destructor	Ensures base class destructor is overridden correctly in derived classes.
+Polymorphism	Used to point to derived objects via base class pointers.
+Dynamic Allocation	Object is created using new and destroyed using delete.
