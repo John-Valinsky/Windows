@@ -55,3 +55,14 @@ Output is displayed.
 
 Memory is released using delete[].
 
+
+
+# Sample Output
+===============
+Enter the number of elements: 5
+Enter 5 elements:
+Element 1: 10
+Element 2: 20
+Element 3: 30
+Element 4: 40
+Element 5: 50
