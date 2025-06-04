@@ -38,3 +38,20 @@ Concept	Description
 new operator	Used to allocate memory dynamically at runtime.
 delete[] operator	Frees the memory allocated for the array.
 static_cast<float>(...)	Type casting to ensure floating-point division for average calculation.
+
+
+
+# Program Flow
+==============
+User enters the number of elements.
+
+Program allocates memory dynamically using new.
+
+User inputs values into the array.
+
+Program computes the sum and average.
+
+Output is displayed.
+
+Memory is released using delete[].
+
