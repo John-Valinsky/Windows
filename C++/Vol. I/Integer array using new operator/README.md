@@ -17,3 +17,15 @@ Input elements from the user.
 Calculate the sum and average of the array elements.
 
 Properly release memory using the delete[] operator.
+
+
+
+# Key Features
+==============
+Demonstrates dynamic memory allocation in C++.
+
+Handles user input for flexible array sizes.
+
+Shows basic arithmetic operations (sum and average).
+
+Implements memory deallocation to avoid leaks.
