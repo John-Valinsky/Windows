@@ -50,3 +50,11 @@ Contains its own destructor that also prints a message.
 ===============
 Derived class destructor called.
 Base class destructor called.
+
+
+
+# This output confirms
+======================
+The Derived class destructor is called first.
+
+Then the Base class destructor is called.
