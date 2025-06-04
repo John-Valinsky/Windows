@@ -66,3 +66,6 @@ Element 2: 20
 Element 3: 30
 Element 4: 40
 Element 5: 50
+
+Sum = 150
+Average = 30
