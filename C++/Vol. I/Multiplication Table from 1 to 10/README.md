@@ -27,3 +27,15 @@ Use of looping structures in C++.
 Proper formatting of output for readability.
 
 Understanding of nested iteration to generate structured output.
+
+
+
+# Sample Output
+===============
+
+Multiplication Table of 1:
+1 x 1 = 1
+1 x 2 = 2
+...
+1 x 10 = 10
+--------------------------
