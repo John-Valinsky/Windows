@@ -51,3 +51,14 @@ Multiplication Table of 10:
 ...
 10 x 10 = 100
 --------------------------
+
+
+
+# How the Code Works
+====================
+for (int i = 1; i <= 10; ++i) {        // Outer loop for base number
+    for (int j = 1; j <= 10; ++j) {    // Inner loop for multiplication
+        cout << i << " x " << j << " = " << i * j << endl;
+    }
+    cout << "--------------------------" << endl; // Separator line
+}
