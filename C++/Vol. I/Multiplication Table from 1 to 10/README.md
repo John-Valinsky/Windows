@@ -39,3 +39,9 @@ Multiplication Table of 1:
 ...
 1 x 10 = 10
 --------------------------
+Multiplication Table of 2:
+2 x 1 = 2
+2 x 2 = 4
+...
+2 x 10 = 20
+--------------------------
