@@ -20,3 +20,14 @@ Feature	Explanation
 static functions	Belong to the class, not to specific objects.
 private access specifier	Restricts access from outside the class.
 public static function	Provides a way to access private static methods.
+
+
+
+# What This Demonstrates
+========================
+Encapsulation: Keeps sensitive or restricted logic hidden inside the class.
+
+Controlled Access: Allows indirect access to private logic using public methods.
+
+Static behavior: Demonstrates how static methods are associated with the class rather than instances.
+
