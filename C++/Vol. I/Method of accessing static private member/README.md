@@ -31,3 +31,21 @@ Controlled Access: Allows indirect access to private logic using public methods.
 
 Static behavior: Demonstrates how static methods are associated with the class rather than instances.
 
+
+
+# Output
+========
+Accessing private static function from public static function:
+This is a private static member function.
+
+
+
+# Program Summary
+=================
+privateStaticFunction() is a private static method.
+
+accessPrivateFunction() is a public static method that internally calls the private one.
+
+In main(), you cannot call privateStaticFunction() directly.
+
+Instead, call Demo::accessPrivateFunction() to safely trigger the private function.
