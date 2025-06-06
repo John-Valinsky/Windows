@@ -17,3 +17,13 @@ This program prints the multiplication tables for numbers 1 through 10 using nes
 Concept	Description
 Nested for loops	An outer loop selects the base number; the inner loop performs multiplication.
 Formatted Output	Each multiplication step is printed in a user-readable format.
+
+
+
+# What This Demonstrates
+========================
+Use of looping structures in C++.
+
+Proper formatting of output for readability.
+
+Understanding of nested iteration to generate structured output.
