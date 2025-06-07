@@ -28,3 +28,16 @@ How to use nested conditional logic.
 Comparing multiple values using relational operators (>=, >).
 
 Handling multiple decision paths.
+
+
+
+# Sample Output
+===============
+Example 1:
+
+Enter three numbers: 42 17 88
+The greatest number is: 88
+Example 2:
+
+Enter three numbers: 15 30 30
+The greatest number is: 30
