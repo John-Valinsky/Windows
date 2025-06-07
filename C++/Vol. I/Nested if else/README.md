@@ -41,3 +41,21 @@ Example 2:
 
 Enter three numbers: 15 30 30
 The greatest number is: 30
+
+
+
+# Logic Explanation
+===================
+if (num1 >= num2) {
+    if (num1 >= num3) {
+        // num1 is greatest
+    } else {
+        // num3 is greatest
+    }
+} else {
+    if (num2 >= num3) {
+        // num2 is greatest
+    } else {
+        // num3 is greatest
+    }
+}
