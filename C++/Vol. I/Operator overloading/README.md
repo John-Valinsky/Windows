@@ -55,3 +55,10 @@ Display initial value.
 Apply ++c1 → calls overloaded prefix ++ operator.
 
 Display the incremented value.
+
+
+
+# Sample Output
+===============
+Original Count = 5
+After prefix ++ Count = 6
