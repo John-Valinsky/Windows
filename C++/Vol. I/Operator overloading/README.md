@@ -34,3 +34,12 @@ public:
     Counter operator++();      // Overloaded prefix ++
     void display();            // Display function
 };
+
+
+
+# Overloaded Prefix ++ Logic
+============================
+Counter operator++() {
+    ++count;         // Pre-increment logic
+    return *this;    // Return the updated object
+}
