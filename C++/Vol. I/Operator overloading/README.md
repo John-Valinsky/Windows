@@ -20,3 +20,17 @@ Operator Overloading	Redefining built-in operators for user-defined types.
 Member Function	Function defined inside the class to perform operator overloading.
 Prefix ++ Operator	Increment happens before the value is used (++obj).
 *this Pointer	Used to return the current object after increment.
+
+
+
+# Class Structure
+=================
+class Counter {
+private:
+    int count;
+
+public:
+    Counter(int c = 0);        // Constructor
+    Counter operator++();      // Overloaded prefix ++
+    void display();            // Display function
+};
