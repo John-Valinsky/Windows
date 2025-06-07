@@ -43,3 +43,15 @@ Counter operator++() {
     ++count;         // Pre-increment logic
     return *this;    // Return the updated object
 }
+
+
+
+# Program Flow
+==============
+Create object c1 with an initial value (e.g., 5).
+
+Display initial value.
+
+Apply ++c1 → calls overloaded prefix ++ operator.
+
+Display the incremented value.
