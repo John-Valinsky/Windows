@@ -59,3 +59,10 @@ if (num1 >= num2) {
         // num3 is greatest
     }
 }
+
+
+First, it checks if num1 is greater than or equal to num2.
+
+If true, it then checks num1 with num3.
+
+If false, it moves to compare num2 with num3.
