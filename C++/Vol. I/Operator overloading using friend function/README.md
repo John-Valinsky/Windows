@@ -25,3 +25,14 @@ public:
     friend Counter operator++(Counter &obj); // Friend function declaration
     void display();                    // Display method
 };
+
+
+
+# Operator Overloading as Friend Function
+=========================================
+Syntax:
+
+Counter operator++(Counter &obj) {
+    ++obj.count; // Access private member directly
+    return obj;
+}
