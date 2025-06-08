@@ -49,3 +49,22 @@ Enter a positive number: 12
 Output:
 
 12 is not a prime number.
+
+
+
+# Code Behavior Highlights
+==========================
+if (num <= 1) {
+    isPrime = false;
+}
+
+Handles edge cases: 0, 1, and negative numbers.
+
+for (i = 2; i <= num / 2; ++i) {
+    if (num % i == 0) {
+        isPrime = false;
+        break;
+    }
+}
+
+Efficient check up to num / 2. For better performance, use i <= sqrt(num).
