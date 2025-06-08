@@ -14,3 +14,9 @@ Friend Function	A non-member function that can access private members of a class
 Prefix ++ Overload	Increments the value before the expression is evaluated.
 
 
+
+# Class Used
+============
+class Counter {
+private:
+    int count;
