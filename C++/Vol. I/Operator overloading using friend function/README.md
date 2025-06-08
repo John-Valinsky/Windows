@@ -36,3 +36,7 @@ Counter operator++(Counter &obj) {
     ++obj.count; // Access private member directly
     return obj;
 }
+
+This function is not a member, but can access count because it's a friend.
+
+Handles prefix increment (++obj).
