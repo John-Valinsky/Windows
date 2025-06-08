@@ -31,3 +31,14 @@ public:
     MyString operator+(const MyString&);  // Overloaded + operator
     void display();                       // Display function
 };
+
+
+
+Overloaded + Logic
+==================
+MyString operator+(const MyString& obj) {
+    MyString result;
+    strcpy(result.str, str);         // Copy first string
+    strcat(result.str, obj.str);     // Append second string
+    return result;
+}
