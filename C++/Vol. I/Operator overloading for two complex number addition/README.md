@@ -27,3 +27,14 @@ public:
     Complex operator+(const Complex &obj);   // Overloaded + operator
     void display();                          // Display function
 };
+
+
+
+# How + Operator is Overloaded
+==============================
+Complex Complex::operator+(const Complex &obj) {
+    Complex result;
+    result.real = real + obj.real;
+    result.imag = imag + obj.imag;
+    return result;
+}
