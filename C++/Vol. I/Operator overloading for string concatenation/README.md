@@ -52,3 +52,11 @@ Create two string objects s1 and s2 with different values.
 Concatenate them using overloaded + operator: s3 = s1 + s2.
 
 Display original and concatenated strings.
+
+
+
+# Sample Output
+===============
+First String: Hello 
+Second String: World!
+Concatenated String: Hello World!
