@@ -26,4 +26,8 @@ Object-Oriented Programming	Class design and encapsulation of behavior in MyStri
 class MyString {
 private:
     char str[100];             // Internal character array
-
+public:
+    MyString(const char* s = "");         // Constructor
+    MyString operator+(const MyString&);  // Overloaded + operator
+    void display();                       // Display function
+};
