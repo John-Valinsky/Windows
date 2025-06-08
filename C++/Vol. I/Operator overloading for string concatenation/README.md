@@ -19,3 +19,11 @@ Operator Overloading	Redefining operators (+ in this case) to work with user-def
 String Manipulation	Using C-style strings (char[], strcpy, strcat) for operations.
 Object-Oriented Programming	Class design and encapsulation of behavior in MyString.
 
+
+
+# Class Design
+==============
+class MyString {
+private:
+    char str[100];             // Internal character array
+
