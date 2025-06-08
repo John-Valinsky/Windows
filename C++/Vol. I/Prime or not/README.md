@@ -26,3 +26,17 @@ Loop from 2 to num/2:
 If num % i == 0, then the number is divisible → Not Prime.
 
 If no such divisor is found → It's a Prime number.
+
+
+
+# Example Runs
+==============
+Input:
+
+Enter a positive number: 7
+
+
+Output:
+
+7 is a prime number.
+
