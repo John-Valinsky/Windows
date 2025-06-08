@@ -40,3 +40,12 @@ Output:
 
 7 is a prime number.
 
+
+Input:
+
+Enter a positive number: 12
+
+
+Output:
+
+12 is not a prime number.
