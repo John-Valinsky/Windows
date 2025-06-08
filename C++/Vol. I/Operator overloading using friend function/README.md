@@ -20,3 +20,8 @@ Prefix ++ Overload	Increments the value before the expression is evaluated.
 class Counter {
 private:
     int count;
+public:
+    Counter(int c = 0);                // Constructor
+    friend Counter operator++(Counter &obj); // Friend function declaration
+    void display();                    // Display method
+};
