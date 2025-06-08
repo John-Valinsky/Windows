@@ -42,3 +42,13 @@ MyString operator+(const MyString& obj) {
     strcat(result.str, obj.str);     // Append second string
     return result;
 }
+
+
+
+# Program Flow
+==============
+Create two string objects s1 and s2 with different values.
+
+Concatenate them using overloaded + operator: s3 = s1 + s2.
+
+Display original and concatenated strings.
