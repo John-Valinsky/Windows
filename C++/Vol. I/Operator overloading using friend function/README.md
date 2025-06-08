@@ -40,3 +40,10 @@ Counter operator++(Counter &obj) {
 This function is not a member, but can access count because it's a friend.
 
 Handles prefix increment (++obj).
+
+
+
+# Sample Output
+===============
+Original Count = 10
+After prefix ++ Count = 11
