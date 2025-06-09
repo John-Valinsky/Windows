@@ -59,3 +59,13 @@ Output:
 --- Faculty Details ---
 Subject: Physics
 Staff ID: 1024
+
+
+
+# How It Works
+==============
+You create an object f of class Faculty.
+
+Using f, you access both getSubject() and getStaffID() (from two base classes).
+
+showFacultyDetails() combines outputs of both base class methods.
