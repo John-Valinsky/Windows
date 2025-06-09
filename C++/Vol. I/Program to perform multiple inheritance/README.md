@@ -17,3 +17,12 @@ Faculty class inherits from:
 Teacher (base class 1)
 
 Staff (base class 2)
+
+
+
+# Classes Overview
+==================
+Class	Description
+Teacher	Contains subject-related methods
+Staff	Contains staff ID-related methods
+Faculty	Inherits from both Teacher and Staff to combine features
