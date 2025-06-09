@@ -34,3 +34,13 @@ while (num != 0) {
     reversed = reversed * 10 + digit; // Append it to the reversed number
     num = num / 10;                   // Remove the last digit
 }
+
+
+
+Step-by-step (Input: 123):
+
+digit = 3, reversed = 3
+
+digit = 2, reversed = 3 * 10 + 2 = 32
+
+digit = 1, reversed = 32 * 10 + 1 = 321
