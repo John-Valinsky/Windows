@@ -24,3 +24,13 @@ Enter an integer: 12345
 Output:
 
 Reverse of 12345 is: 54321
+
+
+
+# Code Explanation
+==================
+while (num != 0) {
+    int digit = num % 10;             // Extract the last digit
+    reversed = reversed * 10 + digit; // Append it to the reversed number
+    num = num / 10;                   // Remove the last digit
+}
