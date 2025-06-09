@@ -26,3 +26,14 @@ Class	Description
 Teacher	Contains subject-related methods
 Staff	Contains staff ID-related methods
 Faculty	Inherits from both Teacher and Staff to combine features
+
+
+
+# Code Behavior
+===============
+class Faculty : public Teacher, public Staff {
+    void showFacultyDetails() {
+        showSubject();
+        showStaffID();
+    }
+};
