@@ -37,3 +37,9 @@ class Faculty : public Teacher, public Staff {
         showStaffID();
     }
 };
+
+Faculty can access:
+
+getSubject() and showSubject() from Teacher
+
+getStaffID() and showStaffID() from Staff
