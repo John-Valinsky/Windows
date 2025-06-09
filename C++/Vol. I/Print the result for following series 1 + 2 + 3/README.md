@@ -46,3 +46,12 @@ int factorial(int num) {
     }
     return fact;
 }
+
+This function calculates the factorial of a given number num.
+
+for (int i = 1; i <= n; ++i) {
+    sum += factorial(i);
+}
+Loops from 1 to n, adds each i! to the sum.
+
+
