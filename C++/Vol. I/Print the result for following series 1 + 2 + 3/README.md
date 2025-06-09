@@ -34,3 +34,15 @@ Sum of series 1! + 2! + 3! + ... + 5! is: 153
 =============
 1!=1,2!=2,3!=6,4!=24,5!=120
 1+2+6+24+120=153
+
+
+
+# Code Highlights
+=================
+int factorial(int num) {
+    int fact = 1;
+    for (int i = 1; i <= num; ++i) {
+        fact *= i;
+    }
+    return fact;
+}
