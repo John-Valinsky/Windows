@@ -17,3 +17,13 @@ Factorial
 n!=n×(n−1)×...×1
 Looping	Used to iterate from 1 to n and calculate factorial of each term
 Function	factorial(int num) helps modularize the logic
+
+
+
+# Example Input & Output
+========================
+Input:
+Enter the value of n: 5
+
+Output:
+Sum of series 1! + 2! + 3! + ... + 5! is: 153
