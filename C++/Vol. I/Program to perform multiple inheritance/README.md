@@ -69,3 +69,11 @@ You create an object f of class Faculty.
 Using f, you access both getSubject() and getStaffID() (from two base classes).
 
 showFacultyDetails() combines outputs of both base class methods.
+
+
+
+# Benefits of This Approach
+===========================
+Code reuse across multiple domains.
+
+Faculty gets all the behaviors of Teacher and Staff without re-writing.
