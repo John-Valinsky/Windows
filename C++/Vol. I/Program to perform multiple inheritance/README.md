@@ -43,3 +43,19 @@ Faculty can access:
 getSubject() and showSubject() from Teacher
 
 getStaffID() and showStaffID() from Staff
+
+
+
+# Sample Input/Output
+=====================
+Input:
+
+--- Enter Faculty Details ---
+Enter subject taught: Physics
+Enter staff ID: 1024
+
+Output:
+
+--- Faculty Details ---
+Subject: Physics
+Staff ID: 1024
