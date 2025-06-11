@@ -13,3 +13,17 @@ Static Member Variable	Shared among all instances of the class. Retains its valu
 Non-static Member Variable	Separate copy for each object. Reset per object.
 Static Variable Initialization	Done outside the class using scope resolution operator (::)
 
+
+
+# Code Summary
+==============
+class Demo {
+    int nonStatic;               // Instance-specific
+    static int staticCount;      // Shared across all objects
+public:
+    Demo();                      // Increments staticCount
+    void show();                 // Shows and modifies both variables
+};
+staticCount is shared by all Demo objects.
+
+nonStatic is separate for each object.
