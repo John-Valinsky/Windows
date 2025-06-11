@@ -10,3 +10,26 @@ Write a program for swapping two numbers using pass-by-address.
 ===========================================
 In C++, passing variables by address (i.e., using pointers) allows a function to directly modify the original values of variables in memory.
 
+
+
+# Why Use Pointers?
+===================
+Efficient for modifying values directly.
+
+Useful for memory-sensitive applications and in-place changes.
+
+
+
+# Program Explanation
+=====================
+Code Overview:
+
+void swapNumbers(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+*a and *b are dereferenced pointers to actual x and y values.
+
+Swapping is done inside the function using a temporary variable.
