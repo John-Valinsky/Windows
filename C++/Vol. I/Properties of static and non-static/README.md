@@ -50,3 +50,16 @@ Static (shared across objects): 2
 --- obj1.show() again ---
 Non-static (object-specific): 2
 Static (shared across objects): 2
+
+
+
+# Breakdown
+===========
+Object	nonStatic	staticCount
+obj1 1st show	1	2
+obj2 1st show	1	2
+obj1 2nd show	2	2
+
+staticCount is incremented once per object construction, shared globally.
+
+nonStatic increments on each show() call but remains specific to the object.
