@@ -27,3 +27,17 @@ inline int cube(int x) {
 Both square() and cube() are marked inline for efficient repeated use.
 
 Inline avoids the overhead of jumping to function calls by embedding code directly.
+
+
+
+# Sample Input/Output
+=====================
+Input:
+
+Enter a number: 4
+
+Output:
+=======
+
+Square of 4 is: 16
+Cube of 4 is: 64
