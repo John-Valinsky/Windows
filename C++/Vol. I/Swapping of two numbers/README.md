@@ -33,3 +33,11 @@ void swapNumbers(int *a, int *b) {
 *a and *b are dereferenced pointers to actual x and y values.
 
 Swapping is done inside the function using a temporary variable.
+
+
+
+# In main()
+===========
+swapNumbers(&x, &y);
+&x and &y pass the memory address of variables x and y to the function.
+
