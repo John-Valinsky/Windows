@@ -23,3 +23,7 @@ inline int square(int x) {
 inline int cube(int x) {
     return x * x * x;
 }
+
+Both square() and cube() are marked inline for efficient repeated use.
+
+Inline avoids the overhead of jumping to function calls by embedding code directly.
