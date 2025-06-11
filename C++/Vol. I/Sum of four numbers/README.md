@@ -45,7 +45,7 @@ Cube of 4 is: 64
 
 
 # How It Works
-==============
+==============	
 User inputs a number.
 
 square() is called:
@@ -55,3 +55,13 @@ cube() is called:
 cube(4) = 4 * 4 * 4 = 64
 
 Results are printed.
+
+
+
+Why Inline Functions?
+=====================
+Benefit	Explanation
+Faster Execution	Avoids function call overhead
+Saves Time for Small Functions	Good for one-line or small logic functions
+Code Readability	Keeps main logic clean while reusing simple code
+
