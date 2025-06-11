@@ -57,3 +57,12 @@ Inside swap function:
 a = 20, b = 10
 After swap (in main):
 x = 20, y = 10
+
+
+
+# Key Points
+============
+Feature	Description
+int* a, *b	Pointers to hold memory addresses of x & y
+*a, *b	Access and modify the actual values
+swapNumbers()	Swaps the values using a temporary variable
