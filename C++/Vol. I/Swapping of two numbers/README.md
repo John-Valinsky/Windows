@@ -41,3 +41,19 @@ Swapping is done inside the function using a temporary variable.
 swapNumbers(&x, &y);
 &x and &y pass the memory address of variables x and y to the function.
 
+
+
+# Sample Input/Output
+=====================
+Input:
+
+Enter two numbers: 10 20
+
+Output:
+
+Before swap (in main):
+x = 10, y = 20
+Inside swap function:
+a = 20, b = 10
+After swap (in main):
+x = 20, y = 10
