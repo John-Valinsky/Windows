@@ -41,3 +41,17 @@ Output:
 
 Square of 4 is: 16
 Cube of 4 is: 64
+
+
+
+# How It Works
+==============
+User inputs a number.
+
+square() is called:
+square(4) = 4 * 4 = 16
+
+cube() is called:
+cube(4) = 4 * 4 * 4 = 64
+
+Results are printed.
