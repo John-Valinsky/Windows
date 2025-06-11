@@ -37,3 +37,21 @@ Output
 --- Faculty Details ---
 Subject: Mathematics
 Staff ID: 101
+
+
+
+# Code Flow Explanation
+=======================
+Input phase:
+
+f.getSubject() → Reads subject from user
+
+f.getStaffID() → Reads staffID from user
+
+Output phase:
+
+f.showFacultyDetails() internally calls:
+
+showSubject() from Teacher
+
+showStaffID() from Staff
