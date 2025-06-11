@@ -65,3 +65,12 @@ showStaffID() from Staff
       +------> Faculty
 	  
 Faculty inherits all accessible public members of Teacher and Staff.
+
+
+
+# Additional Notes
+==================
+This program avoids ambiguity, as there are no conflicting names in both base classes.
+
+If both base classes had a method with the same name (e.g., display()), scope resolution would be needed to resolve ambiguity.
+
