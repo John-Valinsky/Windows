@@ -73,3 +73,6 @@ Memory	Shared (one copy)	Separate for each object
 Initialization	Outside the class	Inside constructor
 Scope	Class-level	Object-level
 Access	Via object or class name	Only via object
+
+
+
