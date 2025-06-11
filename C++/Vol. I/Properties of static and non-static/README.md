@@ -27,3 +27,26 @@ public:
 staticCount is shared by all Demo objects.
 
 nonStatic is separate for each object.
+
+
+
+# Output Explanation
+====================
+Demo obj1, obj2;
+obj1.show();
+obj2.show();
+obj1.show();
+
+Output
+
+--- obj1.show() ---
+Non-static (object-specific): 1
+Static (shared across objects): 2
+
+--- obj2.show() ---
+Non-static (object-specific): 1
+Static (shared across objects): 2
+
+--- obj1.show() again ---
+Non-static (object-specific): 2
+Static (shared across objects): 2
