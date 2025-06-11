@@ -63,3 +63,13 @@ obj1 2nd show	2	2
 staticCount is incremented once per object construction, shared globally.
 
 nonStatic increments on each show() call but remains specific to the object.
+
+
+
+# Static vs Non-Static Quick View
+=================================
+Property	Static	Non-Static
+Memory	Shared (one copy)	Separate for each object
+Initialization	Outside the class	Inside constructor
+Scope	Class-level	Object-level
+Access	Via object or class name	Only via object
