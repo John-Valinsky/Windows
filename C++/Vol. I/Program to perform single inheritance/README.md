@@ -55,3 +55,13 @@ f.showFacultyDetails() internally calls:
 showSubject() from Teacher
 
 showStaffID() from Staff
+
+
+
+# Multiple Inheritance Diagram
+==============================
+   Teacher       Staff
+      |             |
+      +------> Faculty
+	  
+Faculty inherits all accessible public members of Teacher and Staff.
