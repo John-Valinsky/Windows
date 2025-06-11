@@ -22,3 +22,18 @@ Teacher	subject, getSubject(), showSubject()	Stores and shows subject taught
 Staff	staffID, getStaffID(), showStaffID()	Stores and shows staff ID
 Faculty	showFacultyDetails()	Inherits both and shows combined details
 
+
+
+# Sample Input & Output
+=======================
+Input
+
+--- Enter Faculty Details ---
+Enter subject taught: Mathematics
+Enter staff ID: 101
+
+Output
+
+--- Faculty Details ---
+Subject: Mathematics
+Staff ID: 101
