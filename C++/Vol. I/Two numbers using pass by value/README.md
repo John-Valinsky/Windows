@@ -30,3 +30,33 @@ void swapNumbers(int &a, int &b) {
     a = b;
     b = temp; // Missing in your code, add to complete swap
 }
+
+a and b are references to variables passed from main.
+
+Modifications inside the function reflect in the original variables.
+
+
+
+# In main():
+============
+swapNumbers(x, y);
+x and y are passed directly; no need for address-of operator.
+
+
+
+# Sample Input/Output
+=====================
+Input:
+
+Enter two numbers: 10 20
+
+Output:
+
+Before swap (in main):
+x = 10, y = 20
+
+Inside swap function:
+a = 20, b = 10
+
+After swap (in main):
+x = 20, y = 10
