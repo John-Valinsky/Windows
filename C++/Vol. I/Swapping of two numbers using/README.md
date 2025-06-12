@@ -36,3 +36,9 @@ a and b are references to variables passed from main.
 
 Modifications inside the function reflect in the original variables.
 
+
+
+# In main():
+============
+swapNumbers(x, y);
+x and y are passed directly; no need for address-of operator.
