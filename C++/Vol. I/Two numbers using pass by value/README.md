@@ -60,3 +60,12 @@ a = 20, b = 10
 
 After swap (in main):
 x = 20, y = 10
+
+
+
+# Key Points
+============
+Feature	Description
+int &a, &b	Reference variables (aliases) for x & y
+Direct access	No pointers or dereferencing required
+swapNumbers()	Swaps values by modifying original variables
