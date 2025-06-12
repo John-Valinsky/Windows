@@ -31,3 +31,8 @@ void swapNumbers(int &a, int &b) {
     a = b;
     b = temp; // Missing in your code, add to complete swap
 }
+
+a and b are references to variables passed from main.
+
+Modifications inside the function reflect in the original variables.
+
