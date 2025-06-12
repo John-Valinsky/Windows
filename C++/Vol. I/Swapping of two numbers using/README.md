@@ -19,3 +19,15 @@ Allows direct modification without pointers.
 Cleaner and safer syntax compared to pointers.
 
 Efficient for large data types or objects.
+
+
+
+# Program Explanation
+=====================
+Code Overview:
+
+void swapNumbers(int &a, int &b) {
+    int temp = a;
+    a = b;
+    b = temp; // Missing in your code, add to complete swap
+}
