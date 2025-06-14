@@ -76,3 +76,6 @@ Enter value to push: 20
 
 Enter your choice: 4
 Stack elements: 10 20
+
+Enter your choice: 3
+Top element is: 20
