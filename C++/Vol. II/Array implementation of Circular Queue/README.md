@@ -34,3 +34,8 @@ Initialization
 
 front = -1;
 rear = -1;
+
+Enqueue Operation
+
+rear = (rear + 1) % MAX;
+arr[rear] = value;
