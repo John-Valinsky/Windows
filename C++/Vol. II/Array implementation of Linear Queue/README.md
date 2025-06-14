@@ -89,3 +89,6 @@ Enter value to enqueue: 20
 
 Enter your choice: 4
 Queue elements: 10 20
+
+Enter your choice: 2
+10 dequeued from queue.
