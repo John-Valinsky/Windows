@@ -42,3 +42,8 @@ Pop Operation
 
 cout << arr[top--] << " popped from stack.";
 Removes the value from the top and decrements the index.
+
+Peek Operation
+
+return arr[top];
+Shows the top value without removing it.
