@@ -85,3 +85,13 @@ Enter your choice: 2
 
 Enter your choice: 4
 Stack elements: 10
+
+
+
+# Time Complexity
+=================
+Operation	Time Complexity
+Push	O(1)
+Pop	O(1)
+Peek	O(1)
+Display	O(n)
