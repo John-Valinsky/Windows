@@ -36,3 +36,9 @@ Push Operation
 
 arr[++top] = value;
 Increments the top index and inserts the value.
+
+
+Pop Operation
+
+cout << arr[top--] << " popped from stack.";
+Removes the value from the top and decrements the index.
