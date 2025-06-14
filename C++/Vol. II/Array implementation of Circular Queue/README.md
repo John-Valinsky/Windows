@@ -25,3 +25,12 @@ dequeue() – Removes the front element.
 peek() – Shows the front element.
 
 display() – Displays all elements in the queue.
+
+
+
+Code Overview
+=============
+Initialization
+
+front = -1;
+rear = -1;
