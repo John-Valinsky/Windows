@@ -14,3 +14,21 @@ The rear is where insertions happen (enqueue).
 Elements are inserted at the rear and removed from the front.
 
 Unlike circular queues, linear queues do not reuse the emptied front spaces, leading to inefficient memory use if not handled carefully.
+
+
+
+Features in This Implementation
+===============================
+Fixed maximum size (MAX = 5)
+
+
+
+Supports:
+=========
+enqueue(value) – Adds an element.
+
+dequeue() – Removes the front element.
+
+peek() – Views the front element.
+
+display() – Prints current queue elements.
