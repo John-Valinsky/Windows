@@ -64,3 +64,15 @@ Resets front and rear if queue becomes empty.
 ====================
 bool isEmpty() { return front == -1; }
 bool isFull() { return rear == MAX - 1; }
+
+
+
+# Sample Output
+===============
+
+--- Menu ---
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Display Queue
+5. Exit
