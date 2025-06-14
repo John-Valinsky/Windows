@@ -47,3 +47,8 @@ Peek Operation
 
 return arr[top];
 Shows the top value without removing it.
+
+
+# Display
+=========
+Iterates from 0 to top to print all stack elements in order of insertion.
