@@ -12,3 +12,18 @@ Elements are pushed onto the stack.
 
 The last element pushed is the first one to be popped.
 
+
+
+# Features of This Program
+==========================
+Stack of fixed size (MAX = 100)
+
+Operations:
+
+push(value) – Adds an element to the top.
+
+pop() – Removes the top element.
+
+peek() – Views the top element without removing it.
+
+display() – Displays all elements in the stack.
