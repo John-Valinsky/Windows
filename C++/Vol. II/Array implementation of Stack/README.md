@@ -79,3 +79,6 @@ Stack elements: 10 20
 
 Enter your choice: 3
 Top element is: 20
+
+Enter your choice: 2
+20 popped from stack.
