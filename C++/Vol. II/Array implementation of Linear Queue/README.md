@@ -76,3 +76,9 @@ bool isFull() { return rear == MAX - 1; }
 3. Peek
 4. Display Queue
 5. Exit
+
+
+
+Enter your choice: 1
+Enter value to enqueue: 10
+10 enqueued to queue.
