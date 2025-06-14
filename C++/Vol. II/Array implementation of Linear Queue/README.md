@@ -43,3 +43,18 @@ arr[++rear] = value;
 Adds element at rear.
 
 Sets front = 0 if queue was empty.
+
+
+
+Dequeue (Remove)
+================
+for (int i = 0; i < rear; i++) {
+    arr[i] = arr[i + 1];
+}
+rear--;
+Removes element at front.
+
+Shifts elements left to maintain continuity.
+
+Resets front and rear if queue becomes empty.
+
