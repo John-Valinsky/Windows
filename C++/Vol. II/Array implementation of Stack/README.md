@@ -65,3 +65,8 @@ Iterates from 0 to top to print all stack elements in order of insertion.
 3. Peek
 4. Display Stack
 5. Exit
+
+Enter your choice: 1
+Enter value to push: 10
+10 pushed to stack.
+
