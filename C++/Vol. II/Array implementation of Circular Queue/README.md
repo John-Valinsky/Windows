@@ -11,3 +11,17 @@ Front points to the first element.
 Rear points to the last element.
 
 When either end reaches the maximum index, it wraps around using modulus %.
+
+
+
+Key Features in This Program
+============================
+Array size: MAX = 5
+
+enqueue(value) – Adds an element.
+
+dequeue() – Removes the front element.
+
+peek() – Shows the front element.
+
+display() – Displays all elements in the queue.
