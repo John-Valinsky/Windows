@@ -39,3 +39,7 @@ Enqueue Operation
 
 rear = (rear + 1) % MAX;
 arr[rear] = value;
+
+Dequeue Operation
+
+front = (front + 1) % MAX;
