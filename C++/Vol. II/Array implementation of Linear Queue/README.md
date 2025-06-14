@@ -58,3 +58,9 @@ Shifts elements left to maintain continuity.
 
 Resets front and rear if queue becomes empty.
 
+
+
+# Check Full / Empty
+====================
+bool isEmpty() { return front == -1; }
+bool isFull() { return rear == MAX - 1; }
