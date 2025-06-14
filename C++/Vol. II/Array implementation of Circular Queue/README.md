@@ -54,3 +54,13 @@ bool isEmpty() {
 bool isFull() {
     return (rear + 1) % MAX == front;
 }
+
+
+
+Sample Menu
+===========
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Display Queue
+5. Exit
