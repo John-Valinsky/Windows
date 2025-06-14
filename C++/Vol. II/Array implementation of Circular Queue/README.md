@@ -43,3 +43,14 @@ arr[rear] = value;
 Dequeue Operation
 
 front = (front + 1) % MAX;
+
+
+Empty and Full Conditions
+=========================
+bool isEmpty() {
+    return front == -1;
+}
+
+bool isFull() {
+    return (rear + 1) % MAX == front;
+}
