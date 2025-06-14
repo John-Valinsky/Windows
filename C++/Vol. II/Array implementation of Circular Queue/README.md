@@ -82,3 +82,6 @@ Queue elements: 10 20
 
 Enter your choice: 2
 10 dequeued from queue.
+
+Enter your choice: 3
+Front element is: 20
