@@ -82,3 +82,6 @@ Top element is: 20
 
 Enter your choice: 2
 20 popped from stack.
+
+Enter your choice: 4
+Stack elements: 10
