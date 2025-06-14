@@ -27,3 +27,12 @@ pop() – Removes the top element.
 peek() – Views the top element without removing it.
 
 display() – Displays all elements in the stack.
+
+
+
+# Core Concepts
+===============
+Push Operation
+
+arr[++top] = value;
+Increments the top index and inserts the value.
