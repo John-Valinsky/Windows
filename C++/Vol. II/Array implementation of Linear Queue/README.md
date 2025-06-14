@@ -12,3 +12,5 @@ The front of the queue is where deletions happen (dequeue).
 The rear is where insertions happen (enqueue).
 
 Elements are inserted at the rear and removed from the front.
+
+Unlike circular queues, linear queues do not reuse the emptied front spaces, leading to inefficient memory use if not handled carefully.
