@@ -49,6 +49,19 @@ return arr[top];
 Shows the top value without removing it.
 
 
+
 # Display
 =========
 Iterates from 0 to top to print all stack elements in order of insertion.
+
+
+
+# Sample Output
+===============
+
+--- Menu ---
+1. Push
+2. Pop
+3. Peek
+4. Display Stack
+5. Exit
