@@ -32,3 +32,14 @@ dequeue() – Removes the front element.
 peek() – Views the front element.
 
 display() – Prints current queue elements.
+
+
+
+Key Functionalities
+===================
+Enqueue (Insert)
+
+arr[++rear] = value;
+Adds element at rear.
+
+Sets front = 0 if queue was empty.
