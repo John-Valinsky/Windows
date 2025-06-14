@@ -82,3 +82,7 @@ bool isFull() { return rear == MAX - 1; }
 Enter your choice: 1
 Enter value to enqueue: 10
 10 enqueued to queue.
+
+Enter your choice: 1
+Enter value to enqueue: 20
+20 enqueued to queue.
