@@ -73,3 +73,6 @@ Enter value to push: 10
 Enter your choice: 1
 Enter value to push: 20
 20 pushed to stack.
+
+Enter your choice: 4
+Stack elements: 10 20
