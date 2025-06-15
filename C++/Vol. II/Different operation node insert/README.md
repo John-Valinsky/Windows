@@ -25,3 +25,17 @@ Insert at Front	Adds a new node at the beginning of the list.
 Insert at End	Adds a new node at the end of the list.
 Delete Node	Removes the first node that contains the given value.
 Display List	Prints all elements of the list from head to tail.
+
+
+
+# Logic Explanation
+===================
+Structure of Node
+cpp
+Copy
+Edit
+struct Node {
+    int data;
+    Node* next;
+    Node* prev;
+};
