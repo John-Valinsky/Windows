@@ -37,3 +37,20 @@ Deletes all instances of a specified element
 Dynamically adjusts the array size after deletion
 
 Clean display of final output
+
+
+
+# Logic Explanation
+===================
+Looping and Deletion
+cpp
+Copy
+Edit
+if (arr[i] == element) {
+    for (int j = i; j < n - 1; j++) {
+        arr[j] = arr[j + 1];  // Shift left
+    }
+    n--;  // Reduce array size
+} else {
+    i++;  // Only increment if no deletion happened
+}
