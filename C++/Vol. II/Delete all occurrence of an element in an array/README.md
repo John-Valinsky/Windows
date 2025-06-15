@@ -11,3 +11,7 @@ This program allows the user to:
 Input an array of integers.
 
 Specify an element to delete.
+
+Automatically remove all occurrences of that element from the array by shifting the remaining elements.
+
+Display the final array.
