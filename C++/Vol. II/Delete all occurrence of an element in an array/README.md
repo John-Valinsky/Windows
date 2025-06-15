@@ -25,3 +25,15 @@ Array manipulation
 Element shifting
 
 Pass-by-reference (to update the array size after deletions)
+
+
+
+# Features
+==========
+User-defined array input
+
+Deletes all instances of a specified element
+
+Dynamically adjusts the array size after deletion
+
+Clean display of final output
