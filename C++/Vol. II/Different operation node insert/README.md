@@ -65,3 +65,15 @@ Find node containing the value.
 Update the next and prev links of neighboring nodes.
 
 Handle special cases like deleting the head.
+
+
+
+# Sample Output
+===============
+
+--- Menu ---
+1. Insert at the front
+2. Insert at the end
+3. Delete a node
+4. Display list
+5. Exit
