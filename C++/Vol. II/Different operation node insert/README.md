@@ -47,3 +47,11 @@ data: the value stored
 next: pointer to the next node
 
 prev: pointer to the previous node
+
+
+
+# Insertion (Front and End)
+===========================
+At front: new node becomes the head, and its next points to the old head.
+
+At end: traverse to last node and insert new node after it.
