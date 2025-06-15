@@ -73,3 +73,11 @@ After deletion, Array elements: 2 4 5
 Operation	Complexity
 Worst-case deletion	O(n²) in the worst case (multiple shifts)
 
+
+
+# Limitations
+=============
+Static array with max size of 100. For larger or dynamic arrays, use std::vector.
+
+No input validation for negative size or invalid inputs.
+
