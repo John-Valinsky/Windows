@@ -66,3 +66,10 @@ Enter the elements of the array: 2 3 4 3 5 3
 Enter the element to delete: 3
 After deletion, Array elements: 2 4 5
 
+
+
+# Time Complexity
+=================
+Operation	Complexity
+Worst-case deletion	O(n²) in the worst case (multiple shifts)
+
