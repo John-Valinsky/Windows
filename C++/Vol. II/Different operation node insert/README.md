@@ -55,3 +55,13 @@ prev: pointer to the previous node
 At front: new node becomes the head, and its next points to the old head.
 
 At end: traverse to last node and insert new node after it.
+
+
+
+# Deletion
+==========
+Find node containing the value.
+
+Update the next and prev links of neighboring nodes.
+
+Handle special cases like deleting the head.
