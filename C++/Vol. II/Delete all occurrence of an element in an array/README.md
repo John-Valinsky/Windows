@@ -57,3 +57,12 @@ if (arr[i] == element) {
 
 We don’t increment i when a deletion occurs, so we can re-check the new element that shifted into the current position.
 
+
+
+# Sample Output
+===============
+Enter the number of elements in the array: 6
+Enter the elements of the array: 2 3 4 3 5 3
+Enter the element to delete: 3
+After deletion, Array elements: 2 4 5
+
