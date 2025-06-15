@@ -54,3 +54,6 @@ if (arr[i] == element) {
 } else {
     i++;  // Only increment if no deletion happened
 }
+
+We don’t increment i when a deletion occurs, so we can re-check the new element that shifted into the current position.
+
