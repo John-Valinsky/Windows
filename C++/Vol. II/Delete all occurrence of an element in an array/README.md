@@ -15,3 +15,13 @@ Specify an element to delete.
 Automatically remove all occurrences of that element from the array by shifting the remaining elements.
 
 Display the final array.
+
+
+
+# Key Concepts
+==============
+Array manipulation
+
+Element shifting
+
+Pass-by-reference (to update the array size after deletions)
