@@ -39,3 +39,11 @@ struct Node {
     Node* next;
     Node* prev;
 };
+
+Each node contains:
+
+data: the value stored
+
+next: pointer to the next node
+
+prev: pointer to the previous node
