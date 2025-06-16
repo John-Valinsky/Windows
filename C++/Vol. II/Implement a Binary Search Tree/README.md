@@ -15,3 +15,13 @@ Search for values
 Delete nodes
 
 Traverse the tree in inorder (which results in sorted order)
+
+
+
+# BST Concepts
+==============
+A Binary Search Tree is a binary tree where each node follows the rule:
+
+Left child < Root < Right child
+This property makes search, insert, and delete operations efficient (on average: O(log n)).
+
