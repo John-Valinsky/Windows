@@ -97,3 +97,12 @@ inorder(right);
 3. Display Inorder traversal
 4. Delete a node
 5. Exit
+
+Enter your choice: 1
+Enter value to insert: 50
+Enter your choice: 1
+Enter value to insert: 30
+Enter your choice: 1
+Enter value to insert: 70
+Enter your choice: 3
+
