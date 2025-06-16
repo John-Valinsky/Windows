@@ -106,3 +106,14 @@ Enter your choice: 1
 Enter value to insert: 70
 Enter your choice: 3
 
+Inorder traversal: 30 50 70
+
+Enter your choice: 2
+Enter value to search: 70
+70 found in the tree.
+Enter your choice: 4
+Enter value to delete: 30
+30 deleted from the tree.
+Enter your choice: 3
+
+Inorder traversal: 50 70
