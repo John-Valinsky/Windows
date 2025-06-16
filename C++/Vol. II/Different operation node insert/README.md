@@ -85,3 +85,6 @@ Enter value to insert at the front: 10
 Enter your choice: 2
 Enter value to insert at the end: 20
 20 inserted at the end of the list.
+
+Enter your choice: 4
+Doubly Linked List elements: 10 20
