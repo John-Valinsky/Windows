@@ -81,3 +81,7 @@ Handle special cases like deleting the head.
 Enter your choice: 1
 Enter value to insert at the front: 10
 10 inserted at the front of the list.
+
+Enter your choice: 2
+Enter value to insert at the end: 20
+20 inserted at the end of the list.
