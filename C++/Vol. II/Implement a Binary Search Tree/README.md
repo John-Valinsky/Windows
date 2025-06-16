@@ -46,3 +46,12 @@ struct Node {
     Node* right;
 };
 
+
+
+# Insertion
+===========
+If value < node's data → go to left subtree
+
+If value > node's data → go to right subtree
+
+Recursively insert the node
