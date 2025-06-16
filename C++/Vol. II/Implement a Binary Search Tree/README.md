@@ -25,3 +25,12 @@ A Binary Search Tree is a binary tree where each node follows the rule:
 Left child < Root < Right child
 This property makes search, insert, and delete operations efficient (on average: O(log n)).
 
+
+# Features Implemented
+======================
+Operation	Description
+Insert	Adds a node to the BST maintaining order.
+Search	Finds a node with a specific value.
+Delete	Removes a node and restructures the BST accordingly.
+Inorder	Prints tree elements in sorted (ascending) order.
+
