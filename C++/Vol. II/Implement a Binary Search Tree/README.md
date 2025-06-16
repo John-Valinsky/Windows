@@ -55,3 +55,11 @@ If value < node's data → go to left subtree
 If value > node's data → go to right subtree
 
 Recursively insert the node
+
+
+
+# Searching
+===========
+Traverse left or right based on comparison
+
+Return pointer if value found, or nullptr if not found
