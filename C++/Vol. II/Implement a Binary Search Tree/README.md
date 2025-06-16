@@ -85,3 +85,15 @@ Recursive:
 inorder(left);
 print(data);
 inorder(right);
+
+
+
+# Sample Output
+===============
+
+--- Menu ---
+1. Insert a node
+2. Search for a node
+3. Display Inorder traversal
+4. Delete a node
+5. Exit
