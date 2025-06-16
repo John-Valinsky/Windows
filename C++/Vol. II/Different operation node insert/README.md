@@ -77,3 +77,7 @@ Handle special cases like deleting the head.
 3. Delete a node
 4. Display list
 5. Exit
+
+Enter your choice: 1
+Enter value to insert at the front: 10
+10 inserted at the front of the list.
