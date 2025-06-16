@@ -75,3 +75,13 @@ Leaf node (no children): delete directly.
 One child: replace node with its child.
 
 Two children: replace node with inorder successor (minimum in right subtree).
+
+
+
+# Inorder Traversal
+===================
+Recursive:
+
+inorder(left);
+print(data);
+inorder(right);
