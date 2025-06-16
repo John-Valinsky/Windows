@@ -34,3 +34,15 @@ Search	Finds a node with a specific value.
 Delete	Removes a node and restructures the BST accordingly.
 Inorder	Prints tree elements in sorted (ascending) order.
 
+
+
+# Core Functions & Logic
+========================
+Node Structure
+
+struct Node {
+    int data;
+    Node* left;
+    Node* right;
+};
+
