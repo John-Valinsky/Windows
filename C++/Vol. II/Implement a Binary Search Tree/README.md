@@ -63,3 +63,15 @@ Recursively insert the node
 Traverse left or right based on comparison
 
 Return pointer if value found, or nullptr if not found
+
+
+
+# Deletion
+==========
+Three cases handled:
+
+Leaf node (no children): delete directly.
+
+One child: replace node with its child.
+
+Two children: replace node with inorder successor (minimum in right subtree).
