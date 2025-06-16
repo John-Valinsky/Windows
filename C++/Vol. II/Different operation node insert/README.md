@@ -92,3 +92,6 @@ Doubly Linked List elements: 10 20
 Enter your choice: 3
 Enter value to delete: 10
 10 deleted from the list.
+
+Enter your choice: 4
+Doubly Linked List elements: 20
