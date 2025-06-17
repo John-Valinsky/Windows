@@ -26,3 +26,14 @@ Operation	Description
 Insert	Adds a node at the end of the list.
 Delete	Removes a node by value.
 Display	Shows all elements in the circular list.
+
+
+
+# Key Concepts
+==============
+Node Structure
+
+struct Node {
+    int data;
+    Node* next;
+};
