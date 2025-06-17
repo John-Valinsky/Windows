@@ -91,3 +91,14 @@ Start from head.
 Print data in each node while traversing.
 
 Stop when reaching head again.
+
+
+
+# Sample Output
+===============
+
+--- Menu ---
+1. Insert at the end
+2. Delete a node
+3. Display list
+4. Exit
