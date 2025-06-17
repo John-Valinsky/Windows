@@ -17,3 +17,12 @@ Delete a specific node by value
 Display the list contents
 
 A circular linked list is a variation of a linked list in which the last node points back to the first node, forming a circle.
+
+
+
+# Features Implemented
+======================
+Operation	Description
+Insert	Adds a node at the end of the list.
+Delete	Removes a node by value.
+Display	Shows all elements in the circular list.
