@@ -73,3 +73,21 @@ If deleting a non-head node:
 Traverse to find the node.
 
 Remove it by updating the previous node’s next.
+
+
+
+# Delete a Node
+===============
+If list is empty, exit.
+
+If deleting the head:
+
+
+
+# Display
+=========
+Start from head.
+
+Print data in each node while traversing.
+
+Stop when reaching head again.
