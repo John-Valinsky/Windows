@@ -63,3 +63,13 @@ If list is non-empty:
 Traverse to the last node (next == head)
 
 Insert new node and update last node’s next.
+
+If it's the only node, delete it and set head to nullptr.
+
+Else, update the last node to point to the new head.
+
+If deleting a non-head node:
+
+Traverse to find the node.
+
+Remove it by updating the previous node’s next.
