@@ -102,3 +102,28 @@ Stop when reaching head again.
 2. Delete a node
 3. Display list
 4. Exit
+
+
+Enter your choice: 1
+Enter value to insert: 10
+
+10 inserted at the end of the list.
+
+Enter your choice: 1
+Enter value to insert: 20
+
+20 inserted at the end of the list.
+
+Enter your choice: 3
+Circular Linked List elements: 10 20
+Enter your choice: 2
+Enter value to delete: 10
+
+10 deleted from the list.
+
+Enter your choice: 3
+Circular Linked List elements: 20
+
+Enter your choice: 4
+Exiting program...
+Memory freed.
