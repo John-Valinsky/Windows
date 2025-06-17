@@ -37,3 +37,11 @@ struct Node {
     int data;
     Node* next;
 };
+
+
+
+# Circular Nature
+=================
+In an empty list, the inserted node points to itself.
+
+In non-empty lists, the last node always points back to head.
