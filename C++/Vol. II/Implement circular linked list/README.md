@@ -45,3 +45,21 @@ struct Node {
 In an empty list, the inserted node points to itself.
 
 In non-empty lists, the last node always points back to head.
+
+
+
+# Core Operations Explained
+===========================
+Insert at End
+
+If the list is empty:
+
+New node becomes head.
+
+Its next pointer points to itself.
+
+If list is non-empty:
+
+Traverse to the last node (next == head)
+
+Insert new node and update last node’s next.
