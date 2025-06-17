@@ -39,3 +39,11 @@ struct Node {
     int data;
     Node* next;
 };
+
+
+
+# Insertion at End
+==================
+If list is empty: the new node becomes the head.
+
+Else: Traverse to the last node and attach the new node.
