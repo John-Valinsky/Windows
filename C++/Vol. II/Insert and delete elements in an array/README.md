@@ -46,3 +46,11 @@ struct Node {
 If list is empty: the new node becomes the head.
 
 Else: Traverse to the last node and attach the new node.
+
+
+
+# Deletion
+==========
+If deleting the head: reassign head to the next node.
+
+Else: Traverse to the previous node and bypass the node to be deleted.
