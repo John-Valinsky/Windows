@@ -9,3 +9,10 @@ Node Deletion
 Searching for an Item
 
 Reversing the List
+
+
+
+Program Description
+===================
+This C++ program demonstrates the implementation of a Linear (Singly) Linked List, which supports the following key functionalities:
+
