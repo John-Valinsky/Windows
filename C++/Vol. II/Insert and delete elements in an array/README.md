@@ -54,3 +54,9 @@ Else: Traverse to the last node and attach the new node.
 If deleting the head: reassign head to the next node.
 
 Else: Traverse to the previous node and bypass the node to be deleted.
+
+
+
+# Search
+========
+Traverse the list to find a node with the target value.
