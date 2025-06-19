@@ -16,3 +16,9 @@ Program Description
 ===================
 This C++ program demonstrates the implementation of a Linear (Singly) Linked List, which supports the following key functionalities:
 
+Functionality	Description
+Insert at end	Adds a node to the end of the list.
+Delete a node	Removes the first occurrence of a node by value.
+Search for an element	Checks if a specific value exists in the list.
+Reverse the list	Reverses the entire linked list.
+Display list	Prints the list from start to end.
