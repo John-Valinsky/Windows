@@ -22,3 +22,14 @@ Delete a node	Removes the first occurrence of a node by value.
 Search for an element	Checks if a specific value exists in the list.
 Reverse the list	Reverses the entire linked list.
 Display list	Prints the list from start to end.
+
+
+
+# Key Concepts
+==============
+Node Structure
+Each node contains:
+
+data: the value stored in the node
+
+next: pointer to the next node in the list
