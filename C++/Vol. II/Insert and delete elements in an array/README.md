@@ -79,3 +79,29 @@ Reverses all node links such that the last becomes the head.
 4. Reverse the list
 5. Display list
 6. Exit
+
+Enter your choice: 1
+Enter value to insert: 50
+50 inserted at the end of the list.
+
+Enter your choice: 1
+Enter value to insert: 100
+100 inserted at the end of the list.
+
+Enter your choice: 5
+List elements: 50 100
+
+Enter your choice: 3
+
+Enter value to search: 100
+100 found in the list.
+
+Enter your choice: 4
+List reversed.
+
+Enter your choice: 5
+List elements: 100 50
+
+Enter your choice: 6
+Exiting program...
+Memory freed.
