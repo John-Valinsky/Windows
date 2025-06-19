@@ -60,3 +60,9 @@ Else: Traverse to the previous node and bypass the node to be deleted.
 # Search
 ========
 Traverse the list to find a node with the target value.
+
+
+
+# Reverse
+=========
+Reverses all node links such that the last becomes the head.
