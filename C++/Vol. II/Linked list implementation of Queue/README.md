@@ -26,3 +26,17 @@ Dequeue	Removes an element from the front of the queue.
 Peek	Returns the element at the front without removing it.
 isEmpty	Checks if the queue is currently empty.
 
+
+
+# Node Structure
+================
+Each node in the linked list holds:
+
+An integer data
+
+A pointer to the next node
+
+struct Node {
+    int data;
+    Node* next;
+};
