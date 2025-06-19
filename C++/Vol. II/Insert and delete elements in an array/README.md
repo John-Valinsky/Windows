@@ -33,3 +33,8 @@ Each node contains:
 data: the value stored in the node
 
 next: pointer to the next node in the list
+
+struct Node {
+    int data;
+    Node* next;
+};
