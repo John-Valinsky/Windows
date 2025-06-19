@@ -117,3 +117,5 @@ Search	O(n)
 Reverse list	O(n)
 Display	O(n)
 
+Memory Management
+The program includes a destructor to automatically free up memory by deleting each node when the list goes out of scope.
