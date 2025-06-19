@@ -40,3 +40,14 @@ struct Node {
     int data;
     Node* next;
 };
+
+
+
+# Sample Output
+===============
+--- Queue Menu ---
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Check if Queue is Empty
+5. Exit
