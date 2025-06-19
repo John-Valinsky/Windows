@@ -66,3 +66,16 @@ Traverse the list to find a node with the target value.
 # Reverse
 =========
 Reverses all node links such that the last becomes the head.
+
+
+
+# Sample Output
+===============
+
+--- Menu ---
+1. Insert at the end
+2. Delete a node
+3. Search for an element
+4. Reverse the list
+5. Display list
+6. Exit
