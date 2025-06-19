@@ -105,3 +105,15 @@ List elements: 100 50
 Enter your choice: 6
 Exiting program...
 Memory freed.
+
+
+
+Time Complexity
+===============
+Operation	Time Complexity
+Insert at end	O(n)
+Delete a node	O(n)
+Search	O(n)
+Reverse list	O(n)
+Display	O(n)
+
