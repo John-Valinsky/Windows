@@ -17,3 +17,17 @@ Works only on sorted arrays
 Repeatedly compares the middle element with the target
 
 Eliminates half of the search space each time
+
+
+
+# Algorithm Overview
+====================
+1. Initialize: low = 0, high = size - 1
+
+2. while low <= high:
+   a. mid = low + (high - low) / 2
+   b. if arr[mid] == target → return mid
+   c. else if arr[mid] > target → high = mid - 1
+   d. else → low = mid + 1
+
+3. If not found, return -1
