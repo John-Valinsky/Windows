@@ -49,3 +49,8 @@ Element found at index 5.
 Input:
 
 Enter the number to search: 50
+
+
+Output:
+
+Element not found in the array.
