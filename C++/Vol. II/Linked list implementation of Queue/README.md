@@ -72,3 +72,14 @@ Queue is not empty.
 Enter your choice: 5
 Exiting program...
 Queue memory freed.
+
+
+
+# Time Complexity
+=================
+Operation	Time Complexity
+Enqueue	O(1)
+Dequeue	O(1)
+Peek	O(1)
+isEmpty	O(1)
+
