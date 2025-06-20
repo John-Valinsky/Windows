@@ -83,3 +83,17 @@ Dequeue	O(1)
 Peek	O(1)
 isEmpty	O(1)
 
+
+
+# Memory Management
+===================
+A destructor is implemented to free all nodes dynamically created during runtime when the program exits.
+
+Queue() {
+    while (front != nullptr) {
+        Node* temp = front;
+        front = front->next;
+        delete temp;
+    }
+    cout << "Queue memory freed." << endl;
+}
