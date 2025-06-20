@@ -28,3 +28,9 @@ for (i = 0 to n-1):
             swap(arr[j], arr[j+1])
 Optimized with a swapped flag to exit early if the array becomes sorted before all passes are completed.
 
+
+
+# Sample Output
+===============
+Before Sorting:
+Original array: 64 34 25 12 22 11 90
