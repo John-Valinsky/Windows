@@ -56,3 +56,7 @@ Enter your choice: 1
 Enter value to push: 40
 40 pushed onto the stack.
 
+Enter your choice: 1
+Enter value to push: 70
+70 pushed onto the stack.
+
