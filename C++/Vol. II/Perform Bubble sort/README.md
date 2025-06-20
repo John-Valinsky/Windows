@@ -8,3 +8,12 @@ Q. Write a C++ program to perform Bubble Sort on an array.
 =============
 This program demonstrates Bubble Sort, a simple comparison-based sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
 
+
+
+# Key Features
+==============
+Simple to understand and implement.
+
+Best suited for small datasets.
+
+Stops early if the array is already sorted.
