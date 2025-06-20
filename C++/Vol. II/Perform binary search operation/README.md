@@ -39,3 +39,8 @@ Eliminates half of the search space each time
 Input:
 
 Enter the number to search: 23
+
+
+Output:
+
+Element found at index 5.
