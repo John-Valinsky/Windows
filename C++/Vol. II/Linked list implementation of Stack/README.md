@@ -65,3 +65,10 @@ Top element is 70
 
 Enter your choice: 2
 70 popped from the stack.
+
+Enter your choice: 4
+Stack is not empty.
+
+Enter your choice: 5
+Exiting program...
+Stack memory freed.
