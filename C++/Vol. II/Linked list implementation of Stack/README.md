@@ -40,3 +40,14 @@ struct Node {
     int data;
     Node* next;
 };
+
+
+
+# Sample Output
+===============
+--- Stack Menu ---
+1. Push
+2. Pop
+3. Peek
+4. Check if Stack is Empty
+5. Exit
