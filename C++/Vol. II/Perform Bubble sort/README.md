@@ -17,3 +17,14 @@ Simple to understand and implement.
 Best suited for small datasets.
 
 Stops early if the array is already sorted.
+
+
+
+# Algorithm Overview
+====================
+for (i = 0 to n-1):
+    for (j = 0 to n-i-1):
+        if (arr[j] > arr[j+1]):
+            swap(arr[j], arr[j+1])
+Optimized with a swapped flag to exit early if the array becomes sorted before all passes are completed.
+
