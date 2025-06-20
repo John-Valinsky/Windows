@@ -59,3 +59,9 @@ Enter value to enqueue: 10
 Enter your choice: 1
 Enter value to enqueue: 20
 20 enqueued to the queue.
+
+Enter your choice: 3
+Front element is 10
+
+Enter your choice: 2
+10 dequeued from the queue.
