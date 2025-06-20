@@ -44,3 +44,8 @@ Enter the number to search: 23
 Output:
 
 Element found at index 5.
+
+
+Input:
+
+Enter the number to search: 50
