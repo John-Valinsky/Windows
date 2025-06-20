@@ -55,3 +55,7 @@ struct Node {
 Enter your choice: 1
 Enter value to enqueue: 10
 10 enqueued to the queue.
+
+Enter your choice: 1
+Enter value to enqueue: 20
+20 enqueued to the queue.
