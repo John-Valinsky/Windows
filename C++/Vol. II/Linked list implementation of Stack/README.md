@@ -25,3 +25,18 @@ Push	Inserts an element at the top of the stack
 Pop	Removes the top element of the stack
 Peek	Returns the current top element without removing it
 isEmpty	Checks whether the stack is empty
+
+
+
+# Node Structure
+================
+Each node contains:
+
+An integer data
+
+A pointer next pointing to the next node in the stack
+
+struct Node {
+    int data;
+    Node* next;
+};
