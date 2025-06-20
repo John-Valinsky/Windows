@@ -51,3 +51,8 @@ struct Node {
 3. Peek
 4. Check if Stack is Empty
 5. Exit
+
+Enter your choice: 1
+Enter value to push: 40
+40 pushed onto the stack.
+
