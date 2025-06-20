@@ -51,3 +51,7 @@ struct Node {
 3. Peek
 4. Check if Queue is Empty
 5. Exit
+
+Enter your choice: 1
+Enter value to enqueue: 10
+10 enqueued to the queue.
