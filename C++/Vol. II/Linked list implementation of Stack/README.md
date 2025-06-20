@@ -60,3 +60,8 @@ Enter your choice: 1
 Enter value to push: 70
 70 pushed onto the stack.
 
+Enter your choice: 3
+Top element is 70
+
+Enter your choice: 2
+70 popped from the stack.
