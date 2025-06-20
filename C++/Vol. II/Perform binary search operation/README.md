@@ -54,3 +54,12 @@ Enter the number to search: 50
 Output:
 
 Element not found in the array.
+
+
+
+# Time Complexity
+=================
+Case		Time Complexity
+Best Case	O(1)
+Average		O(log n)
+Worst Case	O(log n)
