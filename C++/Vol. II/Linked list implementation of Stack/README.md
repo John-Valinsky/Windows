@@ -72,3 +72,13 @@ Stack is not empty.
 Enter your choice: 5
 Exiting program...
 Stack memory freed.
+
+
+
+# Time Complexity
+=================
+Operation	Time Complexity
+Push	O(1)
+Pop	O(1)
+Peek	O(1)
+isEmpty	O(1)
