@@ -31,3 +31,11 @@ Eliminates half of the search space each time
    d. else → low = mid + 1
 
 3. If not found, return -1
+
+
+
+# Sample Input/Output
+=====================
+Input:
+
+Enter the number to search: 23
