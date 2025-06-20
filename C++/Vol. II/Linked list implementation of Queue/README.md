@@ -65,3 +65,10 @@ Front element is 10
 
 Enter your choice: 2
 10 dequeued from the queue.
+
+Enter your choice: 4
+Queue is not empty.
+
+Enter your choice: 5
+Exiting program...
+Queue memory freed.
