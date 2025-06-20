@@ -15,3 +15,13 @@ Check if the stack is empty
 # Description
 =============
 This program implements a stack (LIFO: Last-In-First-Out) using a singly linked list. It performs typical stack operations dynamically without a fixed size, which makes it memory-efficient and flexible.
+
+
+
+# Key Features
+==============
+Operation	Description
+Push	Inserts an element at the top of the stack
+Pop	Removes the top element of the stack
+Peek	Returns the current top element without removing it
+isEmpty	Checks whether the stack is empty
