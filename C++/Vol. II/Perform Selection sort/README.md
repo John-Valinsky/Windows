@@ -56,3 +56,12 @@ Space Complexity: O(1) (in-place sorting)
 Simple to implement and understand
 
 Requires no additional memory
+
+
+
+# Disadvantages
+===============
+Inefficient for large datasets
+
+Time complexity remains O(n²) even if array is partially sorted
+
