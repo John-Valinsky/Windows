@@ -35,3 +35,12 @@ function mergeSort(arr, left, right):
 ===============
 Original array: 38 27 43 3 9 82 10  
 Sorted array: 3 9 10 27 38 43 82
+
+
+
+# Time and Space Complexity
+===========================
+Case		Time Complexity
+Best		O(n log n)
+Average		O(n log n)
+Worst		O(n log n)
