@@ -38,3 +38,13 @@ function quickSort(arr, low, high):
 ===============
 Original array: 64 34 25 12 22 11 90  
 Sorted array: 11 12 22 25 34 64 90
+
+
+
+# Time and Space Complexity
+===========================
+Case	Time Complexity
+Best	O(n log n)
+Average	O(n log n)
+Worst	O(n²)
+
