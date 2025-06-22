@@ -46,3 +46,5 @@ Case	Time Complexity
 Best	O(n²)
 Average	O(n²)
 Worst	O(n²)
+
+Space Complexity: O(1) (in-place sorting)
