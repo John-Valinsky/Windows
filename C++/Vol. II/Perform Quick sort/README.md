@@ -31,3 +31,10 @@ function quickSort(arr, low, high):
         pi = partition(arr, low, high)
         quickSort(arr, low, pi - 1)
         quickSort(arr, pi + 1, high)
+
+
+
+# Sample Output
+===============
+Original array: 64 34 25 12 22 11 90  
+Sorted array: 11 12 22 25 34 64 90
