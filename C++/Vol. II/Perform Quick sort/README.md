@@ -21,3 +21,13 @@ Move all elements smaller than pivot to its left.
 Move all greater elements to its right.
 
 Recursively apply the above steps to the left and right subarrays.
+
+
+
+# Pseudocode (Simplified)
+=========================
+function quickSort(arr, low, high):
+    if low < high:
+        pi = partition(arr, low, high)
+        quickSort(arr, low, pi - 1)
+        quickSort(arr, pi + 1, high)
