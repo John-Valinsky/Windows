@@ -28,3 +28,10 @@ function mergeSort(arr, left, right):
         mergeSort(arr, left, mid)
         mergeSort(arr, mid + 1, right)
         merge(arr, left, mid, right)
+
+
+
+# Sample Output
+===============
+Original array: 38 27 43 3 9 82 10  
+Sorted array: 3 9 10 27 38 43 82
