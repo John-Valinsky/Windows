@@ -30,3 +30,10 @@ for i from 0 to n - 1:
         if arr[j] < arr[minIndex]:
             minIndex = j
     swap arr[i] and arr[minIndex]
+
+
+
+# Sample Output
+===============
+Original array: 64 34 25 12 22 11 90  
+Sorted array: 11 12 22 25 34 64 90
