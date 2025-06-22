@@ -57,3 +57,11 @@ In-place sorting (uses very little extra space)
 Very fast on average
 
 Widely used in real-world systems
+
+
+
+# Disadvantages
+===============
+Worst-case time complexity is O(n²)
+
+Not stable (doesn’t preserve order of equal elements)
