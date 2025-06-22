@@ -19,3 +19,15 @@ Compare it with elements to its left.
 Shift larger elements to the right.
 
 Insert the current element at the correct position.
+
+
+
+# Pseudocode
+============
+for i = 1 to size-1:
+    key = arr[i]
+    j = i - 1
+    while j >= 0 and arr[j] > key:
+        arr[j + 1] = arr[j]
+        j--
+    arr[j + 1] = key
