@@ -7,3 +7,15 @@ Q. Write a C++ program to perform Insertion Sort on an array.
 # Description
 =============
 This program implements Insertion Sort, a simple and efficient sorting algorithm especially effective for small or nearly sorted arrays. It builds the final sorted array one element at a time.
+
+
+
+# How Insertion Sort Works
+==========================
+For each element:
+
+Compare it with elements to its left.
+
+Shift larger elements to the right.
+
+Insert the current element at the correct position.
