@@ -65,3 +65,10 @@ Inefficient for large datasets
 
 Time complexity remains O(n²) even if array is partially sorted
 
+
+
+# Example Array (Before & After)
+================================
+Step	Array
+Input	64, 34, 25, 12, 22, 11, 90
+After Sort	11, 12, 22, 25, 34, 64, 90
