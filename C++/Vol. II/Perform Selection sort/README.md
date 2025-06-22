@@ -48,3 +48,11 @@ Average	O(n²)
 Worst	O(n²)
 
 Space Complexity: O(1) (in-place sorting)
+
+
+
+# Advantages
+============
+Simple to implement and understand
+
+Requires no additional memory
