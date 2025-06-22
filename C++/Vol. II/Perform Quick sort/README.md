@@ -48,3 +48,12 @@ Best	O(n log n)
 Average	O(n log n)
 Worst	O(n²)
 
+
+
+# Advantages
+============
+In-place sorting (uses very little extra space)
+
+Very fast on average
+
+Widely used in real-world systems
