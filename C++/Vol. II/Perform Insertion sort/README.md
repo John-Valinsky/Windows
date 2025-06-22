@@ -31,3 +31,10 @@ for i = 1 to size-1:
         arr[j + 1] = arr[j]
         j--
     arr[j + 1] = key
+
+
+
+# Sample Output
+===============
+Original array: 64 34 25 12 22 11 90  
+Sorted array: 11 12 22 25 34 64 90
