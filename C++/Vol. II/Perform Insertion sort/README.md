@@ -38,3 +38,12 @@ for i = 1 to size-1:
 ===============
 Original array: 64 34 25 12 22 11 90  
 Sorted array: 11 12 22 25 34 64 90
+
+
+
+# Time Complexity
+=================
+Case					Time Complexity
+Best (already sorted)	O(n)
+Average					O(n²)
+Worst					O(n²)
