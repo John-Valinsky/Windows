@@ -65,3 +65,11 @@ Widely used in real-world systems
 Worst-case time complexity is O(n²)
 
 Not stable (doesn’t preserve order of equal elements)
+
+
+
+# Example Array (Before & After)
+================================
+Step	Array
+Input	64, 34, 25, 12, 22, 11, 90
+After Sort	11, 12, 22, 25, 34, 64, 90
