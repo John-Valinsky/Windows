@@ -19,3 +19,14 @@ Find the smallest element in the unsorted part.
 Swap it with the element at the current position.
 
 Repeat for the next position until the array is sorted.
+
+
+
+# Pseudocode (Simplified)
+=========================
+for i from 0 to n - 1:
+    minIndex = i
+    for j from i + 1 to n:
+        if arr[j] < arr[minIndex]:
+            minIndex = j
+    swap arr[i] and arr[minIndex]
