@@ -18,3 +18,13 @@ Conquer: Recursively sort the sub-arrays.
 
 Combine: Merge the sorted sub-arrays to produce a sorted whole.
 
+
+
+# Pseudocode (Simplified)
+=========================
+function mergeSort(arr, left, right):
+    if left < right:
+        mid = (left + right) / 2
+        mergeSort(arr, left, mid)
+        mergeSort(arr, mid + 1, right)
+        merge(arr, left, mid, right)
