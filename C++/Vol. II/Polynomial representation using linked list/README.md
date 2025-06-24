@@ -27,3 +27,15 @@ A polynomial like:
 
 [5, 3] → [4, 2] → [2, 1] → [1, 0]
 Each node represents a term with its coefficient and exponent.
+
+
+
+# Features
+==========
+* Insert terms in sorted order by exponent
+
+* Merge terms with same exponents
+
+* Add two polynomials and return the resultant polynomial
+
+* Display polynomial in human-readable form
