@@ -49,8 +49,14 @@ Is represented in the list as:
 
 
 # Sample Output
-===============
+===============	
 Inserted value 5 at position (0, 1).
 Inserted value 8 at position (1, 3).
 Inserted value 10 at position (2, 2).
 Inserted value 6 at position (3, 4).
+
+Sparse Matrix Representation:
+0 5 0 0 0 
+0 0 0 8 0 
+0 0 10 0 0 
+0 0 0 0 6 
