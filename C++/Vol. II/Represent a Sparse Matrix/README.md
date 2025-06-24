@@ -60,3 +60,17 @@ Sparse Matrix Representation:
 0 0 0 8 0 
 0 0 10 0 0 
 0 0 0 0 6 
+
+
+
+# Time & Space Complexity
+=========================
+Operation		Time Complexity	Space Complexity
+Insert			O(n)	O(n)
+Display			O(m × n)	O(m × n)
+
+Where:
+
+n = number of non-zero elements
+
+m × n = dimensions of the full matrix
