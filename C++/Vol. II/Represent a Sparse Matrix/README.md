@@ -45,3 +45,12 @@ Is represented in the list as:
 * Display the full matrix by reconstructing from the list
 
 * Free memory upon program exit
+
+
+
+# Sample Output
+===============
+Inserted value 5 at position (0, 1).
+Inserted value 8 at position (1, 3).
+Inserted value 10 at position (2, 2).
+Inserted value 6 at position (3, 4).
