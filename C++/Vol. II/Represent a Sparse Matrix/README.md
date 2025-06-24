@@ -30,3 +30,6 @@ For example, the matrix:
 0 0 10 0 0
 0 0 0 0 6
 
+Is represented in the list as:
+
+[0,1,5] → [1,3,8] → [2,2,10] → [3,4,6]
