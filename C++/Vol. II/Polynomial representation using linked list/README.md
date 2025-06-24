@@ -39,3 +39,11 @@ Each node represents a term with its coefficient and exponent.
 * Add two polynomials and return the resultant polynomial
 
 * Display polynomial in human-readable form
+
+
+
+# Sample Output
+===============
+Polynomial 1: 5x^3 +4x^2 +2x^1 +1x^0 
+Polynomial 2: 3x^3 +5x^2 +2x^1 +4x^0 
+Result of addition: 8x^3 +9x^2 +4x^1 +5x^0 
