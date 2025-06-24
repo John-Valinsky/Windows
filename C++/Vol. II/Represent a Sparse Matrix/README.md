@@ -15,3 +15,18 @@ Column index
 Non-zero value
 
 This reduces memory usage compared to storing every element in a 2D array.
+
+
+
+# Data Representation
+=====================
+Each node in the linked list stores:
+
+[row, col, value]
+For example, the matrix:
+
+0 5 0 0 0
+0 0 0 8 0
+0 0 10 0 0
+0 0 0 0 6
+
