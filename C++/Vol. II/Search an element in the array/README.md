@@ -51,3 +51,9 @@ Enter the number of elements in the array: 6
 Enter the elements of the array: 1 2 3 2 4 2
 Enter the element to search: 2
 The element 2 occurs 3 time(s) in the array.
+
+
+Another example:
+
+Enter the element to search: 5
+The element 5 is not found in the array.
