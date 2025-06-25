@@ -15,3 +15,18 @@ Search for a specific element
 Count how many times that element appears in the array
 
 It's a simple example of linear search with frequency counting.
+
+
+
+# Core Logic
+============
+The program uses a for loop to traverse the array and compare each element with the target. A counter variable is incremented each time a match is found.
+
+cpp
+Copy
+Edit
+for (int i = 0; i < n; i++) {
+    if (arr[i] == element) {
+        count++;
+    }
+}
