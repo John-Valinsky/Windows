@@ -43,3 +43,11 @@ for (int i = 0; i < n; i++) {
 
 * Displays a message if the element is not found
 
+
+
+# Sample Output
+===============
+Enter the number of elements in the array: 6
+Enter the elements of the array: 1 2 3 2 4 2
+Enter the element to search: 2
+The element 2 occurs 3 time(s) in the array.
