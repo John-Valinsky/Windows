@@ -30,3 +30,16 @@ for (int i = 0; i < n; i++) {
         count++;
     }
 }
+
+
+
+# Features
+==========
+* Accepts user-defined array size and values
+
+*  Searches for any integer element
+
+* Prints how many times the element occurs
+
+* Displays a message if the element is not found
+
