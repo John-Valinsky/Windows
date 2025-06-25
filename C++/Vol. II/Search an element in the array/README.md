@@ -79,3 +79,17 @@ Search & Count		O(n)
 Space (array size)	O(n)
 
 Where n is the number of elements in the array.
+
+
+
+# Summary
+=========
+This program is a fundamental example of searching and frequency counting in an array. It's useful for:
+
+Learning linear search
+
+Practicing loops and conditionals
+
+Building up to more complex array operations
+
+Let me know if you'd like a version using vectors, recursion, or binary search instead!
