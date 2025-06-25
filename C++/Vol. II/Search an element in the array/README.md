@@ -69,3 +69,13 @@ Make the array dynamic (using vector)
 Add support for floating-point values
 
 Sort the array and use binary search (for larger arrays)
+
+
+
+# Time & Space Complexity
+=========================
+Operation			Complexity
+Search & Count		O(n)
+Space (array size)	O(n)
+
+Where n is the number of elements in the array.
