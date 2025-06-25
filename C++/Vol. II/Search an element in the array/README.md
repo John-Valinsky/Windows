@@ -57,3 +57,15 @@ Another example:
 
 Enter the element to search: 5
 The element 5 is not found in the array.
+
+
+
+# Suggestions for Improvement
+=============================
+Display indices of occurrences
+
+Make the array dynamic (using vector)
+
+Add support for floating-point values
+
+Sort the array and use binary search (for larger arrays)
