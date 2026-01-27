@@ -25,3 +25,11 @@ It accepts both uppercase and lowercase input (Y/y or N/n) and safely initiates 
 * GCC/MinGW or MSVC
 
 * Administrator privileges
+
+
+# Build Instructions
+
+## Using GCC/MinGW
+```bash
+gcc Shutdown.c Shutdown
+```
