@@ -37,3 +37,12 @@ gcc Shutdown.c Shutdown
 ```bash
 cl Shutdown.c
 ```
+
+
+# Usage
+
+## Run the compiled executable "Shutdown.exe".
+
+* Y or y --> Initiates shutdown (30-second delay).
+
+* N or n --> Cancels and exits.
