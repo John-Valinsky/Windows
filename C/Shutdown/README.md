@@ -76,7 +76,7 @@ int main(void)
     printf("\t 001100110101011   0010101100   0010101100        10\n");
 
     printf("\n\t-----------------------------------------------------------\n");
-    printf("\t    x-x-x-x-x-x-x-x-| by John Valinsky |x-x-x-x-x-x-x-x\n");
+    printf("\t    x-x-x-x-x-x-x-x-| By John Valinsky |x-x-x-x-x-x-x-x\n");
     printf("\t-----------------------------------------------------------\n");
 
     /* Ask until valid input */
