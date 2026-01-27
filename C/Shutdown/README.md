@@ -4,6 +4,7 @@ A simple Windows console application written in C that displays an ASCII banner 
 
 It accepts both uppercase and lowercase input (Y/y or N/n) and safely initiates a delayed shutdown.
 
+
 # Features
 
 * ASCII banner display
@@ -16,3 +17,11 @@ It accepts both uppercase and lowercase input (Y/y or N/n) and safely initiates 
 
 * Windows PATH-based shutdown command
 
+
+# Requirements
+
+* Windows OS
+
+* GCC/MinGW or MSVC
+
+* Administrator privileges
