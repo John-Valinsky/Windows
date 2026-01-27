@@ -1,7 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <conio.h>   // for getch() on Windows
-
 int main(void)
 {
     char x = 0;
@@ -17,7 +13,7 @@ int main(void)
     printf("\t 001100110101011   0010101100   0010101100        10\n");
 
     printf("\n\t-----------------------------------------------------------\n");
-    printf("\t    x-x-x-x-x-x-x-x-| by John Valinsky |x-x-x-x-x-x-x-x\n");
+    printf("\t    x-x-x-x-x-x-x-x-| By John Valinsky |x-x-x-x-x-x-x-x\n");
     printf("\t-----------------------------------------------------------\n");
 
     /* Ask until valid input */
@@ -27,10 +23,9 @@ int main(void)
         scanf(" %c", &x);
 
         if (x == 'Y' || x == 'y') {
-            printf("\n\tTHANK YOU!\n");
-            printf("\tThe System Shutdown is Ready\n");
-            printf("\t x-x-x-x-| by John |-x-x-x-x\n");
-            printf("\t-----------------------------------------\n");
+            printf("\n\tTHANK YOU!\n\n");
+            printf("\tThe System Shutdown is Ready\n\n");
+    printf("\t-----------------------------------------------------------\n");
             printf("\tPress ENTER to Shutdown...");
             getch();
 
