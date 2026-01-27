@@ -47,12 +47,6 @@ cl Shutdown.c
 
 # Usage
 
-## Clone the repository
-```bash
-git clone https://github.com/John-Valinsky/Windows
-```
-
-
 ## Run the compiled executable "Shutdown.exe".
 
 * Y or y --> Initiates shutdown (30-second delay).
