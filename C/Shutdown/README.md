@@ -4,6 +4,8 @@
 ![Open Issues](https://img.shields.io/github/issues/John-Valinsky/Windows)
 ![Stars](https://img.shields.io/github/stars/John-Valinsky/Windows)
 
+![Project Banner](Image.png)
+
 # Windows Shutdown Utility
 
 A simple Windows console application written in C that displays an ASCII banner and asks the user whether to shut down the system.
