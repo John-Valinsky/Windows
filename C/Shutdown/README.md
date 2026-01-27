@@ -87,7 +87,7 @@ int main(void)
 
         if (x == 'Y' || x == 'y') {
             printf("\n\tTHANK YOU!\n\n");
-            printf("\tThe System Shutdown is Ready\n\n");
+            printf("\tSystem Shutdown is Ready\n\n");
     printf("\t-----------------------------------------------------------\n");
             printf("\tPress ENTER to Shutdown...");
             getch();
