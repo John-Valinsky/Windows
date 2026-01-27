@@ -33,3 +33,7 @@ It accepts both uppercase and lowercase input (Y/y or N/n) and safely initiates 
 ```bash
 gcc Shutdown.c Shutdown
 ```
+## Using MSVC
+```bash
+cl Shutdown.c
+```
