@@ -52,3 +52,11 @@ cl restart.c
 
 # How it works
 
+* Clears the console using system("cls").
+
+* Converts input to uppercase using toupper().
+
+* Executes
+```bash
+system("shutdown -r -t 0");
+```
