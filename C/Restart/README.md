@@ -18,3 +18,7 @@ Developed as a minimal system-control utility with clean input handling and a us
 * Prevents accidental restarts.
 
 * Lightweight and fast.
+
+
+# Requirements
+
