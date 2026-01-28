@@ -49,3 +49,6 @@ cl restart.c
 
 3 Any invalid input will re-prompt.
 
+
+# How it works
+
