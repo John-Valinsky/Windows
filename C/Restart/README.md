@@ -22,3 +22,7 @@ Developed as a minimal system-control utility with clean input handling and a us
 
 # Requirements
 
+* Operating System - Windows.
+
+* Compiler - GCC (MinGW), MSVC, or any Windows-compatible C compiler.
+
