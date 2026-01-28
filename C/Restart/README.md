@@ -33,3 +33,10 @@ Developed as a minimal system-control utility with clean input handling and a us
 ```bash
 gcc restart.c -o restart
 ```
+
+
+# Using MSVC
+```bash
+cl restart.c
+```
+
