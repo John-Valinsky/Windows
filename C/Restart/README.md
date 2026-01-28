@@ -1,3 +1,11 @@
+<!-- PROJECT SHIELDS -->
+![Repo Size](https://img.shields.io/github/repo-size/John-Valinsky/Windows)
+![Last Commit](https://img.shields.io/github/last-commit/John-Valinsky/Windows)
+![Open Issues](https://img.shields.io/github/issues/John-Valinsky/Windows)
+![Stars](https://img.shields.io/github/stars/John-Valinsky/Windows)
+
+![Project Banner](Image.png)
+
 # Windows Restart Utility
 
 A lightweight Windows console application written in C that safely prompts the user to restart the system using a simple Y/N confirmation interface.
