@@ -60,3 +60,7 @@ cl restart.c
 ```bash
 system("shutdown -r -t 0");
 ```
+
+
+# Disclaimer
+
