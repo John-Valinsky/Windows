@@ -14,3 +14,7 @@ Developed as a minimal system-control utility with clean input handling and a us
 * Clears screen for a clean UI.
 
 * Uses native Windows shutdown command.
+
+* Prevents accidental restarts.
+
+* Lightweight and fast.
