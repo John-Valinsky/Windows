@@ -30,4 +30,6 @@ Developed as a minimal system-control utility with clean input handling and a us
 
 
 # Compilation
-
+```bash
+gcc restart.c -o restart
+```
