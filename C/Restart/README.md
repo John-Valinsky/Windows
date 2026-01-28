@@ -70,3 +70,5 @@ Use responsibly. The author is not responsible for data loss due to unsaved work
 
 # License
 
+Free for personal and educational use.
+Add a license file (MIT recommended) if redistributing.
