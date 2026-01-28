@@ -26,3 +26,4 @@ Developed as a minimal system-control utility with clean input handling and a us
 
 * Compiler - GCC (MinGW), MSVC, or any Windows-compatible C compiler.
 
+* Headers Used: stdio.h, stdlib.h, windows.h, conio.h, ctype.h
