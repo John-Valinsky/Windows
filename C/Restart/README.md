@@ -66,3 +66,7 @@ system("shutdown -r -t 0");
 
 This program executes a system restart command.
 Use responsibly. The author is not responsible for data loss due to unsaved work.
+
+
+# License
+
