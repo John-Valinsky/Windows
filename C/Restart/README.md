@@ -43,3 +43,9 @@ cl restart.c
 
 # Usage
 
+1 Run the executable.
+
+2 Choose - Y (Restart System) or N (Exit safely).
+
+3 Any invalid input will re-prompt.
+
