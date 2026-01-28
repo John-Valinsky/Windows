@@ -11,3 +11,6 @@ Developed as a minimal system-control utility with clean input handling and a us
 
 * Accepts both uppercase and lowercase input.
 
+* Clears screen for a clean UI.
+
+* Uses native Windows shutdown command.
