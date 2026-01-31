@@ -9,3 +9,4 @@ A simple C program that implements the classic Caesar Cipher encryption techniqu
 
 * Handles shift values greater than 26 by wrapping around the alphabet.
 
+* Keeps spaces, punctuation, and numbers unchanged.
