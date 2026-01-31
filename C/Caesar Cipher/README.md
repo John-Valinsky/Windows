@@ -5,3 +5,4 @@ A simple C program that implements the classic Caesar Cipher encryption techniqu
 
 # Features
 
+* Encrypts both uppercase and lowercase letters.
