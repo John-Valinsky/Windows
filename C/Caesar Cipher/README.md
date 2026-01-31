@@ -31,3 +31,6 @@ The program works with both uppercase and lowercase letters and leaves non-alpha
 * Enter your message and the shift value when prompted.
 
 * See the encrypted message displayed on the console.
+
+
+# Example
