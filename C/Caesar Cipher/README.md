@@ -12,3 +12,6 @@ A simple C program that implements the classic Caesar Cipher encryption techniqu
 * Keeps spaces, punctuation, and numbers unchanged.
 
 * Easy-to-use console input/output interface.
+
+
+# How It Works
