@@ -22,3 +22,5 @@ Example with a shift of 3:
 
 Plaintext:  HELLO
 Ciphertext: KHOOR
+
+The program works with both uppercase and lowercase letters and leaves non-alphabetic characters unchanged.
