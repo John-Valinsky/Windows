@@ -34,3 +34,8 @@ The program works with both uppercase and lowercase letters and leaves non-alpha
 
 
 # Example
+
+Enter a message: Hello World!
+Enter shift value: 3
+
+Encrypted message: Khoor Zruog!
