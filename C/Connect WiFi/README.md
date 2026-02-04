@@ -58,3 +58,6 @@ Security key           : Present
 # Requirements
 
 * Windows OS.
+
+* GCC / MinGW / MSVC compiler.
+
