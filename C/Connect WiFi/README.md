@@ -29,3 +29,5 @@ netsh wlan show profile
 
 2 Parses and displays only the profile names.
 
+3 Prompts the user to enter a profile name.
+
