@@ -10,3 +10,5 @@ Built for learning, auditing, and understanding how Windows stores WiFi profile 
 * Lists all saved WiFi profiles on the system.
 
 * Allows user to select a WiFi profile by name.
+
+* Displays Security Settings of the selected profile.
