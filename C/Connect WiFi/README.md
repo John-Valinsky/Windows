@@ -65,3 +65,5 @@ Security key           : Present
 
 
 # Disclaimer
+
+* Does not hack WiFi networks
