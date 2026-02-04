@@ -18,3 +18,12 @@ Built for learning, auditing, and understanding how Windows stores WiFi profile 
 * Uses native Windows commands (netsh).
 
 * Lightweight & fast (pure C, no dependencies).
+
+
+# How It Works
+
+1 Executes to list saved WiFi profiles.
+```bash
+netsh wlan show profile
+```
+
