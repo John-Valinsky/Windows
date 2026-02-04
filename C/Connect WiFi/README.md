@@ -67,3 +67,5 @@ Security key           : Present
 # Disclaimer
 
 * Does not hack WiFi networks
+
+* Only reads locally stored WiFi profiles.
