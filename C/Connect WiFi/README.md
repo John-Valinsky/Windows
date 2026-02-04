@@ -7,3 +7,5 @@ Built for learning, auditing, and understanding how Windows stores WiFi profile 
 
 # Features
 
+* Lists all saved WiFi profiles on the system.
+
