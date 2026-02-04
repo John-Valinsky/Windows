@@ -61,3 +61,4 @@ Security key           : Present
 
 * GCC / MinGW / MSVC compiler.
 
+* Administrator privileges (recommended).
