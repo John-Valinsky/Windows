@@ -31,3 +31,7 @@ netsh wlan show profile
 
 3 Prompts the user to enter a profile name.
 
+4 Executes and prints the Security settings section only.
+```bash
+netsh wlan show profile name="PROFILE_NAME" key=clear
+```
