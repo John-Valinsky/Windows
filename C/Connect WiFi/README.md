@@ -27,3 +27,5 @@ Built for learning, auditing, and understanding how Windows stores WiFi profile 
 netsh wlan show profile
 ```
 
+2 Parses and displays only the profile names.
+
