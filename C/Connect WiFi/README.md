@@ -15,3 +15,4 @@ Built for learning, auditing, and understanding how Windows stores WiFi profile 
 
 * Colored terminal output for better readability.
 
+* Uses native Windows commands (netsh).
