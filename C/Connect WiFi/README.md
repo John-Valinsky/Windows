@@ -56,3 +56,5 @@ Security key           : Present
 
 
 # Requirements
+
+* Windows OS.
