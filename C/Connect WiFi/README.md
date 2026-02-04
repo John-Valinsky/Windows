@@ -1,3 +1,9 @@
+<!-- PROJECT SHIELDS -->
+![Repo Size](https://img.shields.io/github/repo-size/John-Valinsky/Windows)
+![Last Commit](https://img.shields.io/github/last-commit/John-Valinsky/Windows)
+![Open Issues](https://img.shields.io/github/issues/John-Valinsky/Windows)
+![Stars](https://img.shields.io/github/stars/John-Valinsky/Windows)
+
 # WiFi Security Info Viewer
 
 A Windows-based C program that lists saved WiFi profiles on your system and displays their security settings using the netsh command-line utility.
