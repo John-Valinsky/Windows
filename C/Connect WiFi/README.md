@@ -71,3 +71,6 @@ Security key           : Present
 * Only reads locally stored WiFi profiles.
 
 * Should be used for educational, debugging, or administrative purposes only.
+
+
+# License
