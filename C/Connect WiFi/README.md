@@ -35,3 +35,22 @@ netsh wlan show profile
 ```bash
 netsh wlan show profile name="PROFILE_NAME" key=clear
 ```
+
+
+# Sample Output
+```bash
+Available WiFi Profiles:
+
+Home_WiFi
+Office_Network
+Mobile_Hotspot
+
+Enter the WiFi profile name: Home_WiFi
+
+Security settings
+-----------------
+Authentication         : WPA2-Personal
+Cipher                 : CCMP
+Security key           : Present
+```
+
