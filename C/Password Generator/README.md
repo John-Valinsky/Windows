@@ -21,3 +21,6 @@ This program runs in the terminal and allows users to generate multiple password
 
 * Fully randomized & shuffled.
 
+* User-defined password length.
+
+
