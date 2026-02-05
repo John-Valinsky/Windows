@@ -33,3 +33,6 @@ This program runs in the terminal and allows users to generate multiple password
 # How It Works
 
 * The program seeds the random number generator using the current time.
+
+* It guarantees minimum password strength by selecting characters from each category.
+
