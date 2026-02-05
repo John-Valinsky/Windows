@@ -27,4 +27,4 @@ This program runs in the terminal and allows users to generate multiple password
 
 * Clean ASCII banner output.
 
-
+* Written in pure C (no external libraries).
