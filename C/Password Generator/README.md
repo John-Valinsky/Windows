@@ -1,3 +1,9 @@
+<!-- PROJECT SHIELDS -->
+![Repo Size](https://img.shields.io/github/repo-size/John-Valinsky/Windows)
+![Last Commit](https://img.shields.io/github/last-commit/John-Valinsky/Windows)
+![Open Issues](https://img.shields.io/github/issues/John-Valinsky/Windows)
+![Stars](https://img.shields.io/github/stars/John-Valinsky/Windows)
+
 # Password Generator using C
 
 A simple yet effective strong password generator written in C, designed to create random passwords using a mix of uppercase letters, lowercase letters, numbers, and special characters.
