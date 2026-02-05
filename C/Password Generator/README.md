@@ -28,3 +28,8 @@ This program runs in the terminal and allows users to generate multiple password
 * Clean ASCII banner output.
 
 * Written in pure C (no external libraries).
+
+
+# How It Works
+
+* The program seeds the random number generator using the current time.
