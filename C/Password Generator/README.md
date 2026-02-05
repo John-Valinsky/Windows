@@ -19,4 +19,5 @@ This program runs in the terminal and allows users to generate multiple password
 
     * 1 special character
 
+* Fully randomized & shuffled.
 
