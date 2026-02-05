@@ -8,3 +8,15 @@ This program runs in the terminal and allows users to generate multiple password
 # Features
 
 * Generates strong random passwords.
+
+* Ensures at least:
+
+    * 1 uppercase letter
+
+    * 1 lowercase letter
+
+    * 1 digit
+
+    * 1 special character
+
+
