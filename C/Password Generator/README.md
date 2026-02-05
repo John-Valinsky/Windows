@@ -42,3 +42,8 @@ This program runs in the terminal and allows users to generate multiple password
 
 * The final password is displayed to the user.
 
+
+# Code
+```bash
+
+
