@@ -38,4 +38,6 @@ This program runs in the terminal and allows users to generate multiple password
 
 * Remaining characters are chosen randomly.
 
+* The password is shuffled to remove predictable patterns.
+
 * 
