@@ -25,4 +25,6 @@ This program runs in the terminal and allows users to generate multiple password
 
 * Loop-based generation (generate multiple passwords without restarting).
 
+* Clean ASCII banner output.
+
 
