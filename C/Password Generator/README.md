@@ -36,3 +36,6 @@ This program runs in the terminal and allows users to generate multiple password
 
 * It guarantees minimum password strength by selecting characters from each category.
 
+* Remaining characters are chosen randomly.
+
+* 
