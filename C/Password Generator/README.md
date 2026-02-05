@@ -23,4 +23,6 @@ This program runs in the terminal and allows users to generate multiple password
 
 * User-defined password length.
 
+* Loop-based generation (generate multiple passwords without restarting).
+
 
