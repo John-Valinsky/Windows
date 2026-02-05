@@ -40,4 +40,5 @@ This program runs in the terminal and allows users to generate multiple password
 
 * The password is shuffled to remove predictable patterns.
 
-* 
+* The final password is displayed to the user.
+
