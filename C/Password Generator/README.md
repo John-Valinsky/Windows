@@ -7,3 +7,4 @@ This program runs in the terminal and allows users to generate multiple password
 
 # Features
 
+* Generates strong random passwords.
