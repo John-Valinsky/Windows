@@ -31,3 +31,8 @@ It runs in a loop, accepts any length of input, reverses it, and clears the scre
 * Reverses the string using a custom function.
 
 * Displays the reversed string.
+
+* Waits for user input, clears the screen, and repeats.
+
+
+# License
