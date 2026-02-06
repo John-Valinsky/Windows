@@ -24,3 +24,4 @@ It runs in a loop, accepts any length of input, reverses it, and clears the scre
 
 # How It Works
 
+* Reads user input using getline().
