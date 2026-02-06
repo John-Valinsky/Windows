@@ -6,3 +6,5 @@ It runs in a loop, accepts any length of input, reverses it, and clears the scre
 
 
 # Features
+
+* Reverses any string entered by the user.
