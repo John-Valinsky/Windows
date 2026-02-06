@@ -13,3 +13,6 @@ It runs in a loop, accepts any length of input, reverses it, and clears the scre
 
 * Uses dynamic memory allocation (getline).
 
+
+# Example Output
+
