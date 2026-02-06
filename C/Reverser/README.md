@@ -29,3 +29,5 @@ It runs in a loop, accepts any length of input, reverses it, and clears the scre
 * Removes the newline character.
 
 * Reverses the string using a custom function.
+
+* Displays the reversed string.
