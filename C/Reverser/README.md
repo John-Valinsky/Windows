@@ -12,3 +12,5 @@ It runs in a loop, accepts any length of input, reverses it, and clears the scre
 * Runs continuously until manually stopped.
 
 * Uses dynamic memory allocation (getline).
+
+* Clears screen automatically (Windows & Linux supported).
