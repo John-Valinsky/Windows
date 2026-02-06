@@ -15,4 +15,8 @@ It runs in a loop, accepts any length of input, reverses it, and clears the scre
 
 
 # Example Output
+```bash
+ Enter a string   ~ Hello World
 
+ Reversed string  ~ dlroW olleH
+```
