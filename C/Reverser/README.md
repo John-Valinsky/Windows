@@ -20,3 +20,7 @@ It runs in a loop, accepts any length of input, reverses it, and clears the scre
 
  Reversed string  ~ dlroW olleH
 ```
+
+
+# How It Works
+
