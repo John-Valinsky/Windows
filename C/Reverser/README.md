@@ -27,3 +27,5 @@ It runs in a loop, accepts any length of input, reverses it, and clears the scre
 * Reads user input using getline().
 
 * Removes the newline character.
+
+* Reverses the string using a custom function.
