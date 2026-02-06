@@ -27,7 +27,7 @@ int main() {
         printf("                                        \n");
 
         printf("-----------------------------------------");
-        printf("\n     ~ ~  By John Lalremruata  ~ ~ \n");
+        printf("\n     ~ ~  By John Valinsky  ~ ~ \n");
         printf("-----------------------------------------\n");
 
         printf("\n Enter a string   ~ ");
