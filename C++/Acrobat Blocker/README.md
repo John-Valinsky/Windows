@@ -61,3 +61,13 @@ This is useful if you want to:
 * Visual Studio (MSVC)
 
 * Windows SDK
+
+
+# Usage
+
+* Run the executable as Administrator.
+
+* When prompted, enter the Adobe install directory.
+
+* The tool will create firewall rules automatically.
+
