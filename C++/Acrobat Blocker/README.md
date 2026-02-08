@@ -50,3 +50,6 @@ This is useful if you want to:
 * Creates firewall rules using INetFwRule.
 
 * Adds BLOCK rules for both IN and OUT directions per executable.
+
+
+# Requirements
