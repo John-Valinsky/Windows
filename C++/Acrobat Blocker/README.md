@@ -18,3 +18,6 @@ This is useful if you want to:
 * Prompts you for your Adobe installation directory.
 
 * Creates inbound + outbound firewall rules.
+
+* Blocks the following executables:
+
