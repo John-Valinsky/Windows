@@ -39,3 +39,6 @@ This is useful if you want to:
 * Block all protocols.
 
 * Apply to all local & remote addresses.
+
+
+# How It Works
