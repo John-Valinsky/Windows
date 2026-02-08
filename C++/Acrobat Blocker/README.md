@@ -21,3 +21,10 @@ This is useful if you want to:
 
 * Blocks the following executables:
 
+	* Acrobat.exe
+
+	* AcroCEF.exe
+
+	* AdobeCollabSync.exe
+
+	* AcroServicesUpdater.exe
