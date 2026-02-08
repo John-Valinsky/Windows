@@ -84,3 +84,16 @@ Rules are created with clear names for easy removal:
 ```bash
 Windows Defender Firewall → Advanced Settings
 ```
+
+
+# Important Notes
+
+* Must be run as Administrator.
+
+* Blocking these executables may:
+	
+	* Disable updates
+	
+	* Break cloud features
+
+	* Affect licensing behavior
