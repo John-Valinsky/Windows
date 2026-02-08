@@ -28,3 +28,5 @@ This is useful if you want to:
 	* AdobeCollabSync.exe
 
 	* AcroServicesUpdater.exe
+
+* Uses the official Windows Firewall COM interfaces (INetFwPolicy2, INetFwRule).
