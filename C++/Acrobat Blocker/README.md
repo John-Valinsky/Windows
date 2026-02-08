@@ -1,0 +1,1 @@
+# Adobe Firewall Blocker (Windows)
