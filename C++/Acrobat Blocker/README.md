@@ -16,3 +16,5 @@ This is useful if you want to:
 # What It Does
 
 * Prompts you for your Adobe installation directory.
+
+* Creates inbound + outbound firewall rules.
