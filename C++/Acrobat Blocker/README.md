@@ -75,3 +75,12 @@ This is useful if you want to:
 # Firewall Rule Naming
 
 Rules are created with clear names for easy removal:
+
+* BLOCK IN - Acrobat.exe
+
+* BLOCK OUT - Acrobat.exe
+
+* You can remove or disable them anytime via:
+```bash
+Windows Defender Firewall → Advanced Settings
+```
