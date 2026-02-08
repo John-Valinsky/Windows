@@ -53,3 +53,11 @@ This is useful if you want to:
 
 
 # Requirements
+
+* Windows 10 / 11
+
+* Administrator privileges (required to modify firewall rules)
+
+* Visual Studio (MSVC)
+
+* Windows SDK
