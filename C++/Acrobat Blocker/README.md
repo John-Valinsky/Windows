@@ -71,3 +71,7 @@ This is useful if you want to:
 
 * The tool will create firewall rules automatically.
 
+
+# Firewall Rule Naming
+
+Rules are created with clear names for easy removal:
