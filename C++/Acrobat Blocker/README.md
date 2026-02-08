@@ -30,3 +30,12 @@ This is useful if you want to:
 	* AcroServicesUpdater.exe
 
 * Uses the official Windows Firewall COM interfaces (INetFwPolicy2, INetFwRule).
+
+
+# All rules:
+
+* Block all ports.
+
+* Block all protocols.
+
+* Apply to all local & remote addresses.
