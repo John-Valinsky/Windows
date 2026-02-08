@@ -42,3 +42,11 @@ This is useful if you want to:
 
 
 # How It Works
+
+* Initializes COM (CoInitializeEx).
+
+* Accesses Windows Firewall policy via INetFwPolicy2.
+
+* Creates firewall rules using INetFwRule.
+
+* Adds BLOCK rules for both IN and OUT directions per executable.
