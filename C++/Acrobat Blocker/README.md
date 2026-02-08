@@ -97,3 +97,7 @@ Windows Defender Firewall → Advanced Settings
 	* Break cloud features
 
 	* Affect licensing behavior
+
+* This project does not bypass activation.
+
+* You are responsible for how you use it.
