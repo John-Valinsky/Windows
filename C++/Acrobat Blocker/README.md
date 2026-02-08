@@ -11,3 +11,6 @@ This is useful if you want to:
 * Keep Adobe software fully offline
 
 * Windows only — uses Windows Firewall COM APIs.
+
+
+# What It Does
