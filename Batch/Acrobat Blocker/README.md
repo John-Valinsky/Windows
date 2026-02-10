@@ -88,3 +88,7 @@ Each executable gets clearly labeled rules:
 * BLOCK IN Acrobat.exe
 
 * Repeated per executable
+
+
+# Rules can be viewed or removed from
+
