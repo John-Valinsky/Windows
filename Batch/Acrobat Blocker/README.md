@@ -96,3 +96,4 @@ Each executable gets clearly labeled rules:
 
 * Advanced Settings
 
+* Outbound / Inbound Rules.
