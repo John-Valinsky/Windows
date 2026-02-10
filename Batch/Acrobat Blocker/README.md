@@ -62,3 +62,22 @@ No compilation. No Visual Studio. Just run it as Administrator and you’re done
 * Right-click the .bat file.
 
 * Run as Administrator.
+
+* Enter the full path to the Adobe installation folder example
+```bash
+C:\Program Files\Adobe\Acrobat DC
+```
+
+* The script scans and applies firewall rules automatically.
+
+* Example output
+```bash
+Found: C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe
+Found: C:\Program Files\Adobe\Acrobat DC\Acrobat\AcroCEF.exe
+
+Firewall rules applied successfully.
+```
+
+
+# Firewall Rule Naming
+
