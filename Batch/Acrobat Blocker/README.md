@@ -55,3 +55,10 @@ No compilation. No Visual Studio. Just run it as Administrator and you’re done
 * Administrator privileges.
 
 * PowerShell 5.1+ (included by default on modern Windows).
+
+
+# Usage
+
+* Right-click the .bat file.
+
+* Run as Administrator.
