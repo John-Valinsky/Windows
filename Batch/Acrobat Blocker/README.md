@@ -92,3 +92,7 @@ Each executable gets clearly labeled rules:
 
 # Rules can be viewed or removed from
 
+* Windows Defender Firewall
+
+* Advanced Settings
+
