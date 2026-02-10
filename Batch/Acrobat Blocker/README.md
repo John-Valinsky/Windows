@@ -114,3 +114,6 @@ Each executable gets clearly labeled rules:
 * This script does not crack or bypass activation.
 
 * You are responsible for compliance with software licenses.
+
+
+# License
