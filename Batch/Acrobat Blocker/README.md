@@ -46,3 +46,12 @@ No compilation. No Visual Studio. Just run it as Administrator and you’re done
 * cmd.exe (batch scripting).
 
 * PowerShell (firewall rule creation).
+
+
+# Requirements
+
+* Windows 10 / 11
+
+* Administrator privileges.
+
+* PowerShell 5.1+ (included by default on modern Windows).
