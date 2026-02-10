@@ -6,3 +6,6 @@ No compilation. No Visual Studio. Just run it as Administrator and you’re done
 
 
 # What This Script Does
+
+* Prompts you for the full Adobe install directory.
+
