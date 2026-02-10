@@ -105,4 +105,6 @@ Each executable gets clearly labeled rules:
 
 * Blocking these executables may
 
-	
+	* Disable updates.
+
+	* Break online services.
