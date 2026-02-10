@@ -81,3 +81,10 @@ Firewall rules applied successfully.
 
 # Firewall Rule Naming
 
+Each executable gets clearly labeled rules:
+
+* BLOCK OUT Acrobat.exe
+
+* BLOCK IN Acrobat.exe
+
+* Repeated per executable
