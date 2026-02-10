@@ -42,3 +42,7 @@ No compilation. No Visual Studio. Just run it as Administrator and you’re done
 	* Creates an Inbound BLOCK rule
 
 * Rules apply to Any profile (Domain, Private, Public).
+
+* cmd.exe (batch scripting).
+
+* PowerShell (firewall rule creation).
