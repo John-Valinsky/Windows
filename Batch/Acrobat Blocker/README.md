@@ -9,3 +9,4 @@ No compilation. No Visual Studio. Just run it as Administrator and you’re done
 
 * Prompts you for the full Adobe install directory.
 
+* Recursively scans for common Adobe executables.
