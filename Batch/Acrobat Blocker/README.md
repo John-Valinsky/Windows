@@ -97,3 +97,12 @@ Each executable gets clearly labeled rules:
 * Advanced Settings
 
 * Outbound / Inbound Rules.
+
+
+# Important Notes
+
+* Must be run as Administrator
+
+* Blocking these executables may
+
+	
