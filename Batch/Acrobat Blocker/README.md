@@ -24,3 +24,5 @@ No compilation. No Visual Studio. Just run it as Administrator and you’re done
 
 * AcroCEF.exe
 
+* AdobeCollabSync.exe
+
