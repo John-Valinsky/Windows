@@ -16,3 +16,6 @@ No compilation. No Visual Studio. Just run it as Administrator and you’re done
 * Uses PowerShell’s New-NetFirewallRule.
 
 * Blocks network access across all firewall profiles.
+
+
+# Targeted executables
