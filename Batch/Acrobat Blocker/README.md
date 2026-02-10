@@ -33,3 +33,12 @@ No compilation. No Visual Studio. Just run it as Administrator and you’re done
 
 * Verifies the script is running as Administrator.
 
+* Recursively searches the provided directory for target executables.
+
+* For each executable found
+
+	* Creates an Outbound BLOCK rule
+
+	* Creates an Inbound BLOCK rule
+
+* Rules apply to Any profile (Domain, Private, Public).
