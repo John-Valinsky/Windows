@@ -19,3 +19,6 @@ No compilation. No Visual Studio. Just run it as Administrator and you’re done
 
 
 # Targeted executables
+
+* Acrobat.exe
+
