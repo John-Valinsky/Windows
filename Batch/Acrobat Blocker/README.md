@@ -108,3 +108,8 @@ Each executable gets clearly labeled rules:
 	* Disable updates.
 
 	* Break online services.
+
+	* Affect licensing behavior.
+
+* This script does not crack or bypass activation.
+
