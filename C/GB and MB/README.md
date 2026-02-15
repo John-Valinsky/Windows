@@ -39,3 +39,5 @@ A simple terminal-based Gigabytes → Megabytes converter written in C, featurin
 * The program runs in an infinite loop.
 
 * Exit manually using Ctrl + C.
+
+* No input validation is currently implemented—non-numeric input may cause unexpected behavior.
