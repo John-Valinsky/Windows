@@ -4,3 +4,6 @@ A simple terminal-based Gigabytes → Megabytes converter written in C, featurin
 
 
 # Features
+
+* Converts gigabytes (GB) to megabytes (MB).
+
