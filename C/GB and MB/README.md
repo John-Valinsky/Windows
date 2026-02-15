@@ -35,3 +35,5 @@ A simple terminal-based Gigabytes → Megabytes converter written in C, featurin
 
 
 # Notes
+
+* The program runs in an infinite loop.
