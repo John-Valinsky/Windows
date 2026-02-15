@@ -21,3 +21,5 @@ A simple terminal-based Gigabytes → Megabytes converter written in C, featurin
 2 Prompts the user to enter a value in gigabytes.
 
 3 Converts the value to megabytes.
+
+4 Displays the result.
