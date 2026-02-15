@@ -10,3 +10,5 @@ A simple terminal-based Gigabytes → Megabytes converter written in C, featurin
 * Uses the standard conversion: 1 GB = 1024 MB.
 
 * Runs continuously until manually exited.
+
+* Lightweight and dependency-free.
