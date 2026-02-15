@@ -32,3 +32,6 @@ A simple terminal-based Gigabytes → Megabytes converter written in C, featurin
 * C compiler (e.g. gcc).
 
 * Terminal that supports ANSI escape codes (for screen clearing).
+
+
+# Notes
