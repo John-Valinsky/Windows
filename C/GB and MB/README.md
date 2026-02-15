@@ -25,3 +25,7 @@ A simple terminal-based Gigabytes → Megabytes converter written in C, featurin
 4 Displays the result.
 
 5 Waits for the user to press Enter before restarting.
+
+
+# Requirements
+
