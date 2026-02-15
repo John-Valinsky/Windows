@@ -15,3 +15,5 @@ A simple terminal-based Gigabytes → Megabytes converter written in C, featurin
 
 
 # How It Works
+
+1 Clears the terminal screen.
