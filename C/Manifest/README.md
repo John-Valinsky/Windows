@@ -42,3 +42,27 @@ ___  ___               _   __             _
     * Windows SDK
 
 Make sure mt.exe is available in your PATH, or run the program from a Developer Command Prompt.
+
+
+# Usage
+
+Compile the program
+```bash
+gcc manifest_injector.c -o manifest_injector
+```
+
+Run it:
+```bash
+manifest_injector
+```
+
+Follow the prompts
+```bash
+Enter the name of the .exe file:
+Enter the name of the .manifest file (e.g., app.manifest):
+```
+
+The tool will execute
+```bash
+mt.exe -manifest "your.manifest" -outputresource:"your.exe";1
+```
