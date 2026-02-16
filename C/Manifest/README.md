@@ -29,3 +29,14 @@ ___  ___               _   __             _
         ~ ~  By John Valinsky  ~ ~
 ==============================================
 ```
+
+
+# Requirements
+
+* Windows
+
+* Microsoft Manifest Tool (mt.exe)
+
+    * Visual Studio
+
+    * Windows SDK
