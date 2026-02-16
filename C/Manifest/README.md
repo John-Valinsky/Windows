@@ -66,3 +66,16 @@ The tool will execute
 ```bash
 mt.exe -manifest "your.manifest" -outputresource:"your.exe";1
 ```
+
+
+# Limitations
+
+* The .exe and .manifest must exist in the working directory (or use full paths).
+
+* Errors usually mean
+
+    * mt.exe isn’t installed or on PATH
+
+    * File names are incorrect
+
+* This tool does not validate manifest contents.
