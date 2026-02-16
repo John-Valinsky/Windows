@@ -10,3 +10,5 @@ Perfect for quickly adding UAC settings, DPI awareness, or execution level manif
 * Interactive CLI prompts.
 
 * Automatically constructs and runs the mt.exe command.
+
+* Works with any existing Windows executable.
