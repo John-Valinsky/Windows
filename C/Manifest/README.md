@@ -40,3 +40,5 @@ ___  ___               _   __             _
     * Visual Studio
 
     * Windows SDK
+
+Make sure mt.exe is available in your PATH, or run the program from a Developer Command Prompt.
