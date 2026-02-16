@@ -1,3 +1,9 @@
+<!-- PROJECT SHIELDS -->
+![Repo Size](https://img.shields.io/github/repo-size/John-Valinsky/Windows)
+![Last Commit](https://img.shields.io/github/last-commit/John-Valinsky/Windows)
+![Open Issues](https://img.shields.io/github/issues/John-Valinsky/Windows)
+![Stars](https://img.shields.io/github/stars/John-Valinsky/Windows)
+
 # Manifest Injector (C)
 
 A simple C command-line utility that embeds a Windows .manifest file into an existing .exe using Microsoft’s mt.exe tool.
