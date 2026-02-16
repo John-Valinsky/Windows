@@ -7,3 +7,4 @@ Perfect for quickly adding UAC settings, DPI awareness, or execution level manif
 
 # Features
 
+* Interactive CLI prompts.
