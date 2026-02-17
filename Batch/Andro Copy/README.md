@@ -46,3 +46,15 @@ Music
 .mp3 .wav .aac .flac .ogg .m4a
 ```
 
+
+# How It Works
+
+1 You run the script.
+
+2 It asks for:
+
+	* SOURCE folder (e.g. your Android backup)
+
+	* DESTINATION folder (where organized files go)
+
+3 Files are copied into categorized folders.
