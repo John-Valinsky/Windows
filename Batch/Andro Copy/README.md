@@ -36,5 +36,10 @@ Videos
 .mp4 .mkv .avi .mov .wmv .3gp .flv
 ```
 
+Documents
+```bash
+.pdf .doc .docx .xls .xlsx .ppt .pptx .txt
+```
+
 
 
