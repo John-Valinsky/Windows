@@ -58,3 +58,12 @@ Music
 	* DESTINATION folder (where organized files go)
 
 3 Files are copied into categorized folders.
+
+
+# Requirements
+
+* Windows (Command Prompt).
+
+* Read access to source folder.
+
+* Write access to destination folder.
