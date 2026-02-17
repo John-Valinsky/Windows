@@ -21,3 +21,4 @@ A simple Windows batch script that helps you organize Android backup files by ty
 
 * Fast, lightweight, no dependencies.
 
+* Runs on any modern Windows system.
