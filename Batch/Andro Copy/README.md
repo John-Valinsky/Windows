@@ -1,1 +1,3 @@
 # Android File Organizer (Windows Batch Script)
+
+A simple Windows batch script that helps you organize Android backup files by type while preserving the original folder structure. Perfect for cleaning up messy phone backups copied to your PC.
