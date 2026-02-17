@@ -1,0 +1,56 @@
+@echo off
+setlocal EnableDelayedExpansion
+
+:: Admin check
+net session >nul 2>&1
+if %errorlevel% neq 0 (
+    echo Please run this script as Administrator.
+    pause
+    exit /b
+)
+
+echo.
+echo                 -- John Valinsky --
+echo=======================================================
+echo Enter the FULL path of the Adobe installation folder
+echo Example: C:\Program Files\Adobe\Acrobat DC
+echo.
+set /p BASEPATH=Path: 
+
+if not exist "%BASEPATH%" (
+    echo.
+    echo Folder does not exist. Exiting.
+    pause
+    exit /b
+)
+
+set FOUND=0
+set EXES=Acrobat.exe AcroCEF.exe AdobeCollabSync.exe AcroServicesUpdater.exe
+
+echo.
+echo Scanning for Adobe executables...
+echo.
+
+for %%E in (%EXES%) do (
+    for /f "delims=" %%F in ('dir /b /s "%BASEPATH%\%%E" 2^>nul') do (
+        echo Found: %%F
+        set FOUND=1
+
+        powershell -NoProfile -Command ^
+        "New-NetFirewallRule -DisplayName 'BLOCK OUT %%~nxF' -Direction Outbound -Program '%%F' -Action Block -Profile Any" >nul
+
+        powershell -NoProfile -Command ^
+        "New-NetFirewallRule -DisplayName 'BLOCK IN %%~nxF' -Direction Inbound -Program '%%F' -Action Block -Profile Any" >nul
+    )
+)
+
+if %FOUND%==0 (
+    echo.
+    echo No target executables found in the specified directory.
+) else (
+    echo.
+    echo Firewall rules applied successfully.
+)
+
+pause
+exit /b
