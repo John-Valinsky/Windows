@@ -22,3 +22,14 @@ A simple Windows batch script that helps you organize Android backup files by ty
 * Fast, lightweight, no dependencies.
 
 * Runs on any modern Windows system.
+
+
+# File Types Supported
+
+Images 
+```bash
+.jpg .jpeg .png .gif .bmp .webp .heic
+```
+
+
+
