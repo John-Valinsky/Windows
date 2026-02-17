@@ -41,5 +41,8 @@ Documents
 .pdf .doc .docx .xls .xlsx .ppt .pptx .txt
 ```
 
-
+Music
+```bash
+.mp3 .wav .aac .flac .ogg .m4a
+```
 
