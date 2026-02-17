@@ -18,3 +18,6 @@ A simple Windows batch script that helps you organize Android backup files by ty
 	* Music
 
 * Preserves original subfolder structure.
+
+* Fast, lightweight, no dependencies.
+
