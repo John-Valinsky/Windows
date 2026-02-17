@@ -6,3 +6,15 @@ A simple Windows batch script that helps you organize Android backup files by ty
 # Features
 
 * Prompts for source and destination folders.
+
+* Organizes files into categories:
+
+	* Images
+
+	* Videos
+
+	* Documents
+
+	* Music
+
+* Preserves original subfolder structure.
