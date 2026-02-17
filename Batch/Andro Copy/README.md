@@ -31,5 +31,10 @@ Images
 .jpg .jpeg .png .gif .bmp .webp .heic
 ```
 
+Videos
+```bash
+.mp4 .mkv .avi .mov .wmv .3gp .flv
+```
+
 
 
