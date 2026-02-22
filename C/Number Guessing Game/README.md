@@ -69,3 +69,16 @@ int main() {
 * Conditional statements (if, else if, else).
 
 * Standard input/output (scanf, printf).
+
+
+# Possible Improvements
+
+* Add input validation (handle non-numeric input).
+
+* Allow difficulty levels (different number ranges).
+
+* Store high scores.
+
+* Add replay option.
+
+* Limit number of attempts.
