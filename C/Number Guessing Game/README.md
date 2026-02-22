@@ -57,3 +57,15 @@ int main() {
 }
 ```
 
+
+# Concepts Used
+
+* rand() and srand() for random number generation.
+
+* time() to seed randomness.
+
+* do-while loop.
+
+* Conditional statements (if, else if, else).
+
+* Standard input/output (scanf, printf).
