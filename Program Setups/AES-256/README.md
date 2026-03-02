@@ -30,3 +30,7 @@ It’s designed to be easy to use, cryptographically sound, and safe by default.
 # How It Works (High Level)
 
 * User enters text and a password.
+
+* A random salt and initialization vector (IV) are generated.
+
+* A 256-bit encryption key is derived from the password.
