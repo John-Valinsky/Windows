@@ -42,3 +42,25 @@ It’s designed to be easy to use, cryptographically sound, and safe by default.
 * Decryption reverses the process using the same password.
 
 If the password is wrong or the data is altered, decryption safely fails.
+
+
+# Security Design Choices
+
+* AES-GCM for authenticated encryption.
+
+* PBKDF2 with SHA-256 for resistance against brute-force attacks.
+
+* 100,000 iterations to slow password guessing.
+
+* Constant-time cryptographic primitives from the .NET framework.
+
+* No password storage — passwords exist only in memory.
+
+
+# Requirements
+
+* Windows OS
+
+* .NET (with support for AES-GCM)
+
+* No external dependencies
