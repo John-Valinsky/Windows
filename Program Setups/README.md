@@ -12,3 +12,17 @@ This repository serves as a practical toolbox for anyone working with Windows—
 
 
 # What You’ll Find Here
+
+* PowerShell scripts for automation and configuration.
+
+* Batch files for quick system tasks.
+
+* Installer scripts for setting up tools and environments.
+
+* Registry tweaks to customize or optimize Windows behavior.
+
+* Security & cybersecurity utilities.
+
+* System administration helpers.
+
+* Developer-focused setup tools.
