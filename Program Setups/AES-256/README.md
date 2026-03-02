@@ -25,3 +25,8 @@ It’s designed to be easy to use, cryptographically sound, and safe by default.
 * Self-Contained Encrypted Output - The encrypted text includes everything required for decryption (salt, IV, tag, ciphertext) encoded safely in Base64.
 
 * Clean WPF UI - Minimal, distraction-free interface focused on security and clarity.
+
+
+# How It Works (High Level)
+
+* User enters text and a password.
