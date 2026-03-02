@@ -16,3 +16,5 @@ It’s designed to be easy to use, cryptographically sound, and safe by default.
 
 * AES-256 Encryption (AES-GCM mode) - Provides confidentiality and integrity using authenticated encryption.
 
+* Password-Based Key Derivation (PBKDF2) - Secure keys are derived from user passwords using SHA-256 and 100,000 iterations.
+
