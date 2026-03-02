@@ -18,3 +18,5 @@ It’s designed to be easy to use, cryptographically sound, and safe by default.
 
 * Password-Based Key Derivation (PBKDF2) - Secure keys are derived from user passwords using SHA-256 and 100,000 iterations.
 
+* Random Salt & IV Generation - Each encryption operation uses fresh randomness to prevent replay and pattern attacks.
+
