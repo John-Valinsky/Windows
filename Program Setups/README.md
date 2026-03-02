@@ -28,3 +28,12 @@ This repository serves as a practical toolbox for anyone working with Windows—
 * Developer-focused setup tools.
 
 All content is designed specifically for Windows environments.
+
+
+# Important Notes
+
+* These tools are intended for educational, administrative, and development purposes.
+
+* Always review before execution, especially those that modify system settings or the registry.
+
+* Use at your own risk—test in a controlled environment when possible.
