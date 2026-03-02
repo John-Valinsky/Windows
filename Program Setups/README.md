@@ -37,3 +37,6 @@ All content is designed specifically for Windows environments.
 * Always review before execution, especially those that modify system settings or the registry.
 
 * Use at your own risk—test in a controlled environment when possible.
+
+
+Whether you’re automating setups, managing systems, hardening security, or just experimenting with Windows internals, this repo is meant to be a helpful and growing resource.
