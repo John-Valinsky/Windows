@@ -20,3 +20,6 @@ It’s designed to be easy to use, cryptographically sound, and safe by default.
 
 * Random Salt & IV Generation - Each encryption operation uses fresh randomness to prevent replay and pattern attacks.
 
+* Show / Hide Password Toggle - Lets users verify their password input without compromising usability.
+
+* Self-Contained Encrypted Output - The encrypted text includes everything required for decryption (salt, IV, tag, ciphertext) encoded safely in Base64.
