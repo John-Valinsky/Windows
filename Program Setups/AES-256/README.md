@@ -10,3 +10,9 @@
 AES-256 is a simple desktop application built with WPF (.NET) that allows users to securely encrypt and decrypt text using modern, industry-grade cryptography.
 
 It’s designed to be easy to use, cryptographically sound, and safe by default.
+
+
+# Features
+
+* AES-256 Encryption (AES-GCM mode) - Provides confidentiality and integrity using authenticated encryption.
+
