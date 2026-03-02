@@ -34,3 +34,11 @@ It’s designed to be easy to use, cryptographically sound, and safe by default.
 * A random salt and initialization vector (IV) are generated.
 
 * A 256-bit encryption key is derived from the password.
+
+* Text is encrypted using AES-GCM.
+
+* The result is packaged and displayed as a Base64 string.
+
+* Decryption reverses the process using the same password.
+
+If the password is wrong or the data is altered, decryption safely fails.
