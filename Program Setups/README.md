@@ -26,3 +26,5 @@ This repository serves as a practical toolbox for anyone working with Windows—
 * System administration helpers.
 
 * Developer-focused setup tools.
+
+All content is designed specifically for Windows environments.
