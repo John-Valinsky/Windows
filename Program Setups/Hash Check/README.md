@@ -23,3 +23,13 @@ Hash Matcher allows you to:
 
 * Instantly check whether the hashes match.
 
+
+It is especially helpful when verifying:
+
+* Software downloads.
+
+* Security tools.
+
+* Executable (.exe) files.
+
+* Sensitive files where integrity matters.
