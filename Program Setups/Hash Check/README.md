@@ -52,16 +52,16 @@ If even one byte of a file changes, the SHA-256 hash changes completely.
 
 # Features
 
-Browse and select any file
+* Browse and select any file.
 
-* Compute SHA-256 hash instantly
+* Compute SHA-256 hash instantly.
 
-* Compare computed hash with user input
+* Compare computed hash with user input.
 
-* Case-insensitive hash comparison
+* Case-insensitive hash comparison.
 
-* Clear and simple result display
+* Clear and simple result display.
 
-* Lightweight and fast
+* Lightweight and fast.
 
-* Built using modern C# null-safety
+* Built using modern C# null-safety.
