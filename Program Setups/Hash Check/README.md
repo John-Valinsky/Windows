@@ -48,3 +48,20 @@ SHA-256 (Secure Hash Algorithm 256-bit) is a cryptographic hash function that:
 * Is trusted for integrity verification.
 
 If even one byte of a file changes, the SHA-256 hash changes completely.
+
+
+# Features
+
+Browse and select any file
+
+* Compute SHA-256 hash instantly
+
+* Compare computed hash with user input
+
+* Case-insensitive hash comparison
+
+* Clear and simple result display
+
+* Lightweight and fast
+
+* Built using modern C# null-safety
