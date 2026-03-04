@@ -78,3 +78,15 @@ If even one byte of a file changes, the SHA-256 hash changes completely.
 ## Show Hash
 
 * Computes and displays the SHA-256 hash of the selected file.
+
+## Check
+
+* Enter a hash value.
+
+* Compares it with the computed file hash.
+
+* Displays:
+
+	* HASH MATCHED
+
+	* HASH NOT MATCHED
