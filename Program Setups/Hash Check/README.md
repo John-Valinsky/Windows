@@ -105,3 +105,10 @@ If even one byte of a file changes, the SHA-256 hash changes completely.
 
 # Important Notes
 
+* This tool computes SHA-256 only.
+
+* Hash comparison is case-insensitive.
+
+* The entire file is read securely before generating the hash.
+
+* Designed for Windows environments.
