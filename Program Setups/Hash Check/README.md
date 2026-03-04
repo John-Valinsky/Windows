@@ -33,3 +33,7 @@ It is especially helpful when verifying:
 * Executable (.exe) files.
 
 * Sensitive files where integrity matters.
+
+
+# Why SHA-256?
+
