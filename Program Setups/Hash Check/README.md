@@ -90,3 +90,14 @@ If even one byte of a file changes, the SHA-256 hash changes completely.
 	* HASH MATCHED
 
 	* HASH NOT MATCHED
+
+
+# Built With
+
+* C#
+
+* WPF (Windows Presentation Foundation)
+
+* .NET
+
+* System.Security.Cryptography (SHA256)
