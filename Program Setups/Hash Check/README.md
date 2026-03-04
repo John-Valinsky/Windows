@@ -7,3 +7,8 @@
 # Hash Check (SHA-256 File Verification Tool)
 
 A simple and lightweight Windows desktop application built with WPF (.NET) that allows users to compute and verify the SHA-256 hash of any file.
+
+This tool is useful for verifying file integrity, checking downloads, and ensuring files have not been modified or tampered with.
+
+
+# 
