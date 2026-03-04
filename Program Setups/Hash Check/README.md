@@ -39,3 +39,11 @@ It is especially helpful when verifying:
 
 SHA-256 (Secure Hash Algorithm 256-bit) is a cryptographic hash function that:
 
+* Produces a fixed 64-character hexadecimal string.
+
+* Is widely used in cybersecurity.
+
+* Is resistant to collisions and tampering.
+
+* Is trusted for integrity verification.
+
