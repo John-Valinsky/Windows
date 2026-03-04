@@ -37,3 +37,5 @@ It is especially helpful when verifying:
 
 # Why SHA-256?
 
+SHA-256 (Secure Hash Algorithm 256-bit) is a cryptographic hash function that:
+
