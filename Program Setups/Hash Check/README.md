@@ -5,3 +5,5 @@
 ![Stars](https://img.shields.io/github/stars/John-Valinsky/Windows)
 
 # Hash Check (SHA-256 File Verification Tool)
+
+A simple and lightweight Windows desktop application built with WPF (.NET) that allows users to compute and verify the SHA-256 hash of any file.
