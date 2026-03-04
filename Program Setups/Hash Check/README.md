@@ -65,3 +65,7 @@ If even one byte of a file changes, the SHA-256 hash changes completely.
 * Lightweight and fast.
 
 * Built using modern C# null-safety.
+
+
+# User Interface Flow
+
