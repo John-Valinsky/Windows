@@ -11,4 +11,15 @@ A simple and lightweight Windows desktop application built with WPF (.NET) that 
 This tool is useful for verifying file integrity, checking downloads, and ensuring files have not been modified or tampered with.
 
 
-# 
+# Overview
+
+Hash Matcher allows you to:
+
+* Select any file from your system.
+
+* Generate its SHA-256 hash.
+
+* Compare it with a user-provided hash.
+
+* Instantly check whether the hashes match.
+
