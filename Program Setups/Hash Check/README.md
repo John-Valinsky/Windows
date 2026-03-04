@@ -101,3 +101,7 @@ If even one byte of a file changes, the SHA-256 hash changes completely.
 * .NET
 
 * System.Security.Cryptography (SHA256)
+
+
+# Important Notes
+
