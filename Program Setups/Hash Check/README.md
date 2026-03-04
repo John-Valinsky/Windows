@@ -112,3 +112,5 @@ If even one byte of a file changes, the SHA-256 hash changes completely.
 * The entire file is read securely before generating the hash.
 
 * Designed for Windows environments.
+
+### Always download software from official sources and verify hashes provided by trusted vendors before installing.
