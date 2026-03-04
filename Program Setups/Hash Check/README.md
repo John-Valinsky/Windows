@@ -74,3 +74,7 @@ If even one byte of a file changes, the SHA-256 hash changes completely.
 * Select any file from your system.
 
 * The selected file path is displayed.
+
+## Show Hash
+
+* Computes and displays the SHA-256 hash of the selected file.
