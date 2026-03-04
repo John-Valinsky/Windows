@@ -47,3 +47,4 @@ SHA-256 (Secure Hash Algorithm 256-bit) is a cryptographic hash function that:
 
 * Is trusted for integrity verification.
 
+If even one byte of a file changes, the SHA-256 hash changes completely.
